@@ -138,9 +138,9 @@ contact:
   phone:
     title: "Phone Number"
     number: "949-630-5208"
-  email:
+  email1:
     title: "Work Email"
     email: '<a href="mailto:mcmanigc@uci.edu">mcmanigc@uci.edu</a>'
-  email:
+  email2:
     title: "Personal Email"
     email: '<a href="mailto:conmcmac@gmail.com">conmcmac@gmail.com</a>'
