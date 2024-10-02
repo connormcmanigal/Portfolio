@@ -1,0 +1,142 @@
+head:
+  title: "Connor McManigal's Portfolio"
+
+# showcase
+showcase:
+  enable: true
+  title: "Connor McManigal"
+  subtitle: "Data Scientist | Data Problem Solver"
+  description: "As a passionate Data Scientist with a robust analytical foundation and diverse computational background, I thrive on continuously learning and innovation. I apply my problem-solving expertise to uncover insights, develop data-driven solutions, and bridge the gap between technical insights and actionable business strategies."
+  image:
+    x: "img/showcase/DSC_9999.JPG"
+    _2x: "img/showcase/DSC_9999.JPG"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact Connor"
+    URL: "mailto:mcmanigc@uci.edu"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/connormcmanigal/"
+
+    - icon: "github"
+      URL: "https://github.com/connormcmanigal"
+
+
+# about
+about:
+  enable: true
+  title: "About me:"
+  content: 
+    <p class="lead">
+    <strong>My area of focus is leveraging data science to drive actionable business strategies.</strong> With a strong foundation in analytical and
+    problem-solving skills, I specialize in data manipulation, statistical analysis, and machine learning to develop predictive models and generate insights
+    that inform decision making. My hands-on experience spans across various tools, including Python, R, SQL, Java, Google Cloud Platform (GCP) along with libraries such as 
+    Pandas, NumPy, Seaborn, Matplotlib, SciPy, Scikit-learn, PyTorch, TensorFlow, ggplot2, and tidyverse. These tools are my go-to for working with both structured and 
+    unstructured data, building models, and deriving meaningful insights.
+    </p>
+    <p class="lead">
+    <strong>Beyond data science, there's much more to know about me.</strong> I have over 15 years of experience in water polo, 
+    including four years as a Division 1 student-athlete at UC San Diego. This experience shaped my soft skills in time management, leadership, teamwork, and discipline,
+    all while fostering a strong work ethic and resilience. These qualities enable me to excel under pressure and in fast paced environments.
+    I've also worked 6 summers as a Newport Beach Lifeguard, where I honed my abilities to perform medical calls, make ocean rescues, and stay calm and make critical decisions during high stress situations.
+    When I'm not immersed in data, I enjoy staying active and practicing my hunter-gatherer skills through freediving, spearfishing, lobstering, and fishing. 
+    There's something uniquely fulfilling about sustainably providing my own meals.
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "Connect with Me"
+    URL: "https://www.linkedin.com/in/connormcmanigal/"
+  image:
+    x: "img/about/IMG_0718.jpeg"
+    _2x: "img/about/IMG_0718.jpeg"
+  image:
+    x: "img/about/IMG_1511.jpeg"
+    _2x: "img/about/IMG_1511.jpeg"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "I've interned at CoreLogic and the American Medical Association, where I collaborated on projects involving large language models (LLMs), risk and resiliency modeling, and AI in healthcare. I have also applied my skills in a variety of projects, from anomaly detection in network traffic to enhancing a recipe review algorithm through sentiment analysis."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/connormcmanigal/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+
+  items:
+    - title: "Data Science and Analytics Intern"
+      company: "CoreLogic"
+      duration: "Jun 2024 - Sep 2024"
+
+    - title: "Integrated Health Model Initiative (IHMI) Intern"
+      company: "American Medical Association"
+      duration: "Jun 2022 - Sep 2022"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "University of California, Irvine: Donald Bren School of Information and Computer Science"
+      year: "2023-2024"
+      degree: "Master of Data Science"
+
+    - university: "University of California, San Diego"
+      year: "2019-2023"
+      degree: "B.S. Cognitive Science with Specialization in Machine Learning and Neural Computation"
+
+
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+
+  works:
+    - title: "Sales Demand Forecast Application"
+      description: "This application helps Marketing & Sales identify trends in product demand. The application is built in my Shiny Predictive Dashboards Course using Machine Learning."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://business-science.shinyapps.io/sales_dashboard_demand_forecast/"
+      image:
+        x: "img/works/app_sales_demand_forecast.jpg"
+        _2x: "img/works/app_sales_demand_forecast.jpg"
+      is_even: true
+
+    - title: "Product Price Recommendation"
+      description: "This application helps Marketing & R&D Teams determine product gaps and price new products to fill the gaps using machine learning. The application is built in my Shiny Predictive Dashboards Course using Machine Learning."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://business-science.shinyapps.io/cannondale_price_prediction_app/"
+      image:
+        x: "img/works/app_cannondale_price_prediction.jpg"
+        _2x: "img/works/app_cannondale_price_prediction.jpg"
+      is_even: false
+
+# contact
+contact:
+  enable: true
+  title: "Contact Connor"
+    
+  image:
+    x: "img/showcase/DSC_0846.JPG"
+    _2x: "img/showcase/DSC_0846.JPG"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    btnAction: 'mailto:mcmanigc@uci.edu'
+    
+  phone:
+    title: "Phone Number"
+    number: "949-630-5208"
+  email:
+    title: "Email"
+    email: '<a href="mailto:mcmanigc@uci.edu">mcmanigc@uci.edu</a>'
