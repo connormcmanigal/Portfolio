@@ -1,0 +1,57 @@
+---
+title: "ConnorPortfolio"
+output: html_document
+date: "2024-10-01"
+---
+
+```{r}
+#install.packages("devtools")
+#devtools::install_github("business-science/portfoliodown")
+library(portfoliodown)
+```
+
+```{r}
+#new_portfolio_site(dir ="/Users/connormcmanigal/Desktop/portfolio", theme = "raditian")
+```
+
+```{r}
+setwd("/Users/connormcmanigal/Desktop/portfolio")
+```
+
+```{r}
+serve_site()
+```
+
+
+```{r}
+system("git init")
+```
+
+```{r}
+system("git remote add origin https://github.com/connormcmanigal/portfolio.git")
+```
+
+```{r}
+system("git add .")
+```
+
+```{r}
+system("git commit -m 'Renamed client and work section html'")
+```
+
+```{r}
+system("git branch")
+```
+
+```{r}
+system("git push origin master")
+```
+```{r}
+system("git remote set-url origin https://github.com/connormcmanigal/Portfolio.git")
+
+```
+
+```{r}
+system("git remote -v")
+```
+
