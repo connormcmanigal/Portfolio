@@ -96,7 +96,7 @@ education:
 # Client & Work
 client_and_work:
   title: "Portfolio"
-  enable: true
+  enable: false
 
   works:
     - title: "Sales Demand Forecast Application"
