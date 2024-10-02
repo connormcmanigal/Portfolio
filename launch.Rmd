@@ -24,34 +24,19 @@ serve_site()
 
 
 ```{r}
-system("git init")
-```
-
-```{r}
-system("git remote add origin https://github.com/connormcmanigal/portfolio.git")
+#system("git init")
+#system("git remote add origin https://github.com/connormcmanigal/portfolio.git")
 ```
 
 ```{r}
 system("git add .")
-```
-
-```{r}
-system("git commit -m 'Renamed client and work section html'")
-```
-
-```{r}
-system("git branch")
-```
-
-```{r}
+system("git commit -m 'trying diff width for imgs'")
 system("git push origin master")
 ```
-```{r}
-system("git remote set-url origin https://github.com/connormcmanigal/Portfolio.git")
-
-```
 
 ```{r}
-system("git remote -v")
+#system("git branch")
+#system("git remote set-url origin https://github.com/connormcmanigal/Portfolio.git")
+#system("git remote -v")
 ```
 
