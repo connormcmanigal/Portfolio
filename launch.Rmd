@@ -30,7 +30,7 @@ serve_site()
 
 ```{r}
 system("git add .")
-system("git commit -m 'trying diff width for imgs'")
+system("git commit -m 'formatting'")
 system("git push origin master")
 ```
 
