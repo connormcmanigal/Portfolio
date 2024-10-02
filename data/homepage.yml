@@ -8,8 +8,8 @@ showcase:
   subtitle: "Data Scientist | Data Problem Solver"
   description: "As a passionate Data Scientist with a robust analytical foundation and diverse computational background, I thrive on continuously learning and innovation. I apply my problem-solving expertise to uncover insights, develop data-driven solutions, and bridge the gap between technical insights and actionable business strategies."
   image:
-    x: "img/showcase/DCS_9999.JPG"
-    _2x: "img/showcase/DCS_9999.JPG"
+    x: "img/showcase/DSC_9999.JPG"
+    _2x: "img/showcase/DSC_9999.JPG"
 
   button:
     icon: "icon-mail-fill"
