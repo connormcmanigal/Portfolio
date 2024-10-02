@@ -1,13 +1,13 @@
 /* You can customize theme styles here */
 .showcase img {
-    max-width: 50% !important; /* Adjust this value as needed */
-    height: auto !important;   /* Maintain aspect ratio */
+    max-width: 50%; /* Adjust this value as needed */
+    height: auto;   /* Maintain aspect ratio */
 }
 .about img {
-    max-width: 40% !important;
-    height: auto !important;
+    max-width: 40%;
+    height: auto;
 }
 .contact img {
-  max-width: 40% !important;
-  height: auto !important;
+  max-width: 40%;
+  height: auto;
 }
