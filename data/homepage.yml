@@ -10,7 +10,6 @@ showcase:
   image:
     x: "img/showcase/DSC_9999.JPG"
     _2x: "img/showcase/DSC_9999.JPG"
-    width: "300px"
 
   button:
     icon: "icon-mail-fill"
@@ -84,7 +83,7 @@ education:
   enable: true
   title: "Education"
   items:
-    - university: "University of California, Irvine: Donald Bren School of Information and Computer Science"
+    - university: "University of California, Irvine (Donald Bren School of Information and Computer Science)"
       year: "2023-2024"
       degree: "Master of Data Science"
 
@@ -138,9 +137,11 @@ contact:
   phone:
     title: "Phone Number"
     number: "949-630-5208"
+
   email1:
     title: "Work Email"
     email: '<a href="mailto:mcmanigc@uci.edu">mcmanigc@uci.edu</a>'
+
   email2:
     title: "Personal Email"
     email: '<a href="mailto:conmcmac@gmail.com">conmcmac@gmail.com</a>'
