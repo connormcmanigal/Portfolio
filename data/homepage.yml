@@ -140,8 +140,8 @@ contact:
     title: "Phone Number"
     number: "949-630-5208"
   email:
-  - title: "Work Email"
+    title: "Work Email"
     email: '<a href="mailto:mcmanigc@uci.edu">mcmanigc@uci.edu</a>'
-
-  - title: "Personal Email"
-    email: '<a href="mailto:conmcmac@gmail.com">conmcmac@gmail.com</a>'
+  address:
+    title: "Personal Email"
+    address: '<a href="mailto:conmcmac@gmail.com">conmcmac@gmail.com</a>'
