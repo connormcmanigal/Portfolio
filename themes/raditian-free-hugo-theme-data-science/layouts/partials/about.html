@@ -3,6 +3,7 @@
   <div class="container rad-fade-down">
     <div class="row d-flex flex-column-reverse flex-md-row">
       <div class="about__profile-picture col-12 col-md-6">
+        <!-- First Image -->
         <img
           class="lozad img-responsive image-left-overflow"
           src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
@@ -11,7 +12,17 @@
           alt="Profile Picture"
         />
       </div>
-      <div class="col-12 col-md-6 my-auto my-auto">
+      <div class="about__additional-images col-12 col-md-6">
+        <!-- Second Image -->
+        <img
+          class="lozad img-responsive"
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="{{ .Site.Data.homepage.about.image.x2 | absURL }}"
+          data-srcset="{{ .Site.Data.homepage.about.image.x2 | absURL }} 1x, {{ .Site.Data.homepage.about.image._2x.x2 | absURL }} 2x"
+          alt="Additional Image"
+        />
+      </div>
+      <div class="col-12 col-md-6 my-auto">
         <h2>{{ .Site.Data.homepage.about.title | safeHTML }}</h2>
         <p class="lead">
           {{ .Site.Data.homepage.about.content | safeHTML }}

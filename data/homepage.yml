@@ -50,10 +50,11 @@ about:
     icon: "icon-smile-fill"
     btnText: "Connect with Me"
     URL: "https://www.linkedin.com/in/connormcmanigal/"
-  images:
-  - x: "img/who-am-i/IMG_4829.jpeg"
+  image:
+    x: "img/who-am-i/IMG_4829.jpeg"
     _2x: "img/who-am-i/IMG_4829.jpeg"
-  - x: "img/who-am-i/IMG_0718.jpeg"
+  image:
+    x: "img/who-am-i/IMG_0718.jpeg"
     _2x: "img/who-am-i/IMG_0718.jpeg"
 
 # experience
