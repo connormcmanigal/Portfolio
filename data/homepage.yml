@@ -70,7 +70,7 @@ experience:
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
-    URL: "cv/resume-matt.pdf"
+    URL: "cv/resume-connor.pdf"
 
   items:
     - title: "Data Science and Analytics Intern"
