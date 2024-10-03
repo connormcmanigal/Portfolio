@@ -51,9 +51,6 @@ about:
   image:
     x: "img/about/IMG_0718.jpeg"
     _2x: "img/about/IMG_0718.jpeg"
-  image:
-    x: "img/about/IMG_1511.jpeg"
-    _2x: "img/about/IMG_1511.jpeg"
 
 # experience
 experience:
