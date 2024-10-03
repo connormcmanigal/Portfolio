@@ -4,14 +4,19 @@
     height: auto;   /* Maintain aspect ratio */
 }
 
-/*.about-images {
-    display: flex;
-    gap: 20px;
+.about__profile-picture img {
+    max-width: 100%; /* Make sure images scale responsively */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Add spacing between images */
 }
-.about-images img {
-  max-width: 48%;
-  height: auto;
-}*/
+
+.about__profile-picture img:first-of-type {
+    max-width: 60%; /* Scale up the first image (adjust as needed) */
+}
+
+.about__profile-picture img:last-of-type {
+    max-width: 40%; /* Scale down the second image (adjust as needed) */
+}
 
 .contact img {
   max-width: 40%;
