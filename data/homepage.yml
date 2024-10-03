@@ -5,7 +5,7 @@ head:
 showcase:
   enable: true
   title: "Connor McManigal"
-  subtitle: "Data Scientist | Machine Learning Specialist"
+  subtitle: "Data Scientist | Machine Learning Specialist | Strategic Problem Solver"
   description: "As a passionate Data Scientist with a robust analytical foundation and diverse computational background, I thrive on continuously learning and innovation. I apply my problem-solving expertise to uncover insights, develop data-driven solutions, and bridge the gap between technical insights and actionable business strategies."
   image:
     x: "img/showcase/DSC_9999.JPG"
@@ -43,7 +43,6 @@ about:
     <strong>Beyond data science, there's much more to know about me.</strong> I have over 15 years of experience in water polo, 
     including four years as a Division 1 student-athlete at UC San Diego. This experience shaped my soft skills in time management, leadership, teamwork, and discipline,
     all while fostering a strong work ethic and resilience. These qualities enable me to excel under pressure and in fast paced environments.
-    I've also worked 6 summers as a Newport Beach Lifeguard, where I honed my abilities to perform medical calls, make ocean rescues, and stay calm and make critical decisions during high stress situations.
     When I'm not immersed in data, I enjoy staying active and practicing my hunter-gatherer skills through freediving, spearfishing, lobstering, and fishing. 
     There's something uniquely fulfilling about sustainably providing my own meals.
     </p>
