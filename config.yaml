@@ -23,8 +23,8 @@ params:
   sections:
     - showcase
     - about
-    - experience
     - education
+    - experience
     - client_and_work
     - contact
 menu:
