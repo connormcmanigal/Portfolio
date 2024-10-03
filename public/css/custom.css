@@ -14,12 +14,14 @@
 .about__profile-picture .image-container {
     display: flex; /* Keep images in a flex container */
     flex-direction: column; /* Stack images vertically */
+    align-items: center; /* Center images horizontally */
     margin-right: 20px; /* Space between images and content */
 }
 
 .about__profile-picture img {
     max-width: 100%; /* Ensure images scale responsively */
     height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space between stacked images */
 }
 
 .about__profile-picture img:first-of-type {
