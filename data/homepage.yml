@@ -30,7 +30,7 @@ showcase:
 # about
 about:
   enable: true
-  title: "Get to know me!"
+  title: "Get to know me:"
   content: 
     <p class="lead">
     <strong>My area of focus is leveraging data science to drive actionable business strategies.</strong> With a strong foundation in analytical and
