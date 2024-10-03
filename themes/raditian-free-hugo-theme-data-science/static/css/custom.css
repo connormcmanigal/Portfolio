@@ -4,30 +4,27 @@
     height: auto;   /* Maintain aspect ratio */
 }
 
+
 .about__profile-picture {
     display: flex; /* Use flexbox for layout */
     flex-direction: row; /* Arrange images and content in a row */
     align-items: center; /* Center items vertically */
     margin-bottom: 20px; /* Space below the entire about section */
 }
-
 .about__profile-picture .image-container {
     display: flex; /* Keep images in a flex container */
     flex-direction: column; /* Stack images vertically */
     align-items: center; /* Center images horizontally */
     margin-right: 20px; /* Space between images and content */
 }
-
 .about__profile-picture img {
     max-width: 100%; /* Ensure images scale responsively */
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 20px; /* Space between stacked images */
 }
-
 .about__profile-picture img:first-of-type {
     max-width: 60%; /* Scale up the first image (adjust as needed) */
 }
-
 .about__profile-picture img:last-of-type {
     max-width: 40%; /* Scale down the second image (adjust as needed) */
 }
@@ -42,11 +39,9 @@
     display: flex; /* Ensure row uses flexbox */
     flex-direction: row; /* Arrange items in a row */
 }
-
 .col-md-6 {
     flex: 1; /* Equal width columns */
 }
-
 .my-auto {
     align-self: center; /* Center content vertically */
 }
