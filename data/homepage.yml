@@ -30,7 +30,7 @@ showcase:
 # about
 about:
   enable: true
-  title: "About me:"
+  title: "Get to know me!"
   content: 
     <p class="lead">
     <strong>My area of focus is leveraging data science to drive actionable business strategies.</strong> With a strong foundation in analytical and
@@ -141,8 +141,8 @@ contact:
     title: "Phone Number"
     number: "949-630-5208"
   email:
-    title: "Work Email"
+  - title: "Work Email"
     email: '<a href="mailto:mcmanigc@uci.edu">mcmanigc@uci.edu</a>'
-  email:
-    title: "Personal Email"
+
+  - title: "Personal Email"
     email: '<a href="mailto:conmcmac@gmail.com">conmcmac@gmail.com</a>'
