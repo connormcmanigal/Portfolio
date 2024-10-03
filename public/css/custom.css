@@ -12,10 +12,12 @@
 
 .about__profile-picture img:first-of-type {
     max-width: 60%; /* Scale up the first image (adjust as needed) */
+    height: auto;
 }
 
 .about__profile-picture img:last-of-type {
     max-width: 40%; /* Scale down the second image (adjust as needed) */
+    height: auto;
 }
 
 .contact img {
