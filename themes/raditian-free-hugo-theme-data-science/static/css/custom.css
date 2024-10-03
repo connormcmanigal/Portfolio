@@ -3,18 +3,16 @@
     max-width: 20%; /* Adjust this value as needed */
     height: auto;   /* Maintain aspect ratio */
 }
-.about img {
-    max-width: 40%;
-    height: auto;
+.about-images {
+    display: flex;
+    gap: 20px;
 }
-.about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-
-.contact img {
-  max-width: 40%;
+.about-images img {
+  max-width: 48%;
   height: auto;
 }
+
+/*.contact img {
+  max-width: 40%;
+  height: auto;
+}*/
