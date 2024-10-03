@@ -1,6 +1,6 @@
 /* You can customize theme styles here */
 .showcase img {
-    max-width: 20%; /* Adjust this value as needed */
+    max-width: 5%; /* Adjust this value as needed */
     height: auto;   /* Maintain aspect ratio */
 }
 .about-images {
@@ -12,7 +12,7 @@
   height: auto;
 }
 
-/*.contact img {
+.contact img {
   max-width: 40%;
   height: auto;
-}*/
+}
