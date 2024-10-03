@@ -4,27 +4,28 @@
     height: auto;   /* Maintain aspect ratio */
 }
 
-.about__profile-picture .image-container {
-    display: flex; /* Use flexbox for layout */
-    gap: 20px; /* Optional: space between images */
+.about__profile-picture {
+    display: flex;              /* Use flexbox for layout */
+    flex-direction: column;     /* Stack images vertically */
+    align-items: flex-start;    /* Align images to the left */
+    margin-right: 20px;        /* Space between images and content */
 }
 
 .about__profile-picture img {
-    max-width: 100%; /* Make sure images scale responsively */
+    max-width: 100%; /* Ensure images scale responsively */
     height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space between stacked images */
 }
 
 .about__profile-picture img:first-of-type {
     max-width: 60%; /* Scale up the first image (adjust as needed) */
-    height: auto;
 }
 
 .about__profile-picture img:last-of-type {
     max-width: 40%; /* Scale down the second image (adjust as needed) */
-    height: auto;
 }
 
 .contact img {
-  max-width: 40%;
-  height: auto;
+    max-width: 40%; /* Set max width for contact images */
+    height: auto; /* Maintain aspect ratio */
 }
