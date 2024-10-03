@@ -8,7 +8,11 @@
     display: flex;              /* Use flexbox for layout */
     flex-direction: column;     /* Stack images vertically */
     align-items: flex-start;    /* Align images to the left */
-    margin-right: 30px;        /* Space between images and content */
+    margin-right: 20px;        /* Space between images and content */
+}
+
+.about__profile-picture .image-container {
+    margin-bottom: 20px; /* Space between images and content */
 }
 
 .about__profile-picture img {
@@ -18,7 +22,7 @@
 }
 
 .about__profile-picture img:first-of-type {
-    max-width: 80%; /* Scale up the first image (adjust as needed) */
+    max-width: 60%; /* Scale up the first image (adjust as needed) */
 }
 
 .about__profile-picture img:last-of-type {
