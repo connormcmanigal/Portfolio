@@ -7,6 +7,13 @@
     max-width: 40%;
     height: auto;
 }
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
 .contact img {
   max-width: 40%;
   height: auto;
