@@ -4,28 +4,30 @@
     height: auto;   /* Maintain aspect ratio */
 }
 
-
 .about__profile-picture {
     display: flex; /* Use flexbox for layout */
     flex-direction: row; /* Arrange images and content in a row */
     align-items: center; /* Center items vertically */
     margin-bottom: 20px; /* Space below the entire about section */
-    margin-right: 10px;
 }
+
 .about__profile-picture .image-container {
     display: flex; /* Keep images in a flex container */
     flex-direction: column; /* Stack images vertically */
     align-items: center; /* Center images horizontally */
     margin-right: 10px; /* Space between images and content */
 }
+
 .about__profile-picture img {
     max-width: 100%; /* Ensure images scale responsively */
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 20px; /* Space between stacked images */
 }
+
 .about__profile-picture img:first-of-type {
-    max-width: 120%; /* Scale up the first image (adjust as needed) */
+    max-width: 100%; /* Set to 100% for full width of the container */
 }
+
 .about__profile-picture img:last-of-type {
     max-width: 40%; /* Scale down the second image (adjust as needed) */
 }
@@ -40,12 +42,20 @@
     display: flex; /* Ensure row uses flexbox */
     flex-direction: row; /* Arrange items in a row */
 }
+
 .col-md-6 {
     flex: 1; /* Equal width columns */
 }
+
 .my-auto {
     align-self: center; /* Center content vertically */
+    padding: 20px; /* Add padding to the content area */
+    padding-left: 10px; /* Optional: Keep some space on the left */
+    padding-right: 10px; /* Optional: Adjust right padding as needed */
 }
-.col-12.col-md-6.my-auto {
-    padding-right: 10px; /* Reduce padding on the right side for more space */
+
+.container {
+    max-width: 1200px; /* Adjust the maximum width of the container */
+    margin-left: auto; /* Center the container */
+    margin-right: auto; /* Center the container */
 }
