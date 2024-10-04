@@ -2,7 +2,7 @@
 
 /*header*/
 .navbar-brand {
-    font-family: 'Your Preferred Font', sans-serif; /* Change the font family */
+    font-family: sans-serif; /* Change the font family */
     font-size: 24px; /* Adjust the font size */
     font-weight: bold; /* Change font weight if needed */
     color: red; /* Change the text color */
