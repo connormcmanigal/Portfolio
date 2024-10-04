@@ -205,6 +205,19 @@
             transform: scaleY(1);
         }
     }
+
+    /* Add the new styles for the logo */
+    .navbar-brand span {
+        color: red; /* Change the font color */
+        font-family: 'Roboto', sans-serif; /* Change to your preferred font */
+        font-weight: bold; /* Change font weight */
+        font-size: 28px; /* Change font size */
+    }
+
+    /* Optional: Adjust navbar brand on hover */
+    .navbar-brand:hover {
+        text-decoration: none; /* Remove underline on hover */
+    }
 </style>
 
 {{ range .Site.Params.plugins.css }}
