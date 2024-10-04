@@ -1,9 +1,8 @@
 /* You can customize theme styles here */
 
 /*header*/
-.navbar-brand {
-    font-family: sans-serif; /* Change the font family */
-    font-size: 24px; /* Adjust the font size */
+.navbar-brand span {
+    font-family: 'Roboto', sans-serif; /* Change the font family */
     font-weight: bold; /* Change font weight if needed */
     color: red; /* Change the text color */
 }
