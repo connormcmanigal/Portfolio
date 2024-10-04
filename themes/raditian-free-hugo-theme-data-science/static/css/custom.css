@@ -1,15 +1,24 @@
 /* You can customize theme styles here */
+
+/*showcase*/
 .rad-showcase__bg img {
     max-width: 70%; /* Adjust this value as needed to reduce the image size */
     height: auto; /* Maintain aspect ratio */
     margin: 0 auto; /* Center the image */
     display: block; /* Ensure it's treated as a block element */
 }
-
 .display-1 span {
     font-size: 1.75rem; /* Adjust the font size of the subtitle as needed */
     display: block; /* Ensure subtitle appears on a new line */
     margin-top: 0.5rem; /* Add space between title and subtitle */
+}
+.btn-primary {
+    font-size: 1.1rem; /* Adjust font size as needed */
+    padding: 0.75rem 1.25rem; /* Increase padding for more space */
+}
+.platform-links a {
+    font-size: 1.1rem; /* Make the social link icons slightly larger */
+    margin: 0 10px; /* Optional: adjust spacing between icons */
 }
 
 .about__profile-picture {
