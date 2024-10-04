@@ -1,25 +1,6 @@
 /* You can customize theme styles here */
 
 /*header*/
-.navbar {
-    background-color: #fff; /* Change to your preferred background color */
-}
-.navbar-brand span {
-    color: red; /* Change the font color */
-    font-family: 'Roboto', sans-serif; /* Change to your preferred font */
-    font-weight: bold; /* Adjust font weight */
-    font-size: 25px; /* Adjust font size */
-}
-.navbar-nav .nav-link {
-    color: #333; /* Change link color */
-    font-family: 'Roboto', sans-serif; /* Consistent font for links */
-    font-size: 16px; /* Adjust font size */
-}
-/* Add hover effects for links */
-.navbar-nav .nav-link:hover {
-    color: #007bff; /* Change link color on hover */
-    text-decoration: underline; /* Optional underline effect */
-}
 
 
 /*showcase*/
