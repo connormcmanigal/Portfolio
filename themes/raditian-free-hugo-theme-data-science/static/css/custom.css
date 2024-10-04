@@ -6,14 +6,6 @@
     font-weight: bold; /* Change font weight if needed */
     color: red; /* Change the text color */
 }
-.navbar-nav .nav-link {
-    color: #333; /* Link color */
-    font-size: 16px; /* Adjust font size */
-}
-/* Add hover effects */
-.navbar-nav .nav-link:hover {
-    color: #007bff; /* Change color on hover */
-}
 
 
 /*showcase*/
