@@ -1,5 +1,12 @@
 /* You can customize theme styles here */
 
+/*header*/
+.navbar-brand {
+    font-family: 'Your Preferred Font', sans-serif; /* Change the font family */
+    font-size: 24px; /* Adjust the font size */
+    font-weight: bold; /* Change font weight if needed */
+    color: red; /* Change the text color */
+}
 
 /*showcase*/
 .rad-showcase__bg img {
