@@ -1,5 +1,6 @@
 /* You can customize theme styles here */
 
+
 /*showcase*/
 .rad-showcase__bg img {
     max-width: 70%; /* Adjust this value as needed to reduce the image size */
@@ -17,60 +18,69 @@
     padding: 0.75rem 1.25rem; /* Increase padding for more space */
 }
 .platform-links a {
-    font-size: 1.1rem; /* Make the social link icons slightly larger */
+    font-size: 1.5rem; /* Make the social link icons slightly larger */
+    padding: 10px;
     margin: 0 10px; /* Optional: adjust spacing between icons */
+    display: inline-flex;
+    align-items: center;
 }
 
+
+/*about*/
 .about__profile-picture {
     display: flex; /* Use flexbox for layout */
     flex-direction: row; /* Arrange images and content in a row */
     align-items: center; /* Center items vertically */
     margin-bottom: 20px; /* Space below the entire about section */
 }
-
 .about__profile-picture .image-container {
     display: flex; /* Keep images in a flex container */
     flex-direction: column; /* Stack images vertically */
     align-items: center; /* Center images horizontally */
     margin-right: 10px; /* Space between images and content */
 }
-
 .about__profile-picture img {
     max-width: 100%; /* Ensure images scale responsively */
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 20px; /* Space between stacked images */
 }
-
 .about__profile-picture img:first-of-type {
     max-width: 100%; /* Set to 100% for full width of the container */
 }
-
 .about__profile-picture img:last-of-type {
     max-width: 40%; /* Scale down the second image (adjust as needed) */
 }
 
+
+/*education*/
+
+
+/*experience*/
+
+
+/*projects*/
+
+
+/*contact*/
 .contact img {
     max-width: 40%; /* Set max width for contact images */
     height: auto; /* Maintain aspect ratio */
 }
 
-/* Additional styles to ensure proper spacing */
+/* Other: Additional styles to ensure proper spacing */
 .row {
     display: flex; /* Ensure row uses flexbox */
     flex-direction: row; /* Arrange items in a row */
 }
-
 .col-md-6 {
     flex: 1; /* Equal width columns */
 }
-
 .my-auto {
     align-self: center; /* Center content vertically */
     padding: 20px; /* Add padding to the content area */
     padding-left: 10px; /* Optional: Keep some space on the left */
     padding-right: 10px; /* Optional: Adjust right padding as needed */
 }
-
 .container {
     max-width: 1200px; /* Adjust the maximum width of the container */
     margin-left: auto; /* Center the container */
