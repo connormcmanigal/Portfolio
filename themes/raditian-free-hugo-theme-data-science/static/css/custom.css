@@ -20,7 +20,7 @@
 .btn-container {
     display: flex; /* Use flexbox for button alignment */
     flex-direction: column; /* Stack buttons vertically */
-    align-items: center; /* Center buttons horizontally */
+    align-items: flex-start; /* Center buttons horizontally */
     width: 100%; /* Full width to center effectively */
     margin-top: 1rem; /* Add some space above buttons */
 }
@@ -62,7 +62,7 @@
     margin-bottom: 20px; /* Adjust this value as needed */
 }
 /* Mobile styles */
-@media (max-width: 768px) {
+@media (max-width: 812px) {
     .display-1 {
         text-align: center; /* Center text for the title */
     }
@@ -74,7 +74,7 @@
     }
 }
 /* Styles for larger screens only */
-@media (min-width: 769px) { /* Adjust the breakpoint as needed */
+@media (min-width: 813px) { /* Adjust the breakpoint as needed */
     .rad-showcase .container .row .col-12 {
         max-width: 800px; /* Set the desired max width */
         margin: 0 auto; /* Center the block */
