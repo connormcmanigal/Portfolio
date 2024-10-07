@@ -30,6 +30,8 @@
     border-radius: 5px; /* Optional: Make buttons slightly rounded */
     transition: background-color 0.3s ease; /* Smooth transition for hover */
     color: white; /* Default text color */
+    margin: 5px 0;
+    border: 2px solid transparent;
 }
 /* Specific button colors */
 .linkedin-btn {
@@ -50,6 +52,14 @@
 }
 .resume-btn:hover, .contact-btn:hover {
     background-color: #444; /* Slightly lighter black for hover effect */
+}
+/* Add borders on hover */
+.btn-primary:hover {
+    border: 1px solid #ccc; /* Light grey border on hover */
+}
+/* Add margin to the last button to create space below */
+.btn-container .contact-btn {
+    margin-bottom: 20px; /* Adjust this value as needed */
 }
 
 
