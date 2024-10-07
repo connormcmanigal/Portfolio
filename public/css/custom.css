@@ -169,18 +169,22 @@
 @media (max-width: 812px) {
     .about__profile-picture {
         order: 2; /* Move images to appear after the button */
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
     }
 
     .about__profile-picture img {
         max-width: 100%; /* Ensure images scale responsively */
         height: auto; /* Maintain aspect ratio */
+        margin: 0 10px;
     }
 
     .col-12.col-md-6.my-auto {
         order: 1; /* Ensure content and button appear before images */
         display: flex;
         flex-direction: column; /* Stack content and button */
-        align-items: center; /* Center align */
+        align-items: flex-start; /* Center align */
     }
 
     .btn-primary {
