@@ -171,8 +171,8 @@
         order: 2; /* Move images to appear after the button */
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        margin-top: 20px;
+        align-items: center;
+        margin-top: 10px;
     }
 
     .about__profile-picture img {
@@ -185,12 +185,13 @@
         order: 1; /* Ensure content and button appear before images */
         display: flex;
         flex-direction: column; /* Stack content and button */
+        text-align: left;
         align-items: flex-start; /* Center align */
     }
 
     .btn-primary {
       align-self: center;
-        margin-bottom: 10px; /* Space below the button */
+        margin-bottom: 10px 0; /* Space below the button */
     }
 }
 
