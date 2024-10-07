@@ -16,6 +16,11 @@
     margin-top: 0.5rem;
     color: #333; /* Optional: Adjust subtitle color */
 }
+.rad-showcase .container .row {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center buttons horizontally */
+}
 .btn-primary {
     font-size: 1.1rem;
     padding: 0.75rem 1.25rem;
