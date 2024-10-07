@@ -24,7 +24,7 @@
 .btn-container {
     display: flex; /* Use flexbox for button alignment */
     flex-direction: column; /* Stack buttons vertically */
-    align-items: flex-start; /* Align buttons to the left */
+    align-items: center; /* Align buttons to the left */
     width: 100%; /* Full width to center effectively */
     margin-top: 1rem; /* Add some space above buttons */
 }
