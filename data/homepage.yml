@@ -13,18 +13,30 @@ showcase:
   imageMobile:
     x: "img/showcase/DSC_9999.JPG"
     _2x: "img/showcase/DSC_9999.JPG"
-
-  button:
+  buttonLinkedIn:
+    icon: "icon-linkedin-fill"
+    btnText: "LinkedIn"
+    URL: "https://www.linkedin.com/in/connormcmanigal/"
+  buttonGitHub:
+    icon: "icon-github-fill"
+    btnText: "GitHub"
+    URL: "https://github.com/connormcmanigal"
+  buttonResume:
+    icon: "icon-resume-fill"
+    btnText: "Download My Resume"
+    URL: "cv/ConnorMcManigal_Resume.pdf"
+  buttonContact:
     icon: "icon-mail-fill"
-    btnText: "Contact Connor"
+    btnText: "Contact Me"
     URL: "mailto:mcmanigc@uci.edu"
+  
 
-  socialLinks:
-    - icon: "linkedin"
-      URL: "https://www.linkedin.com/in/connormcmanigal/"
-
-    - icon: "github"
-      URL: "https://github.com/connormcmanigal"
+  #socialLinks:
+  #  - icon: "linkedin"
+  #    URL: "https://www.linkedin.com/in/connormcmanigal/"
+#
+  #  - icon: "github"
+  #    URL: "https://github.com/connormcmanigal"
 
 
 # about
