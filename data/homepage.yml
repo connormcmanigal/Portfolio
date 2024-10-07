@@ -22,7 +22,7 @@ showcase:
     btnText: "GitHub"
     URL: "https://github.com/connormcmanigal"
   buttonResume:
-    icon: "icon-resume-fill"
+    icon: "icon-profile-fill"
     btnText: "Resume"
     URL: "cv/ConnorMcManigal_Resume.pdf"
   buttonContact:
