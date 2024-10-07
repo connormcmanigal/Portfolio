@@ -20,30 +20,12 @@
         <p class="lead">
           {{ .Site.Data.homepage.showcase.description | safeHTML }}
         </p>
-        
-        <!-- LinkedIn Button -->
-        <a href="{{ .Site.Data.homepage.showcase.linkedin.URL | absURL }}" class="btn btn-primary linkedin-btn">
-          <i class="{{ .Site.Data.homepage.showcase.linkedin.icon }}"></i>
-          {{ .Site.Data.homepage.showcase.linkedin.btnText }}
+        {{ range .Site.Data.homepage.showcase.buttons }}
+        <a href="{{ .URL | absURL }}" class="btn btn-primary {{ .icon }}">
+          <i class="{{ .icon }}"></i>
+          {{ .btnText }}
         </a>
-        
-        <!-- GitHub Button -->
-        <a href="{{ .Site.Data.homepage.showcase.buttonGitHub.URL | absURL }}" class="btn btn-primary github-btn">
-          <i class="github"></i> <!-- Use the icon directly -->
-          {{ .Site.Data.homepage.showcase.buttonGitHub.btnText }}
-        </a>
-        
-        <!-- Resume Button -->
-        <a href="{{ .Site.Data.homepage.showcase.resume.URL | absURL }}" class="btn btn-primary resume-btn">
-          <i class="{{ .Site.Data.homepage.showcase.resume.icon }}"></i>
-          {{ .Site.Data.homepage.showcase.resume.btnText }}
-        </a>
-        
-        <!-- Contact Me Button -->
-        <a href="mailto:{{ .Site.Data.homepage.showcase.contact.URL }}" class="btn btn-primary contact-btn">
-          <i class="{{ .Site.Data.homepage.showcase.contact.icon }}"></i>
-          {{ .Site.Data.homepage.showcase.contact.btnText }}
-        </a>
+        {{ end }}
       </div>
     </div>
   </div>
