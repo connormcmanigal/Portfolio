@@ -161,21 +161,17 @@
 @media (max-width: 812px) {
     .about__profile-picture {
         order: 2; /* Move images to appear after the button */
-        display: flex;
-        flex-direction: column; /* Stack images vertically */
-        align-items: center; /* Center images horizontally */
-        justify-content: center; /* Ensure images are centered vertically as well */
-        margin-top: 10px; /* Space above images */
+        display: block; /* Temporarily reset flexbox properties */
         width: 100%; /* Ensure full width on mobile */
+        text-align: center; /* Ensure the images are centered */
+        margin-top: 10px; /* Space above images */
     }
 
     .about__profile-picture img {
         max-width: 90%; /* Ensure images scale responsively */
         height: auto; /* Maintain aspect ratio */
-        margin-bottom: 10px; /* Space between stacked images */
-        display: block;
-        margin-left: auto;  /* Center images horizontally */
-        margin-right: auto; /* Center images horizontally */
+        margin: 0 auto 10px auto; /* Center the image by using auto margins */
+        display: block; /* Ensure block display */
     }
 
     .col-12.col-md-6.my-auto {
@@ -203,8 +199,9 @@
     #about h2, 
     #about .lead { 
         text-align: left; /* Left align text on mobile */ 
-    } 
+    }
 }
+
 
 
 
