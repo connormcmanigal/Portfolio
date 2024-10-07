@@ -19,7 +19,7 @@
 .rad-showcase .container .row {
     display: flex;
     flex-direction: column; /* Stack buttons vertically */
-    align-items: center; /* Center buttons horizontally */
+    align-items: flex-start; /* Center buttons horizontally */
 }
 .btn-primary {
     font-size: 1.1rem;
