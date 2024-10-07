@@ -2,6 +2,7 @@
 
 /*showcase*/
 /* Showcase Section Styles */
+/* Showcase Section Styles */
 .rad-showcase__bg img {
     max-width: 70%; /* Adjust as needed */
     height: auto; /* Maintain aspect ratio */
@@ -23,7 +24,7 @@
 .btn-container {
     display: flex; /* Use flexbox for button alignment */
     flex-direction: column; /* Stack buttons vertically */
-    align-items: center; /* Center buttons horizontally */
+    align-items: flex-start; /* Align buttons to the left */
     width: 100%; /* Full width to center effectively */
     margin-top: 1rem; /* Add some space above buttons */
 }
@@ -81,11 +82,11 @@
     .display-1 {
         text-align: center; /* Center text for the title */
     }
-    
+
     .lead {
         text-align: center; /* Center the description text */
     }
-    
+
     .btn-container {
         margin-top: 1rem; /* Space above buttons */
         align-items: center; /* Center buttons on mobile */
@@ -96,15 +97,15 @@
 @media (min-width: 813px) { /* Adjust the breakpoint as needed */
     .rad-showcase .container .row .col-12 {
         max-width: 800px; /* Set the desired max width */
-        margin: 0 auto; /* Center the block */
-        text-align: left;
+        margin: 0; /* Remove auto centering */
+        padding-left: 20px; /* Add padding to the left if needed */
     }
-    
+
     .display-1 {
         text-align: left; /* Align title to the left */
         margin-bottom: 20px; /* Add space below the title */
     }
-    
+
     .lead {
         text-align: left; /* Align description text to the left */
         margin-bottom: 20px; /* Add space below the description */
