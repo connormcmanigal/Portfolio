@@ -8,7 +8,7 @@
     display: block; /* Ensure block element */
     border-radius: 50%; /* Make the image circular */
     object-fit: cover; /* Ensure image fits within the circular shape */
-    border: 15px solid #000; /* Optional: Add a border to the circular image */
+    border: none; /* Optional: Add a border to the circular image */
 }
 .display-1 span {
     font-size: 1.75rem;
