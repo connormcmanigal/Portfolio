@@ -5,7 +5,7 @@ head:
 showcase:
   enable: true
   title: "Connor McManigal"
-  subtitle: "Data Scientist | Machine Learning Specialist | Strategic Problem Solver"
+  subtitle: "Data Scientist | Machine Learning | Strategic Problem Solver"
   description: "As a passionate Data Scientist with a robust analytical foundation and diverse computational background, I thrive on continuously learning and innovation. I apply my problem-solving expertise to uncover insights, develop data-driven solutions, and bridge the gap between technical insights and actionable business strategies."
   image:
     x: "img/showcase/DSC_9999.JPG"
