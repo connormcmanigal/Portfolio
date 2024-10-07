@@ -10,6 +10,16 @@
     object-fit: cover; /* Ensure image fits within the circular shape */
     border: none; /* Optional: Add a border to the circular image */
 }
+/* Mobile image styling */
+.rad-showcase__bg--mobile {
+    max-width: 70%; /* Adjust as needed for mobile */
+    height: auto; /* Maintain aspect ratio */
+    margin: 1rem auto; /* Center the image with spacing */
+    display: none; /* Hide by default */
+    border-radius: 50%; /* Keep it circular if needed */
+    object-fit: cover; /* Fit within the circular shape */
+    border: none; /* Remove any border */
+}
 .display-1 span {
     font-size: 1.75rem;
     display: block;
@@ -40,7 +50,8 @@
 .github-btn {
     background-color: #333; /* GitHub Grey */
 }
-.resume-btn, .contact-btn {
+.resume-btn,
+.contact-btn {
     background-color: black; /* Black for Resume and Contact Me */
 }
 /* Optional: Change button styles on hover */
@@ -50,7 +61,8 @@
 .github-btn:hover {
     background-color: #555; /* Lighter grey for GitHub on hover */
 }
-.resume-btn:hover, .contact-btn:hover {
+.resume-btn:hover,
+.contact-btn:hover {
     background-color: #444; /* Slightly lighter black for hover effect */
 }
 /* Add borders on hover */
@@ -60,16 +72,6 @@
 /* Add margin to the last button to create space below */
 .btn-container .contact-btn {
     margin-bottom: 20px; /* Adjust this value as needed */
-}
-/* Center the mobile image */
-.rad-showcase__bg--mobile {
-    max-width: 70%; /* Adjust as needed for mobile */
-    height: auto; /* Maintain aspect ratio */
-    margin: 1rem auto; /* Center the image with spacing */
-    display: block; /* Ensure block element */
-    border-radius: 50%; /* Keep it circular if needed */
-    object-fit: cover; /* Fit within the circular shape */
-    border: none; /* Remove any border */
 }
 /* Mobile styles */
 @media (max-width: 768px) {
@@ -88,9 +90,10 @@
     }
     /* Show mobile image */
     .rad-showcase__bg--mobile {
-        display: block; /* Show mobile image */
+        display: block; /* Show mobile image on mobile */
     }
 }
+
 
 
 /*about*/
