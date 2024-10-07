@@ -61,25 +61,26 @@
 .btn-container .contact-btn {
     margin-bottom: 20px; /* Adjust this value as needed */
 }
+/* Center the mobile image */
+.rad-showcase__bg--mobile {
+    max-width: 70%; /* Adjust as needed for mobile */
+    height: auto; /* Maintain aspect ratio */
+    margin: 1rem auto; /* Center the image with spacing */
+    display: block; /* Ensure block element */
+    border-radius: 50%; /* Keep it circular if needed */
+    object-fit: cover; /* Fit within the circular shape */
+    border: none; /* Remove any border */
+}
 /* Mobile styles */
-@media (max-width: 767px) { /* Adjust the max-width as necessary for your mobile breakpoint */
-    .rad-showcase__bg {
-        display: flex;
-        flex-direction: column; /* Stack elements vertically */
-        align-items: center; /* Center elements */
-    }
-    .rad-showcase__bg img {
-        order: 1; /* Move the image after the subtitle */
-        margin: 1rem 0; /* Add margin above and below the image */
-    }
-    .display-1 span {
-        order: 0; /* Keep the subtitle first */
+@media (max-width: 768px) {
+    .display-1 {
+        text-align: center; /* Center text for the title */
     }
     .lead {
-        order: 2; /* Position the description after the image */
+        text-align: center; /* Center the description text */
     }
     .btn-container {
-        margin-top: 1rem; /* Adjust as needed */
+        margin-top: 1rem; /* Space above buttons */
     }
 }
 
