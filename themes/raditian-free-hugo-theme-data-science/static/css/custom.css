@@ -8,7 +8,7 @@
     display: block; /* Ensure block element */
     border-radius: 50%; /* Make the image circular */
     object-fit: cover; /* Ensure image fits within the circular shape */
-    border: 3px solid #000; /* Optional: Add a border to the circular image */
+    border: 15px solid #000; /* Optional: Add a border to the circular image */
 }
 .display-1 span {
     font-size: 1.75rem;
@@ -19,7 +19,7 @@
 .btn-primary {
     font-size: 1.1rem;
     padding: 0.75rem 1.25rem;
-    background-color: #007bff; /* Ensure it matches your brand colors */
+    background-color: black /* Ensure it matches your brand colors */
     border-radius: 5px; /* Optional: Make buttons slightly rounded */
     transition: background-color 0.3s ease; /* Smooth transition for hover */
 }
