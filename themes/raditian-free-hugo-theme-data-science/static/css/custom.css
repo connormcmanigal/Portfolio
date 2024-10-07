@@ -124,6 +124,7 @@
 
 
 /*about*/
+
 .about__profile-picture {
     display: flex; /* Use flexbox for layout */
     flex-direction: row; /* Arrange images and content in a row */
