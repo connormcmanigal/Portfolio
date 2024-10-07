@@ -53,9 +53,11 @@
     background-color: #333; /* GitHub Grey */
 }
 
-.resume-btn,
+.resume-btn {
+    background-color: #5ED317; /* Black for Resume and Contact Me */
+}
 .contact-btn {
-    background-color: black; /* Black for Resume and Contact Me */
+    background-color: #D5301F; /* Black for Resume and Contact Me */
 }
 
 /* Button Hover Styles */
@@ -146,24 +148,7 @@
 .about__profile-picture img:last-of-type {
     max-width: 40%; /* Scale down the second image (adjust as needed) */
 }
-/* Adjust mobile styles for About section */
-@media (max-width: 812px) {
-  .about__profile-picture {
-    order: 2; /* Move images below the button */
-    text-align: center; /* Center images */
-    margin-top: 20px; /* Add some space above the images */
-  }
 
-  .about__profile-picture img {
-    max-width: 80%; /* Adjust image size on mobile */
-    margin: 0 auto; /* Center images */
-  }
-
-  .btn-container {
-    text-align: center; /* Center button on mobile */
-    margin-top: 20px; /* Add space above the button */
-  }
-}
 
 
 /*education*/
