@@ -189,6 +189,7 @@
     }
 
     .btn-primary {
+      align-self: center;
         margin-bottom: 20px; /* Space below the button */
     }
 }
