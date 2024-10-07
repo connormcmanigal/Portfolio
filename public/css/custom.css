@@ -82,6 +82,14 @@
     .btn-container {
         margin-top: 1rem; /* Space above buttons */
     }
+    /* Hide desktop image */
+    .rad-showcase__bg img {
+        display: none; /* Hide the desktop image on mobile */
+    }
+    /* Show mobile image */
+    .rad-showcase__bg--mobile {
+        display: block; /* Show mobile image */
+    }
 }
 
 
