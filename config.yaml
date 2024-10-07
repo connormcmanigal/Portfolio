@@ -9,8 +9,8 @@ params:
       x: img/general/business-science-logo.png
   googleAnalyticsID: ''
   logo:
-    text1: Connor McManigal
-    text2: '               '
+    text1:
+    text2:
   plugins:
     css:
       - URL: css/main.css
