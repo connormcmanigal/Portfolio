@@ -129,7 +129,7 @@
     display: flex; /* Use flexbox for layout */
     flex-direction: row; /* Arrange images and content in a row */
     align-items: center; /* Center items vertically */
-    margin-bottom: 20px; /* Space below the entire about section */
+    margin-bottom: 10px; /* Space below the entire about section */
 }
 
 .about__profile-picture .image-container {
@@ -142,7 +142,7 @@
 .about__profile-picture img {
     max-width: 100%; /* Ensure images scale responsively */
     height: auto; /* Maintain aspect ratio */
-    margin-bottom: 20px; /* Space between stacked images */
+    margin-bottom: 10px; /* Space between stacked images */
 }
 
 .about__profile-picture img:first-of-type {
@@ -156,7 +156,7 @@
 .button-container {
     display: flex;              /* Use flexbox for centering */
     justify-content: center;    /* Center the button horizontally */
-    margin-top: 20px;          /* Optional: Add space above the button */
+    margin-top: 10px;          /* Optional: Add space above the button */
 }
 
 #about h2 {
