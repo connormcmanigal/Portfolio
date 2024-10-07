@@ -124,7 +124,6 @@
 
 
 /*about*/
-
 .about__profile-picture {
     display: flex; /* Use flexbox for layout */
     flex-direction: row; /* Arrange images and content in a row */
@@ -145,23 +144,15 @@
     margin-bottom: 10px; /* Space between stacked images */
 }
 
-/*.about__profile-picture img:first-of-type {
-    max-width: 100%; 
-}
-
-.about__profile-picture img:last-of-type {
-    max-width: 40%;
-}*/
-
 .button-container {
-    display: flex;              /* Use flexbox for centering */
-    justify-content: center;    /* Center the button horizontally */
-    margin-top: 10px;          /* Optional: Add space above the button */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center the button horizontally */
+    margin-top: 10px; /* Optional: Add space above the button */
 }
 
 #about h2 {
     font-size: 2rem; /* Adjust the size as needed */
-    color: #D32E17;    /* Change to your desired color */
+    color: #D32E17; /* Change to your desired color */
     margin-bottom: 20px; /* Optional: Space below the title */
 }
 
@@ -170,29 +161,39 @@
     .about__profile-picture {
         order: 2; /* Move images to appear after the button */
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 10px;
+        flex-direction: column; /* Stack images vertically */
+        align-items: center; /* Center images */
+        margin-top: 10px; /* Space above images */
+        width: 100%; /* Ensure full width on mobile */
     }
 
     .about__profile-picture img {
         max-width: 90%; /* Ensure images scale responsively */
         height: auto; /* Maintain aspect ratio */
-        margin-bottom: 10px;
+        margin-bottom: 10px; /* Space between stacked images */
     }
 
     .col-12.col-md-6.my-auto {
         order: 1; /* Ensure content and button appear before images */
         display: flex;
         flex-direction: column; /* Stack content and button */
-        align-items: flex-start; /* Center align */
-        text-align: left;
+        align-items: flex-start; /* Left align content */
+        text-align: left; /* Ensure text is left-aligned */
+        width: 100%; /* Ensure full width on mobile */
+    }
+
+    .button-container {
+        justify-content: center; /* Center the button */
+        width: 100%; /* Ensure button takes full width */
+        margin-top: 10px; /* Space above button */
     }
 
     .btn-primary {
-      margin-bottom: 10px; /* Space below the button */
+        margin-bottom: 10px; /* Space below the button */
+        align-self: center; /* Center the button */
     }
 }
+
 
 
 
