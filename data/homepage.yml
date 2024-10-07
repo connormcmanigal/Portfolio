@@ -13,6 +13,7 @@ showcase:
   imageMobile:
     x: "img/showcase/DSC_9999.JPG"
     _2x: "img/showcase/DSC_9999.JPG"
+
   # LinkedIn Button
   linkedin:
     icon: "icon-linkedin-fill"
@@ -21,7 +22,7 @@ showcase:
   
   # GitHub Button (Using Font Awesome)
   github:
-    icon: "fab fa-github"
+    icon: "github"
     btnText: "GitHub"
     URL: "https://github.com/connormcmanigal"
   
