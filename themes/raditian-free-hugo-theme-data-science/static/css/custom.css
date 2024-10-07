@@ -145,13 +145,13 @@
     margin-bottom: 10px; /* Space between stacked images */
 }
 
-.about__profile-picture img:first-of-type {
-    max-width: 100%; /* Set to 100% for full width of the container */
+/*.about__profile-picture img:first-of-type {
+    max-width: 100%; 
 }
 
 .about__profile-picture img:last-of-type {
-    max-width: 40%; /* Scale down the second image (adjust as needed) */
-}
+    max-width: 40%;
+}*/
 
 .button-container {
     display: flex;              /* Use flexbox for centering */
