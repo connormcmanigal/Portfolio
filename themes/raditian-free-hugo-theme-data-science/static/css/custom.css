@@ -12,9 +12,13 @@
     object-fit: cover; /* Ensure image fits within the circular shape */
     border: none; /* Optional: Add a border to the circular image */
 }
+.display-1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
 
 .display-1 span {
-    font-size: 1.75rem;
+    font-size: 1.05rem;
     display: block;
     margin-top: 0.5rem;
     color: #333; /* Optional: Adjust subtitle color */
