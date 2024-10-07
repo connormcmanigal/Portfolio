@@ -159,48 +159,41 @@
 
 /* Mobile Styles */
 @media (max-width: 812px) {
+    /* Ensure the whole about__profile-picture section is full width and centered */
     .about__profile-picture {
-        order: 2; /* Move images to appear after the button */
-        display: block; /* Temporarily reset flexbox properties */
-        width: 100%; /* Ensure full width on mobile */
-        text-align: center; /* Ensure the images are centered */
-        margin-top: 10px; /* Space above images */
+        order: 2; /* Make sure images appear after the text on mobile */
+        display: flex; /* Keep flexbox but adjust for vertical layout */
+        flex-direction: column; /* Stack the images vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        width: 100%; /* Take up full width */
+        margin: 0 auto; /* Center the container itself */
+        text-align: center; /* Ensure all content inside is centered */
     }
 
     .about__profile-picture img {
-        max-width: 90%; /* Ensure images scale responsively */
+        max-width: 90%; /* Make sure images don't take up too much space */
         height: auto; /* Maintain aspect ratio */
-        margin: 0 auto 10px auto; /* Center the image by using auto margins */
-        display: block; /* Ensure block display */
+        margin-bottom: 10px; /* Space between stacked images */
+        display: block; /* Ensure images are block elements */
     }
 
+    /* Content section to ensure it is full width and aligned properly */
     .col-12.col-md-6.my-auto {
-        order: 1; /* Ensure content and button appear before images */
-        display: flex;
-        flex-direction: column; /* Stack content and button */
-        align-items: flex-start; /* Left align content */
+        order: 1; /* Ensure content comes before images on mobile */
+        display: block; /* Make sure content stacks vertically */
         text-align: left; /* Ensure text is left-aligned */
-        width: 100%; /* Ensure full width on mobile */
-        margin-bottom: 10px; /* Space below content for clarity */
+        width: 100%; /* Ensure content takes full width */
     }
 
     .button-container {
-        justify-content: center; /* Center the button */
-        width: 100%; /* Ensure button takes full width */
-        margin-top: 10px; /* Space above button */
-    }
-
-    .btn-primary {
-        margin-bottom: 10px; /* Space below the button */
-        align-self: center; /* Center the button */
-    }
-    
-    /* Override centering for text in the About section on mobile */
-    #about h2, 
-    #about .lead { 
-        text-align: left; /* Left align text on mobile */ 
+        display: flex;
+        justify-content: center; /* Center the button horizontally */
+        width: 100%; /* Ensure the button takes up full width */
+        margin-top: 10px;
     }
 }
+
 
 
 
