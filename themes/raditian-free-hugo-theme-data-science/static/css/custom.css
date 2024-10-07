@@ -185,13 +185,12 @@
         order: 1; /* Ensure content and button appear before images */
         display: flex;
         flex-direction: column; /* Stack content and button */
-        text-align: left;
         align-items: flex-start; /* Center align */
+        text-align: left;
     }
 
     .btn-primary {
-      align-self: center;
-        margin-bottom: 10px 0; /* Space below the button */
+      margin-bottom: 10px; /* Space below the button */
     }
 }
 
