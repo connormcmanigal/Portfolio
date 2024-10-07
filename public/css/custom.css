@@ -16,18 +16,25 @@
     margin-top: 0.5rem;
     color: #333; /* Optional: Adjust subtitle color */
 }
+/* Remove the centering from the row */
 .rad-showcase .container .row {
     display: flex;
-    flex-direction: column; /* Stack buttons vertically */
-    align-items: flex-start; /* Center buttons horizontally */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start; /* Align items to the start (left) */
+}
+/* Center the buttons in a new div */
+.btn-container {
+    display: flex; /* Use flexbox for button alignment */
+    justify-content: center; /* Center buttons */
+    width: 100%; /* Full width to center effectively */
+    margin-top: 1rem; /* Add some space above buttons */
 }
 .btn-primary {
     font-size: 1.1rem;
     padding: 0.75rem 1.25rem;
-    background-color: black /* Ensure it matches your brand colors */
     border-radius: 5px; /* Optional: Make buttons slightly rounded */
     transition: background-color 0.3s ease; /* Smooth transition for hover */
-    color: white;
+    color: white; /* Default text color */
 }
 /* Specific button colors */
 .linkedin-btn {
