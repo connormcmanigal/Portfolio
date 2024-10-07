@@ -13,19 +13,26 @@ showcase:
   imageMobile:
     x: "img/showcase/DSC_9999.JPG"
     _2x: "img/showcase/DSC_9999.JPG"
-  buttonLinkedIn:
+  # LinkedIn Button
+  linkedin:
     icon: "icon-linkedin-fill"
     btnText: "LinkedIn"
     URL: "https://www.linkedin.com/in/connormcmanigal/"
-  buttonGitHub:
-    icon: "icon-github-fill"
+  
+  # GitHub Button (Using Font Awesome)
+  github:
+    icon: "fab fa-github"
     btnText: "GitHub"
     URL: "https://github.com/connormcmanigal"
-  buttonResume:
+  
+  # Resume Button
+  resume:
     icon: "icon-profile-fill"
     btnText: "Resume"
     URL: "cv/ConnorMcManigal_Resume.pdf"
-  buttonContact:
+  
+  # Contact Me Button
+  contact:
     icon: "icon-mail-fill"
     btnText: "Contact Me"
     URL: "mailto:mcmanigc@uci.edu"
