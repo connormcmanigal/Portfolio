@@ -163,7 +163,8 @@
         order: 2; /* Move images to appear after the button */
         display: flex;
         flex-direction: column; /* Stack images vertically */
-        align-items: center; /* Center images */
+        align-items: center; /* Center images horizontally */
+        justify-content: center; /* Ensure images are centered vertically as well */
         margin-top: 10px; /* Space above images */
         width: 100%; /* Ensure full width on mobile */
     }
@@ -173,6 +174,8 @@
         height: auto; /* Maintain aspect ratio */
         margin-bottom: 10px; /* Space between stacked images */
         display: block;
+        margin-left: auto;  /* Center images horizontally */
+        margin-right: auto; /* Center images horizontally */
     }
 
     .col-12.col-md-6.my-auto {
@@ -202,6 +205,7 @@
         text-align: left; /* Left align text on mobile */ 
     } 
 }
+
 
 
 
