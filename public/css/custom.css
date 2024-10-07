@@ -109,10 +109,6 @@
         text-align: left; /* Align description text to the left */
         margin-bottom: 20px; /* Add space below the description */
     }
-
-    .btn-container {
-        align-items: flex-start; /* Align buttons to the left */
-    }
 }
 
 
