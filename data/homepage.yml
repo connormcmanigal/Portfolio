@@ -20,10 +20,10 @@ showcase:
     URL: "mailto:mcmanigc@uci.edu"
 
   socialLinks:
-    - icon: "icon-linkedin-fill"
+    - icon: "linkedin"
       URL: "https://www.linkedin.com/in/connormcmanigal/"
 
-    - icon: "icon-github-fill"
+    - icon: "github"
       URL: "https://github.com/connormcmanigal"
 
 
