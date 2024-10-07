@@ -75,6 +75,10 @@
 }
 /* Mobile styles */
 @media (max-width: 768px) {
+    .rad-showcase .container .row .col-12 {
+        max-width: 800px; /* Set the desired max width */
+        margin: 0 auto; /* Center the block */
+    }
     .display-1 {
         text-align: center; /* Center text for the title */
     }
