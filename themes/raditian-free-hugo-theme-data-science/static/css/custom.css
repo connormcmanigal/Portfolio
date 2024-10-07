@@ -170,14 +170,15 @@
     .about__profile-picture {
         order: 2; /* Move images to appear after the button */
         display: flex;
+        flex-direction: column;
         justify-content: center;
         margin-top: 20px;
     }
 
     .about__profile-picture img {
-        max-width: 100%; /* Ensure images scale responsively */
+        max-width: 90%; /* Ensure images scale responsively */
         height: auto; /* Maintain aspect ratio */
-        margin: 0 10px;
+        margin-bottom: 10px;
     }
 
     .col-12.col-md-6.my-auto {
