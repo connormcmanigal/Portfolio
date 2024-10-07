@@ -173,8 +173,6 @@
         height: auto; /* Maintain aspect ratio */
         margin-bottom: 10px; /* Space between stacked images */
         display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .col-12.col-md-6.my-auto {
