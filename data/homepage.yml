@@ -22,7 +22,7 @@ showcase:
   
   # GitHub Button
   github:
-    icon: "icon-github"
+    icon: "icon-github-line"
     btnText: "GitHub"
     URL: "https://github.com/connormcmanigal"
   
