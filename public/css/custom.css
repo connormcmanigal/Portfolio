@@ -50,14 +50,14 @@
 }
 
 .github-btn {
-    background-color: #333; /* GitHub Grey */
+    background-color: #9AA299;
 }
 
 .resume-btn {
-    background-color: #5ED317; /* Black for Resume and Contact Me */
+    background-color: #2A7A1E; 
 }
 .contact-btn {
-    background-color: #D5301F; /* Black for Resume and Contact Me */
+    background-color: #D5301F; 
 }
 
 /* Button Hover Styles */
@@ -66,11 +66,11 @@
 }
 
 .github-btn:hover {
-    background-color: black; /* Lighter grey for GitHub on hover */
+    background-color: #333;
 }
 
 .resume-btn:hover {
-    background-color: #5C9912; 
+    background-color: #1F5816; 
 }
 
 .contact-btn:hover {
