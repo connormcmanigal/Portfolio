@@ -28,8 +28,9 @@
         </a>
         
         <!-- GitHub Button -->
-        <a href="{{ .Site.Data.homepage.showcase.github.URL | absURL }}" class="btn btn-primary">
-          <i class="{{ .Site.Data.homepage.showcase.github.icon }}"></i>
+        <a href="{{ .Site.Data.homepage.showcase.github.URL | absURL }}" class="btn btn-primary github-btn">
+          <i class="{{ .Site.Data.homepage.showcase.github.icon }}"></i> <!-- Icon -->
+          {{ .Site.Data.homepage.showcase.github.btnText }} <!-- Button Text -->
         </a>
         
         <!-- Resume Button -->
@@ -39,7 +40,7 @@
         </a>
         
         <!-- Contact Me Button -->
-        <a href="mailto:{{ .Site.Data.homepage.showcase.contact.URL }}" class="btn btn-primary contact-btn">
+        <a href="{{ .Site.Data.homepage.showcase.contact.URL }}" class="btn btn-primary contact-btn">
           <i class="{{ .Site.Data.homepage.showcase.contact.icon }}"></i>
           {{ .Site.Data.homepage.showcase.contact.btnText }}
         </a>
