@@ -14,19 +14,29 @@ showcase:
     x: "img/showcase/DSC_9999.JPG"
     _2x: "img/showcase/DSC_9999.JPG"
 
-  buttons:
-    - icon: "icon-linkedin-fill"
-      btnText: "LinkedIn"
-      URL: "https://www.linkedin.com/in/connormcmanigal/"
-    - icon: "github"  # Use the correct icon name as defined in your theme
-      btnText: "GitHub"
-      URL: "https://github.com/connormcmanigal"
-    - icon: "icon-profile-fill"
-      btnText: "Resume"
-      URL: "cv/ConnorMcManigal_Resume.pdf"
-    - icon: "icon-mail-fill"
-      btnText: "Contact Me"
-      URL: "mailto:mcmanigc@uci.edu"
+  # LinkedIn Button
+  linkedin:
+    icon: "icon-linkedin-fill"
+    btnText: "LinkedIn"
+    URL: "https://www.linkedin.com/in/connormcmanigal/"
+  
+  # GitHub Button
+  github:
+    icon: "github"
+    btnText: "GitHub"
+    URL: "https://github.com/connormcmanigal"
+  
+  # Resume Button
+  resume:
+    icon: "icon-profile-fill"
+    btnText: "Resume"
+    URL: "cv/ConnorMcManigal_Resume.pdf"
+  
+  # Contact Me Button
+  contact:
+    icon: "icon-mail-fill"
+    btnText: "Contact Me"
+    URL: "mailto:mcmanigc@uci.edu"
   
 
   #socialLinks:
