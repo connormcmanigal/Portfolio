@@ -194,6 +194,12 @@
         margin-bottom: 10px; /* Space below the button */
         align-self: center; /* Center the button */
     }
+    
+    /* Override centering for text in the About section on mobile */
+    #about h2, 
+    #about .lead { 
+        text-align: left; /* Left align text on mobile */ 
+    } 
 }
 
 
