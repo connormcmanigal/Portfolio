@@ -4,7 +4,7 @@
 /* Showcase Section Styles */
 /* Showcase Section Styles */
 .rad-showcase__bg img {
-    max-width: 60%; /* Adjust as needed */
+    max-width: 50%; /* Adjust as needed */
     height: auto; /* Maintain aspect ratio */
     margin: 0 auto; /* Center the image */
     display: block; /* Ensure block element */
