@@ -66,12 +66,15 @@
 }
 
 .github-btn:hover {
-    background-color: #555; /* Lighter grey for GitHub on hover */
+    background-color: black; /* Lighter grey for GitHub on hover */
 }
 
-.resume-btn:hover,
+.resume-btn:hover {
+    background-color: #5C9912; 
+}
+
 .contact-btn:hover {
-    background-color: #444; /* Slightly lighter black for hover effect */
+    background-color: #B31A0B; 
 }
 
 /* Add borders on hover */
