@@ -180,6 +180,7 @@
         align-items: flex-start; /* Left align content */
         text-align: left; /* Ensure text is left-aligned */
         width: 100%; /* Ensure full width on mobile */
+        margin-bottom: 10px; /* Space below content for clarity */
     }
 
     .button-container {
