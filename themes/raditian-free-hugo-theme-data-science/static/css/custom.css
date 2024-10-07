@@ -15,13 +15,14 @@
 .display-1 {
   font-size: 4rem;
   margin-bottom: 20px;
+  color:; #D32E17;
 }
 
 .display-1 span {
     font-size: 1.7rem;
     display: block;
     margin-top: 0.5rem;
-    color: #D32E17; /* Optional: Adjust subtitle color */
+    color: black; /* Optional: Adjust subtitle color */
     font-weight: bold;
 }
 
