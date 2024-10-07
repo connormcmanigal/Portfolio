@@ -1,8 +1,7 @@
 /* You can customize theme styles here */
 
 /*showcase*/
-/* Showcase Section Styles */
-/* Showcase Section Styles */
+
 .rad-showcase__bg img {
     max-width: 65%; /* Adjust as needed */
     height: auto; /* Maintain aspect ratio */
@@ -125,6 +124,7 @@
 
 
 /*about*/
+
 .about__profile-picture {
     display: flex; /* Use flexbox for layout */
     flex-direction: row; /* Arrange images and content in a row */
@@ -163,6 +163,29 @@
     font-size: 2rem; /* Adjust the size as needed */
     color: #D32E17;    /* Change to your desired color */
     margin-bottom: 20px; /* Optional: Space below the title */
+}
+
+/* Mobile Styles */
+@media (max-width: 812px) {
+    .about__profile-picture {
+        order: 2; /* Move images to appear after the button */
+    }
+
+    .about__profile-picture img {
+        max-width: 100%; /* Ensure images scale responsively */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .col-12.col-md-6.my-auto {
+        order: 1; /* Ensure content and button appear before images */
+        display: flex;
+        flex-direction: column; /* Stack content and button */
+        align-items: center; /* Center align */
+    }
+
+    .btn-primary {
+        margin-bottom: 20px; /* Space below the button */
+    }
 }
 
 
