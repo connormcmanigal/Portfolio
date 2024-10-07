@@ -61,6 +61,27 @@
 .btn-container .contact-btn {
     margin-bottom: 20px; /* Adjust this value as needed */
 }
+/* Mobile styles */
+@media (max-width: 767px) { /* Adjust the max-width as necessary for your mobile breakpoint */
+    .rad-showcase__bg {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center elements */
+    }
+    .rad-showcase__bg img {
+        order: 1; /* Move the image after the subtitle */
+        margin: 1rem 0; /* Add margin above and below the image */
+    }
+    .display-1 span {
+        order: 0; /* Keep the subtitle first */
+    }
+    .lead {
+        order: 2; /* Position the description after the image */
+    }
+    .btn-container {
+        margin-top: 1rem; /* Adjust as needed */
+    }
+}
 
 
 /*about*/
