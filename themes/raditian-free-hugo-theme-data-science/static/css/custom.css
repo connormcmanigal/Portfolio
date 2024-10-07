@@ -22,20 +22,27 @@
     background-color: black /* Ensure it matches your brand colors */
     border-radius: 5px; /* Optional: Make buttons slightly rounded */
     transition: background-color 0.3s ease; /* Smooth transition for hover */
+    color: white;
 }
-.btn-primary:hover {
-    background-color: #0056b3; /* Darken button on hover */
+/* Specific button colors */
+.linkedin-btn {
+    background-color: #0077b5; /* LinkedIn Blue */
 }
-.platform-links a {
-    font-size: 1.5rem;
-    padding: 10px;
-    margin: 0 10px;
-    display: inline-flex;
-    align-items: center;
-    color: #333; /* Adjust icon color */
+.github-btn {
+    background-color: #333; /* GitHub Grey */
 }
-.platform-links a:hover {
-    color: #007bff; /* Change color on hover */
+.resume-btn, .contact-btn {
+    background-color: black; /* Black for Resume and Contact Me */
+}
+/* Optional: Change button styles on hover */
+.linkedin-btn:hover {
+    background-color: #005582; /* Darker blue for LinkedIn on hover */
+}
+.github-btn:hover {
+    background-color: #555; /* Lighter grey for GitHub on hover */
+}
+.resume-btn:hover, .contact-btn:hover {
+    background-color: #444; /* Slightly lighter black for hover effect */
 }
 
 
