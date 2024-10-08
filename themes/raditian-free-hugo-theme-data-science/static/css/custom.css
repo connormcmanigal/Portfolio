@@ -281,7 +281,7 @@
     color: #D32E17; /* Title color */
 }
 .experience__date {
-    font-size: 1.5rem; /* Size for the duration */
+    font-size: 1.25rem; /* Size for the duration */
     color: black; /* Change to a grey color */
     margin-bottom: 5px; /* Space below the duration */
 }
@@ -295,6 +295,7 @@
     font-size: 1.75rem; /* Size for the company */
     color: #EB331D; /* Change to your desired color */
     margin-bottom: 5px; /* Space below the company name */
+    font-weight: bold;
 }
 
 
