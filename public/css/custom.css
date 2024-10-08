@@ -12,7 +12,7 @@
     border: none; /* Optional: Add a border to the circular image */
 }
 
-rad-showcase__bg {
+.rad-showcase__bg {
     display: flex; /* Use flexbox to center the content */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
