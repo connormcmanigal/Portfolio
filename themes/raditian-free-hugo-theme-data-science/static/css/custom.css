@@ -211,7 +211,7 @@
 }
 
 #about.section.rad-animation-group.pb-20.pt-20.section--border-bottom::after {
-    display: block; /* This may create space */
+    display: none; /* This may create space */
 }
 
 /*EDUCATION SECTION*/
