@@ -21,20 +21,22 @@
     margin: 0 auto; /* Center the wrapper */
 }
 
+/* Image Styles */
 .rad-showcase__bg img {
     width: 100%; /* Use full width of the wrapper */
     height: auto; /* Set height to auto to maintain aspect ratio */
     aspect-ratio: 1 / 1; /* Maintain circular shape */
-    margin: 0 auto; /* Center the image */
     display: block; /* Ensure block element */
     border-radius: 50%; /* Make the image circular */
     object-fit: cover; /* Ensure image fits within the circular shape */
     border: none; /* No border */
     z-index: 1; /* Ensure the image appears above other content */
+    margin: 20px 0; /* Add margin around the image */
 }
 
 /* Ensure text does not overlap */
-.display-1, .lead {
+.display-1,
+.lead {
     position: relative; /* Set position to avoid overlapping */
     z-index: 2; /* Ensure text appears above the image */
     margin-top: 20px; /* Add space above the text */
@@ -64,6 +66,7 @@
     margin-top: 1rem; /* Add some space above buttons */
 }
 
+/* Button Styles */
 .btn-primary {
     font-size: 1.1rem;
     padding: 0.75rem 1.25rem;
@@ -74,7 +77,7 @@
     border: 2px solid transparent;
 }
 
-/* Specific Button Colors */
+/* Button Colors */
 .linkedin-btn {
     background-color: #0077b5; /* LinkedIn Blue */
 }
@@ -84,11 +87,11 @@
 }
 
 .resume-btn {
-    background-color: #2A7A1E; 
+    background-color: #2A7A1E;
 }
 
 .contact-btn {
-    background-color: #D5301F; 
+    background-color: #D5301F;
 }
 
 /* Button Hover Styles */
@@ -101,11 +104,11 @@
 }
 
 .resume-btn:hover {
-    background-color: #1F5816; 
+    background-color: #1F5816;
 }
 
 .contact-btn:hover {
-    background-color: #B31A0B; 
+    background-color: #B31A0B;
 }
 
 /* Add borders on hover */
@@ -128,9 +131,9 @@
         margin-bottom: 20px; /* Add space below the background */
     }
 
-    .image-container {
-        margin: 20px 0; /* Space around the image */
-        order: 2; /* Set the order to 2 for the image */
+    .rad-showcase__image-wrapper {
+        order: 2; /* Set the order to 2 for the image wrapper */
+        margin: 20px 0; /* Space around the image wrapper */
     }
 
     .rad-showcase__bg img {
@@ -141,6 +144,7 @@
         border-radius: 50%; /* Make the image circular */
         object-fit: cover; /* Ensure image fits within the circular shape */
         border: none; /* No border */
+        margin: 0; /* Remove margin from the image */
     }
 
     .display-1 {
@@ -169,7 +173,7 @@
         height: auto; /* Maintain aspect ratio */
         aspect-ratio: 1 / 1; /* Ensure image is circular */
     }
-    
+
     .rad-showcase .container .row .col-12 {
         max-width: 800px; /* Set the desired max width */
         margin: 0; /* Remove auto centering */
