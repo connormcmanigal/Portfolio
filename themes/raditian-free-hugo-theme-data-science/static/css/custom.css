@@ -208,7 +208,7 @@
     border-radius: 8px; /* Optional: rounded corners */
     margin-bottom: 20px; /* Add space between items */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for depth */
-    border: 2px solid #C2A123; /* Optional: light border */
+    border: 4px solid #C2A123; /* Optional: light border */
 }
 
 .section h2 {
