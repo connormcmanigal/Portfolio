@@ -298,6 +298,7 @@
 /* Desktop Styles */
 #experience {
     display: flex;
+    flex-direction: row;
 }
 .experience-item {
   margin-bottom: 5px;
