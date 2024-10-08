@@ -359,6 +359,7 @@
     .description-container {
         order: 3; /* Description section next */
         margin-bottom: 5px;
+        text-align: left;
     }
     .button-container {
         order: 4; /* Button last */
