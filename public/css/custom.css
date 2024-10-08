@@ -333,6 +333,9 @@
         order: 4; /* Button last */
         text-align: center; /* Centering the button */
     }
+    .experience-items {
+      order: 2;
+    }
 }
 
 
