@@ -76,7 +76,7 @@
 
 /* Add margin to the last button to create space below */
 .btn-container .contact-btn {
-    margin-bottom: 20px; /* Adjust this value as needed */
+    margin-bottom: 0px; /* Adjust this value as needed */
 }
 
 /* Mobile Styles */
