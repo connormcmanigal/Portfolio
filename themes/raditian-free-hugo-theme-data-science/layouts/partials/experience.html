@@ -2,21 +2,23 @@
 <section id="experience" class="section section--border-bottom rad-animation-group">
     <div class="container">
         <div class="row rad-fade-down"> <!-- Default to row for desktop -->
-            <div class="col-12 col-sm-6 title-container"> <!-- Title container -->
-                <h2 class="experience-title">{{ .Site.Data.homepage.experience.title }}</h2>
+            <div class="col-12 col-sm-6 left-column"> <!-- Left column for title, description, and button -->
+                <div class="title-container"> <!-- Title container -->
+                    <h2 class="experience-title">{{ .Site.Data.homepage.experience.title }}</h2>
+                </div>
+                <div class="description-container"> <!-- Description container -->
+                    <p class="lead description">
+                        {{ .Site.Data.homepage.experience.description | safeHTML }}
+                    </p>
+                </div>
+                <div class="button-container text-center"> <!-- Button container -->
+                    <a href="{{ .Site.Data.homepage.experience.button2.URL | absURL }}" class="btn btn-frameless" target="_blank">
+                        <i class="{{ .Site.Data.homepage.experience.button2.icon }}"></i>
+                        {{ .Site.Data.homepage.experience.button2.btnText }}
+                    </a>
+                </div>
             </div>
-            <div class="col-12 col-sm-6 description-container"> <!-- Description container -->
-                <p class="lead description">
-                    {{ .Site.Data.homepage.experience.description | safeHTML }}
-                </p>
-            </div>
-            <div class="col-12 button-container text-center"> <!-- Button container -->
-                <a href="{{ .Site.Data.homepage.experience.button2.URL | absURL }}" class="btn btn-frameless" target="_blank">
-                    <i class="{{ .Site.Data.homepage.experience.button2.icon }}"></i>
-                    {{ .Site.Data.homepage.experience.button2.btnText }}
-                </a>
-            </div>
-            <div class="col-12 col-sm-6 experience-items"> <!-- Experience items container -->
+            <div class="col-12 col-sm-6 experience-items"> <!-- Right column for experience items -->
                 {{ range .Site.Data.homepage.experience.items }}
                 <div class="experience">
                     <div class="experience__date">{{ .duration | safeHTML }}</div>
