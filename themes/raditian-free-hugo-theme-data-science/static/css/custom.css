@@ -308,9 +308,6 @@
 }
 
 @media (max-width: 812px) { /* Adjust the breakpoint as needed */
-    #experience {
-        padding: 20px; /* Adjust padding for mobile */
-    }
     .row {
         flex-direction: column; /* Stack items vertically on mobile */
     }
