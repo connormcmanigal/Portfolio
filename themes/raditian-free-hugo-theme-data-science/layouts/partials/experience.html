@@ -2,7 +2,16 @@
 <section id="experience" class="section section--border-bottom rad-animation-group">
     <div class="container">
         <div class="row flex-column-reverse flex-md-row rad-fade-down">
-            <div class="col-12 col-sm-6 experience-title-container"> <!-- Title container -->
+            <div class="col-12 col-sm-6 experience-items"> <!-- Experience items on the left -->
+                {{ range .Site.Data.homepage.experience.items }}
+                <div class="experience">
+                    <div class="experience__date">{{ .duration | safeHTML }}</div>
+                    <div class="experience__title">{{ .title | safeHTML }}</div>
+                    <div class="experience__company">{{ .company | safeHTML }}</div>
+                </div>
+                {{ end }}
+            </div>
+            <div class="col-12 col-sm-6">
                 <h2 class="experience-title">Experience</h2> <!-- Title -->
                 <p class="lead description"> <!-- Description -->
                     {{ .Site.Data.homepage.experience.description | safeHTML }}
@@ -14,15 +23,6 @@
                         {{ .Site.Data.homepage.experience.button2.btnText }}
                     </a>
                 </div>
-            </div>
-            <div class="col-12 col-sm-6 experience-items"> <!-- Experience items on the left -->
-                {{ range .Site.Data.homepage.experience.items }}
-                <div class="experience">
-                    <div class="experience__date">{{ .duration | safeHTML }}</div>
-                    <div class="experience__title">{{ .title | safeHTML }}</div>
-                    <div class="experience__company">{{ .company | safeHTML }}</div>
-                </div>
-                {{ end }}
             </div>
         </div>
     </div>
