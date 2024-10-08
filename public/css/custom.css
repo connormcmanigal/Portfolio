@@ -1,7 +1,125 @@
 
 /*showcase*/
 
+.rad-showcase__bg img {
+    max-width: 65%; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center the image */
+    display: block; /* Ensure block element */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure image fits within the circular shape */
+    border: none; /* Optional: Add a border to the circular image */
+}
+.display-1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  color: #D32E17;
+}
 
+.display-1 span {
+    font-size: 1.7rem;
+    display: block;
+    margin-top: 0.5rem;
+    color: black;
+    font-weight: bold;
+}
+
+/* Button Container Styles */
+.btn-container {
+    display: flex; /* Use flexbox for button alignment */
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Align buttons to the left */
+    width: 100%; /* Full width to center effectively */
+    margin-top: 1rem; /* Add some space above buttons */
+}
+
+.btn-primary {
+    font-size: 1.1rem;
+    padding: 0.75rem 1.25rem;
+    border-radius: 5px; /* Optional: Make buttons slightly rounded */
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+    color: white; /* Default text color */
+    margin: 5px 0;
+    border: 2px solid transparent;
+}
+
+/* Specific Button Colors */
+.linkedin-btn {
+    background-color: #0077b5; /* LinkedIn Blue */
+}
+
+.github-btn {
+    background-color: #9AA299;
+}
+
+.resume-btn {
+    background-color: #2A7A1E; 
+}
+.contact-btn {
+    background-color: #333; 
+}
+
+/* Button Hover Styles */
+.linkedin-btn:hover {
+    background-color: #005582; /* Darker blue for LinkedIn on hover */
+}
+
+.github-btn:hover {
+    background-color: #333;
+}
+
+.resume-btn:hover {
+    background-color: #1F5816; 
+}
+
+.contact-btn:hover {
+    background-color: #2C302B; 
+}
+
+/* Add borders on hover */
+.btn-primary:hover {
+    border: 1px solid #ccc; /* Light grey border on hover */
+}
+
+/* Add margin to the last button to create space below */
+.btn-container .contact-btn {
+    margin-bottom: 20px; /* Adjust this value as needed */
+}
+
+/* Mobile Styles */
+@media (max-width: 812px) {
+    .display-1 {
+        text-align: center; /* Center text for the title */
+    }
+
+    .lead {
+        text-align: center; /* Center the description text */
+    }
+
+    .btn-container {
+        margin-top: 1rem; /* Space above buttons */
+        align-items: center; /* Center buttons on mobile */
+    }
+}
+
+/* Styles for Larger Screens Only */
+@media (min-width: 813px) { /* Adjust the breakpoint as needed */
+    .rad-showcase .container .row .col-12 {
+        max-width: 800px; /* Set the desired max width */
+        margin: 0; /* Remove auto centering */
+        padding-left: 20px; /* Add padding to the left if needed */
+    }
+
+    .display-1 {
+        text-align: left; /* Align title to the left */
+        margin-bottom: 20px; /* Add space below the title */
+    }
+
+    .lead {
+        text-align: left; /* Align description text to the left */
+        margin-bottom: 20px; /* Add space below the description */
+    }
+}
 
 
 /*about*/
