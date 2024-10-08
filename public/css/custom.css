@@ -300,7 +300,7 @@
     display: flex;
 }
 .experience-item {
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 .experience-title {
     font-size: 3rem; /* Adjust the size as needed */
@@ -309,18 +309,18 @@
 .experience__date {
     font-size: 1.25rem; /* Size for the duration */
     color: black; /* Change to a grey color */
-    margin-bottom: 5px; /* Space below the duration */
+    margin-bottom: 2px; /* Space below the duration */
 }
 .experience__title {
     font-size: 1.6rem; /* Size for the title */
     color: black; /* Change to a blue color */
     font-weight: bold; /* Make title bold */
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 .experience__company {
     font-size: 1.5rem; /* Size for the company */
     color: #D32E17; /* Change to your desired color */
-    margin-bottom: 0; /* Space below the company name */
+    margin-bottom: 2px; /* Space below the company name */
 }
 .btn-frameless {
     border: 2px solid black; /* Black border */
