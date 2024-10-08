@@ -339,16 +339,38 @@
     .row {
         flex-direction: column; /* Stack items vertically on mobile */
     }
-
-    .experience-content {
-        margin-bottom: 10px; /* Space below the content section */
+    .experience-title {
+        order: 1;
     }
-
+    .description {
+        order: 2; /* Description section next */
+    }
     .experience-items {
+        order: 3; /* Experience items */
         margin-bottom: 5px; /* Space below experience items */
     }
-
     .button-container {
+        order: 4; /* Button last */
+        text-align: center; /* Centering the button */
+    }
+}
+
+/* larger screens */
+@media(min-width: 813px) {
+    .row {
+        flex-direction: row; /* Arrange items in a row on desktop */
+    }
+    .experience-title {
+        order: 1; /* Title section first */
+    }
+    .experience-items {
+        order: 2; /* Experience items */
+    }
+    .description {
+        order: 3; /* Description section next */
+    }
+    .button-container {
+        order: 4; /* Button last */
         text-align: center; /* Centering the button */
     }
 }
