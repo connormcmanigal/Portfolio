@@ -205,7 +205,10 @@
 
 /* Styles for Larger Screens Only */
 @media (min-width: 813px) {
-
+    .section--border-bottom {
+      margin-bottom: -25px;
+    }
+}
 
 /*EDUCATION SECTION*/
 
