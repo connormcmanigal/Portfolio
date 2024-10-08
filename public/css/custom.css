@@ -142,7 +142,6 @@
         object-fit: cover; /* Ensure image fits within the circular shape */ 
         border: none; /* No border */ 
         margin: 10px 0; /* Add margin to the image */ 
-        z-index: 1; 
         order: 1; /* Set order for the image to appear first */
         align-self: center;
     } 
@@ -152,7 +151,6 @@
         margin-bottom: 10px; /* Add space below the title */ 
         order: 2; /* Set order for title to appear second */ 
         position: relative; 
-        z-index: 2; 
     } 
 
     .lead { 
@@ -160,7 +158,6 @@
         margin-bottom: 20px; /* Add space below the description */ 
         order: 3; /* Set order for description to appear third */ 
         position: relative; 
-        z-index: 2; 
     } 
 
     .btn-container { 
@@ -168,7 +165,6 @@
         align-items: center; /* Center buttons on mobile */ 
         order: 4; /* Set order for buttons to appear last */ 
         position: relative; 
-        z-index: 2; 
     } 
 }
 
