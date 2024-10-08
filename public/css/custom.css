@@ -311,21 +311,36 @@
     #experience {
         padding: 20px; /* Adjust padding for mobile */
     }
+    .row {
+      flex-direction: column;
+    }
     .experience {
         margin-bottom: 15px; /* Space between experience items */
         font-size: 16px; /* Adjust font size for mobile */
     }
     .experience__title {
-        font-size: 18px; /* Larger title for mobile */
-        color: #333; /* Adjust color as needed */
+        font-size: 17px; /* Larger title for mobile */
+        color: black; /* Adjust color as needed */
     }
     .experience__company {
-        font-size: 14px; /* Smaller font for company */
-        color: #777; /* Adjust color as needed */
+        font-size: 18px; /* Smaller font for company */
+        color: #D32E17; /* Adjust color as needed */
     }
     .experience__date {
-        font-size: 12px; /* Smaller font for date */
-        color: #aaa; /* Adjust color as needed */
+        font-size: 14px; /* Smaller font for date */
+        color: black; /* Adjust color as needed */
+    }
+    /* New ordering for mobile layout */
+    .col-12.col-sm-6:nth-child(1) { /* Title section */
+        order: 1; 
+    }
+
+    .col-12.col-sm-6:nth-child(2) { /* Experience items section */
+        order: 2; 
+    }
+
+    .col-12.col-sm-6:last-child { /* Description and button section */
+        order: 3; 
     }
 }
 
