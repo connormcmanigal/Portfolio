@@ -277,7 +277,7 @@
         color: black; /* You can adjust the color if needed */
     }
     .education-item__title {
-        font-size: 21px; /* Smaller font size for the university name */
+        font-size: 20px; /* Smaller font size for the university name */
         color: #326FA9; /* You can adjust the color if needed */
     }
     .education-item__degree {
