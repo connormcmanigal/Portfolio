@@ -19,22 +19,11 @@
                     <br />
                     <span>{{ .Site.Data.homepage.showcase.subtitle }}</span>
                 </h1>
-
-                <!-- New Image Wrapper for Desktop and Mobile -->
-                <div class="rad-showcase__image-wrapper">
-                    <img
-                        class="lozad img-responsive"
-                        src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-                        data-src="{{ .Site.Data.homepage.showcase.imageMobile.x | absURL }}"
-                        data-srcset="{{ .Site.Data.homepage.showcase.imageMobile.x | absURL }} 1x, {{ .Site.Data.homepage.showcase.imageMobile._2x | absURL }} 1x"
-                        alt="{{ .Site.Data.homepage.showcase.image.alt }}"
-                    />
-                </div> <!-- End of Image Wrapper -->
-
+  
                 <p class="lead">
                     {{ .Site.Data.homepage.showcase.description | safeHTML }}
                 </p>
-
+  
                 <!-- Button Container for Centering -->
                 <div class="btn-container">
                     <!-- LinkedIn Button -->
@@ -42,19 +31,19 @@
                         <i class="icon-linkedin-fill"></i>
                         {{ .Site.Data.homepage.showcase.linkedin.btnText }}
                     </a>
-
+  
                     <!-- GitHub Button -->
                     <a href="{{ .Site.Data.homepage.showcase.github.URL | absURL }}" class="btn btn-primary github-btn">
                         <i class="icon-github-line"></i>
                         GitHub
                     </a>
-
+  
                     <!-- Resume Button -->
                     <a href="{{ .Site.Data.homepage.showcase.resume.URL | absURL }}" class="btn btn-primary resume-btn">
                         <i class="icon-profile-fill"></i>
                         {{ .Site.Data.homepage.showcase.resume.btnText }}
                     </a>
-
+  
                     <!-- Contact Me Button -->
                     <a href="mailto:{{ .Site.Data.homepage.showcase.contact.URL }}" class="btn btn-primary contact-btn">
                         <i class="icon-mail-fill"></i>
