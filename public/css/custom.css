@@ -307,6 +307,27 @@
     color: white; /* Text color on hover */
 }
 
+@media (max-width: 812px) { /* Adjust the breakpoint as needed */
+    #experience {
+        padding: 20px; /* Adjust padding for mobile */
+    }
+    .experience {
+        margin-bottom: 15px; /* Space between experience items */
+        font-size: 16px; /* Adjust font size for mobile */
+    }
+    .experience__title {
+        font-size: 18px; /* Larger title for mobile */
+        color: #333; /* Adjust color as needed */
+    }
+    .experience__company {
+        font-size: 14px; /* Smaller font for company */
+        color: #777; /* Adjust color as needed */
+    }
+    .experience__date {
+        font-size: 12px; /* Smaller font for date */
+        color: #aaa; /* Adjust color as needed */
+    }
+}
 
 
 /*PORTFOLIO SECTION*/
