@@ -15,7 +15,7 @@
 }
 
 /* Wrapper for Image */
-.rad-showcase__image-wrapper {
+.image-container {
     width: 80%; /* Width of the wrapper */
     max-width: 300px; /* Limit the maximum width */
     margin: 0 auto; /* Center the wrapper */
@@ -46,15 +46,15 @@
 .display-1 {
     font-size: 4rem;
     margin-bottom: 20px; /* Space below title */
-    color: #D32E17; /* Title color */
+    color: #D32E17;
 }
 
 .display-1 span {
-    font-size: 1.7rem; /* Subtitle size */
-    display: block; /* Ensure subtitle is on a new line */
-    margin-top: 0.5rem; /* Space above subtitle */
-    color: black; /* Subtitle color */
-    font-weight: bold; /* Subtitle font weight */
+    font-size: 1.7rem;
+    display: block;
+    margin-top: 0.5rem;
+    color: black;
+    font-weight: bold;
 }
 
 /* Button Container Styles */
@@ -68,13 +68,13 @@
 
 /* Button Styles */
 .btn-primary {
-    font-size: 1.1rem; /* Button text size */
-    padding: 0.75rem 1.25rem; /* Button padding */
-    border-radius: 5px; /* Make buttons slightly rounded */
+    font-size: 1.1rem;
+    padding: 0.75rem 1.25rem;
+    border-radius: 5px; /* Optional: Make buttons slightly rounded */
     transition: background-color 0.3s ease; /* Smooth transition for hover */
     color: white; /* Default text color */
-    margin: 5px 0; /* Space between buttons */
-    border: 2px solid transparent; /* Default border */
+    margin: 5px 0;
+    border: 2px solid transparent;
 }
 
 /* Button Colors */
@@ -83,15 +83,15 @@
 }
 
 .github-btn {
-    background-color: #9AA299; /* GitHub color */
+    background-color: #9AA299;
 }
 
 .resume-btn {
-    background-color: #2A7A1E; /* Resume button color */
+    background-color: #2A7A1E;
 }
 
 .contact-btn {
-    background-color: #333; /* Contact button color */
+    background-color: #333;
 }
 
 /* Button Hover Styles */
@@ -100,15 +100,15 @@
 }
 
 .github-btn:hover {
-    background-color: #2C302B; /* Darker color for GitHub on hover */
+    background-color: #2C302B;
 }
 
 .resume-btn:hover {
-    background-color: #1F5816; /* Darker color for resume on hover */
+    background-color: #1F5816;
 }
 
 .contact-btn:hover {
-    background-color: #555; /* Darker color for contact on hover */
+    background-color: #333;
 }
 
 /* Add borders on hover */
@@ -124,56 +124,46 @@
 /* Mobile Styles */
 @media (max-width: 812px) {
     .rad-showcase__bg {
-        display: flex; /* Use flexbox for vertical layout */
         flex-direction: column; /* Stack elements vertically */
         align-items: center; /* Center align */
-        padding: 10px; /* Optional: Adjust padding */
-        margin-bottom: 20px; /* Add space below the background */
-        position: relative; 
-        height: auto; 
-    } 
+    }
+
+    .image-container {
+        width: 80%; /* Adjust width for better mobile visibility */
+        margin: 10px auto; /* Center the image container */
+        order: 2; /* Ensure the image appears in the correct order */
+    }
 
     .rad-showcase__bg img {
-        width: 80%; /* Adjust width for better mobile visibility */
-        height: auto; /* Set height to auto for circular shape */
-        aspect-ratio: 1 / 1; /* Maintain circular shape */
-        display: block; /* Ensure block element */
-        border-radius: 50%; /* Make the image circular */
-        object-fit: cover; /* Ensure image fits within the circular shape */
+        width: 100%; /* Use full width of the wrapper */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 50%; /* Circular image */
+        object-fit: cover; /* Fit image within circular shape */
         border: none; /* No border */
-        margin: 10px 0; /* Add margin to the image */
-        z-index: 1; 
-        order: 1; /* Set order for the image to appear first */
-        align-self: center; /* Center image */
-    } 
+        margin: 10px 0; /* Space around the image */
+    }
 
     .display-1 {
-        text-align: center; /* Center text for the title */
-        margin-bottom: 10px; /* Add space below the title */
-        order: 2; /* Set order for title to appear second */
-        position: relative; 
-        z-index: 2; 
-    } 
+        text-align: center; /* Center title */
+        margin-bottom: 10px; /* Space below title */
+        order: 1; /* Ensure title appears first */
+    }
 
-    .lead { 
-        text-align: center; /* Center the description text */ 
-        margin-bottom: 20px; /* Add space below the description */ 
-        order: 3; /* Set order for description to appear third */ 
-        position: relative; 
-        z-index: 2; 
-    } 
+    .lead {
+        text-align: center; /* Center description text */
+        margin-bottom: 20px; /* Space below description */
+        order: 3; /* Ensure description appears last */
+    }
 
-    .btn-container { 
-        margin-top: 1rem; /* Space above buttons */ 
-        align-items: center; /* Center buttons on mobile */ 
-        order: 4; /* Set order for buttons to appear last */ 
-        position: relative; 
-        z-index: 2; 
-    } 
+    .btn-container {
+        margin-top: 1rem; /* Space above buttons */
+        align-items: center; /* Center buttons */
+        order: 4; /* Ensure buttons appear last */
+    }
 }
 
 /* Styles for Larger Screens Only */
-@media (min-width: 813px) { /* Adjust the breakpoint as needed */
+@media (min-width: 813px) {
     .rad-showcase__bg img {
         max-width: 65%; /* Adjust image size for larger screens */
         height: auto; /* Maintain aspect ratio */
