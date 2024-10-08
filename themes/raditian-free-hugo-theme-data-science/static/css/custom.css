@@ -298,6 +298,7 @@
 /* Desktop Styles */
 #experience {
     display: flex;
+    flex-direction: column;
 }
 .experience-item {
   margin-bottom: 5px;
@@ -338,20 +339,16 @@
     .row {
         flex-direction: column; /* Stack items vertically on mobile */
     }
-    .experience-title {
-        order: 1; /* Title section first */
-        margin-bottom: 5px;
+
+    .experience-content {
+        margin-bottom: 10px; /* Space below the content section */
     }
+
     .experience-items {
-        order: 2;
-        margin-bottom: 5px;
+        margin-bottom: 5px; /* Space below experience items */
     }
-    .description {
-        order: 3; /* Description section next */
-        margin-bottom: 5px;
-    }
+
     .button-container {
-        order: 4; /* Button last */
         text-align: center; /* Centering the button */
     }
 }
