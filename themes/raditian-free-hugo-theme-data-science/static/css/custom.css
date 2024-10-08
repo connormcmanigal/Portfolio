@@ -214,6 +214,7 @@
     display: none; /* This may create space */
 }
 
+
 /*EDUCATION SECTION*/
 
 .education-section__row {
@@ -273,11 +274,31 @@
 }
 
 
+/*EXPERIENCE SECTION*/
 
-/*experience*/
+#experience h2 {
+  font-size: 3rem; /* Adjust the size as needed */
+    color: #D32E17; /* Title color */
+}
+.experience__date {
+    font-size: 1.5rem; /* Size for the duration */
+    color: black; /* Change to a grey color */
+    margin-bottom: 5px; /* Space below the duration */
+}
+.experience__title {
+    font-size: 2rem; /* Size for the title */
+    color: #326FA9; /* Change to a blue color */
+    font-weight: bold; /* Make title bold */
+    margin-bottom: 5px;
+}
+.experience__company {
+    font-size: 1.5rem; /* Size for the company */
+    color: black; /* Change to your desired color */
+    margin-bottom: 5px; /* Space below the company name */
+}
 
 
-/*projects*/
+/*PORTFOLIO SECTION*/
 
 
 /*contact*/
