@@ -324,6 +324,7 @@
     }
     .experience-items {
       order: 2;
+      margin-bottom: 15px;
     }
     .description {
         order: 3; /* Description section next */

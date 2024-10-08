@@ -158,7 +158,7 @@ contact:
     
   phone:
     title: "Phone Number"
-    number: "949-630-5208"
+    number: "(949)-630-5208"
   email:
     title: "Work Email"
     email: '<a href="mailto:mcmanigc@uci.edu">mcmanigc@uci.edu</a>'
