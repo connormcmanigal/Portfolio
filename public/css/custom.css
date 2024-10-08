@@ -287,13 +287,13 @@
 }
 .experience__title {
     font-size: 2rem; /* Size for the title */
-    color: #326FA9; /* Change to a blue color */
+    color: black; /* Change to a blue color */
     font-weight: bold; /* Make title bold */
     margin-bottom: 5px;
 }
 .experience__company {
     font-size: 1.5rem; /* Size for the company */
-    color: black; /* Change to your desired color */
+    color: red; /* Change to your desired color */
     margin-bottom: 5px; /* Space below the company name */
 }
 
