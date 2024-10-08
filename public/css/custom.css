@@ -278,7 +278,7 @@
 
 #experience h2 {
   font-size: 3rem; /* Adjust the size as needed */
-    color: #D32E17; /* Title color */
+  color: #D32E17; /* Title color */
 }
 .experience__date {
     font-size: 1.25rem; /* Size for the duration */
@@ -312,35 +312,37 @@
         padding: 20px; /* Adjust padding for mobile */
     }
     .row {
-      flex-direction: column;
+        flex-direction: column; /* Stack items vertically on mobile */
     }
     .experience {
         margin-bottom: 15px; /* Space between experience items */
         font-size: 16px; /* Adjust font size for mobile */
+        order: 2; /* Default order for experience items */
     }
     .experience__title {
-        font-size: 17px; /* Larger title for mobile */
-        color: black; /* Adjust color as needed */
+        font-size: 18px; /* Larger title for mobile */
+        color: #333; /* Adjust color as needed */
     }
     .experience__company {
-        font-size: 18px; /* Smaller font for company */
-        color: #D32E17; /* Adjust color as needed */
+        font-size: 14px; /* Smaller font for company */
+        color: #777; /* Adjust color as needed */
     }
     .experience__date {
-        font-size: 14px; /* Smaller font for date */
-        color: black; /* Adjust color as needed */
+        font-size: 12px; /* Smaller font for date */
+        color: #aaa; /* Adjust color as needed */
     }
     /* New ordering for mobile layout */
-    .col-12.col-sm-6:nth-child(1) { /* Title section */
-        order: 1; 
+    h2 {
+        order: 1; /* Title section first */
     }
-    .col-12.col-sm-6:nth-child(2) { /* Experience items section */
-        order: 2; 
+    .lead {
+        order: 3; /* Description section last */
     }
-    .col-12.col-sm-6:last-child { /* Description and button section */
-        order: 3; 
+    .btn {
+        order: 4; /* Button last */
     }
 }
+
 
 
 /*PORTFOLIO SECTION*/
