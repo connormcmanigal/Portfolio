@@ -301,7 +301,7 @@
 .experience__company {
     font-size: 1.9rem; /* Size for the company */
     color: #D32E17; /* Change to your desired color */
-    margin-bottom: 5px; /* Space below the company name */
+    margin-bottom: 0; /* Space below the company name */
 }
 .btn-frameless {
     border: 2px solid black; /* Black border */
