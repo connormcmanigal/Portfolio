@@ -159,7 +159,7 @@
 
 /* Mobile Styles */
 @media (max-width: 812px) {
-    /* Ensure the whole about__profile-picture section is full width and centered */
+    /* Ensure the about__profile-picture section is full width and centered */
     .about__profile-picture {
         order: 2; /* Images appear after the text on mobile */
         display: flex;
@@ -168,26 +168,27 @@
         align-items: center; /* Center horizontally */
         width: 100%; /* Full width */
         margin: 0 auto; /* Center the container */
-        padding: 0 10px; /* Add some padding to ensure equal spacing */
+        padding: 0; /* Reset any extra padding */
     }
 
     .about__profile-picture img {
         max-width: 90%; /* Prevent images from being too large */
         height: auto; /* Maintain aspect ratio */
-        margin-bottom: 10px; /* Space between stacked images */
+        margin: 0 auto 10px auto; /* Manually center images and add bottom margin */
         display: block;
     }
 
-    /* Content section to ensure it is full width and aligned properly */
+    /* Ensure content section is full width and aligned properly */
     .col-12.col-md-6.my-auto {
         order: 1; /* Content appears before images */
         display: block; /* Ensure block display for stacking */
-        text-align: left; /* Left-align the text */
+        text-align: left !important; /* Force left-align text */
         width: 100%; /* Full width */
-        padding: 0 10px; /* Add padding for better readability */
+        padding: 0 15px; /* Add padding for better readability */
         margin-bottom: 10px;
     }
 
+    /* Center the button */
     .button-container {
         display: flex;
         justify-content: center; /* Center the button horizontally */
@@ -195,6 +196,7 @@
         margin-top: 10px;
     }
 }
+
 
 
 
