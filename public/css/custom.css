@@ -169,7 +169,7 @@
         width: 100%; /* Full width */
         margin: 0 auto; /* Center the container */
         padding: 0; /* Reset any extra padding */
-        margin-top: 10px;
+        margin-top: 0;
     }
     .about__profile-picture img {
         max-width: 90%; /* Prevent images from being too large */
