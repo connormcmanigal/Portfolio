@@ -1,4 +1,3 @@
-
 /*SHOWCASE SECTION*/
 
 .rad-showcase__bg img {
@@ -122,6 +121,7 @@
         margin-bottom: 20px; /* Add space below the description */
     }
     .rad-showcase {
+      margin-top: -50px;
       margin-bottom: -90px;
     }
 }
@@ -202,6 +202,9 @@
         text-align: left !important; /* Force left alignment for all text in the About section */
     }
 }
+
+/* Styles for Larger Screens Only */
+@media (min-width: 813px) {
 
 
 /*EDUCATION SECTION*/
