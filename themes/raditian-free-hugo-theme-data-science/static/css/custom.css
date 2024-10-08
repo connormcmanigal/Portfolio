@@ -130,15 +130,6 @@
         padding: 10px; /* Optional: Adjust padding */
         margin-bottom: 20px; /* Add space below the background */
     }
-    .showcase-content {
-      order: 1;
-      text-align: center;
-    }
-
-    .rad-showcase__image-wrapper {
-        order: 2; /* Set the order to 2 for the image wrapper */
-        margin: 20px 0; /* Space around the image wrapper */
-    }
 
     .rad-showcase__bg img {
         width: 80%; /* Adjust width for better mobile visibility */
@@ -155,6 +146,11 @@
         text-align: center; /* Center text for the title */
         margin-bottom: 10px; /* Add space below the title */
         order: 1; /* Set the order to 1 for title */
+    }
+    
+    .rad-showcase__image-wrapper {
+        order: 2; /* Set the order to 2 for the image wrapper */
+        margin: 20px 0; /* Space around the image wrapper */
     }
 
     .lead {
