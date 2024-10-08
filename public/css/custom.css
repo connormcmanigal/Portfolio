@@ -100,6 +100,14 @@
         margin-top: 1rem; /* Space above buttons */
         align-items: center; /* Center buttons on mobile */
     }
+    .rad-showcase__bg--mobile {
+        max-width: 60%; /* Adjust size for mobile */
+        height: auto; /* Maintain aspect ratio */
+        margin: 0 auto; /* Center the image */
+        display: block; /* Ensure block element for centering */
+        border-radius: 50%; /* Make the image circular */
+        object-fit: cover; /* Fit the image inside the circle */
+    }
 }
 
 /* Styles for Larger Screens Only */
