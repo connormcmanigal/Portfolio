@@ -276,11 +276,15 @@
         font-size: 16px; /* Smaller font size for the date */
         color: black; /* You can adjust the color if needed */
     }
-    
     .education-item__title {
-        font-size: 22px; /* Smaller font size for the university name */
+        font-size: 21px; /* Smaller font size for the university name */
         color: #326FA9; /* You can adjust the color if needed */
     }
+    .education-item__degree {
+    font-size: 18px; /* Size of the degree */
+    color: black; /* Degree color, slightly darker grey */
+    font-weight: bold;
+}
 }
 
 
