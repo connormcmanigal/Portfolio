@@ -1,5 +1,6 @@
 /*SHOWCASE SECTION*/
 
+
 .rad-showcase__bg img {
     max-width: 65%; /* Adjust as needed */
     height: auto; /* Maintain aspect ratio */
@@ -128,6 +129,7 @@
 
 
 /*ABOUT SECTION*/
+
 
 .about__profile-picture {
     display: flex; /* Use flexbox for layout */
@@ -292,9 +294,12 @@
 
 /*EXPERIENCE SECTION*/
 
+
 /* Desktop Styles */
 #experience {
     display: flex;
+    gap: 5px;
+    padding: 0;
 }
 .experience-title {
     font-size: 3rem; /* Adjust the size as needed */
