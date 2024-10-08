@@ -210,7 +210,7 @@
 }
 .education {
     background-color: #EFD269;
-    padding: 10px; /* Add some padding for spacing */
+    padding: 20px; /* Add some padding for spacing */
     border-radius: 8px; /* Optional: rounded corners */
     margin-bottom: 10px; /* Add space between items */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for depth */
@@ -241,6 +241,7 @@
     font-size: 1.5rem; /* Size of the degree */
     color: black; /* Degree color, slightly darker grey */
     font-weight: bold;
+    margin-bottom: 10px; /* Uniform space below the year */
 }
 @media (max-width: 812px) {
     .education {
