@@ -3,22 +3,22 @@
 
 /* Showcase Styles */
 .rad-showcase__bg {
-    display: flex; /* Use flexbox to center the content */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    flex-direction: column; /* Stack elements vertically */
-    height: auto; /* Adjust height */
-    margin: 0 auto; /* Center the container itself */
-    padding: 0; /* Remove padding */
-    text-align: center; /* Ensure text aligns with image */
-    margin-bottom: 30px; /* Add space below the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 /* Wrapper for Image */
 .rad-showcase__image-wrapper {
     width: 80%; /* Width of the wrapper */
     max-width: 300px; /* Limit the maximum width */
-    margin: 0 auto; /* Center the wrapper */
+    margin: 20px auto; /* Center the wrapper and add margin */
 }
 
 /* Image Styles */
@@ -31,7 +31,6 @@
     object-fit: cover; /* Ensure image fits within the circular shape */
     border: none; /* No border */
     z-index: 1; /* Ensure the image appears above other content */
-    margin: 20px 0; /* Add margin around the image */
 }
 
 /* Ensure text does not overlap */
@@ -43,153 +42,33 @@
     padding-top: 20px; /* Add padding for better spacing */
 }
 
-.display-1 {
-    font-size: 4rem;
-    margin-bottom: 20px; /* Space below title */
-    color: #D32E17;
-}
-
-.display-1 span {
-    font-size: 1.7rem;
-    display: block;
-    margin-top: 0.5rem;
-    color: black;
-    font-weight: bold;
-}
-
-/* Button Container Styles */
-.btn-container {
-    display: flex; /* Use flexbox for button alignment */
-    flex-direction: column; /* Stack buttons vertically */
-    align-items: center; /* Align buttons to the center */
-    width: 100%; /* Full width to center effectively */
-    margin-top: 1rem; /* Add some space above buttons */
-}
-
-/* Button Styles */
-.btn-primary {
-    font-size: 1.1rem;
-    padding: 0.75rem 1.25rem;
-    border-radius: 5px; /* Optional: Make buttons slightly rounded */
-    transition: background-color 0.3s ease; /* Smooth transition for hover */
-    color: white; /* Default text color */
-    margin: 5px 0;
-    border: 2px solid transparent;
-}
-
-/* Button Colors */
-.linkedin-btn {
-    background-color: #0077b5; /* LinkedIn Blue */
-}
-
-.github-btn {
-    background-color: #9AA299;
-}
-
-.resume-btn {
-    background-color: #2A7A1E;
-}
-
-.contact-btn {
-    background-color: #D5301F;
-}
-
-/* Button Hover Styles */
-.linkedin-btn:hover {
-    background-color: #005582; /* Darker blue for LinkedIn on hover */
-}
-
-.github-btn:hover {
-    background-color: #333;
-}
-
-.resume-btn:hover {
-    background-color: #1F5816;
-}
-
-.contact-btn:hover {
-    background-color: #B31A0B;
-}
-
-/* Add borders on hover */
-.btn-primary:hover {
-    border: 1px solid #ccc; /* Light grey border on hover */
-}
-
-/* Add margin to the last button to create space below */
-.btn-container .contact-btn {
-    margin-bottom: 20px; /* Adjust this value as needed */
-}
-
 /* Mobile Styles */
 @media (max-width: 812px) {
     .rad-showcase__bg {
-        display: flex; /* Use flexbox for vertical layout */
-        flex-direction: column; /* Stack elements vertically */
-        align-items: center; /* Center align */
         padding: 10px; /* Optional: Adjust padding */
         margin-bottom: 20px; /* Add space below the background */
     }
 
     .rad-showcase__image-wrapper {
-        order: 2; /* Set the order to 2 for the image wrapper */
         margin: 20px 0; /* Space around the image wrapper */
     }
 
     .rad-showcase__bg img {
         width: 80%; /* Adjust width for better mobile visibility */
-        height: auto; /* Set height to auto for circular shape */
-        aspect-ratio: 1 / 1; /* Maintain circular shape */
-        display: block; /* Ensure block element */
-        border-radius: 50%; /* Make the image circular */
-        object-fit: cover; /* Ensure image fits within the circular shape */
-        border: none; /* No border */
         margin: 0; /* Remove margin from the image */
     }
 
     .display-1 {
         text-align: center; /* Center text for the title */
         margin-bottom: 10px; /* Add space below the title */
-        order: 1; /* Set the order to 1 for title */
     }
 
     .lead {
         text-align: center; /* Center the description text */
         margin-bottom: 20px; /* Add space below the description */
-        order: 3; /* Set the order to 3 for description */
-    }
-
-    .btn-container {
-        margin-top: 1rem; /* Space above buttons */
-        align-items: center; /* Center buttons on mobile */
-        order: 4; /* Set the order to 4 for buttons */
     }
 }
 
-/* Styles for Larger Screens Only */
-@media (min-width: 813px) { /* Adjust the breakpoint as needed */
-    .rad-showcase__bg img {
-        max-width: 65%; /* Adjust image size for larger screens */
-        height: auto; /* Maintain aspect ratio */
-        aspect-ratio: 1 / 1; /* Ensure image is circular */
-    }
-
-    .rad-showcase .container .row .col-12 {
-        max-width: 800px; /* Set the desired max width */
-        margin: 0; /* Remove auto centering */
-        padding-left: 20px; /* Add padding to the left if needed */
-    }
-
-    .display-1 {
-        text-align: left; /* Align title to the left */
-        margin-bottom: 20px; /* Add space below the title */
-    }
-
-    .lead {
-        text-align: left; /* Align description text to the left */
-        margin-bottom: 20px; /* Add space below the description */
-    }
-}
 
 
 
