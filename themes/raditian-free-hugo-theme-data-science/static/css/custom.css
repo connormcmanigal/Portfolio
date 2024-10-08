@@ -23,7 +23,8 @@
 
 .rad-showcase__bg img {
     width: 100%; /* Use full width of the wrapper */
-    height: 300px; /* Set a specific height to maintain circular shape */
+    height: auto; /* Set height to auto to maintain aspect ratio */
+    aspect-ratio: 1 / 1; /* Maintain circular shape */
     margin: 0 auto; /* Center the image */
     display: block; /* Ensure block element */
     border-radius: 50%; /* Make the image circular */
@@ -126,7 +127,8 @@
 
     .rad-showcase__bg img {
         width: 100%; /* Use full width of the wrapper */
-        height: 300px; /* Set a specific height for circular shape */
+        height: auto; /* Set height to auto for circular shape */
+        aspect-ratio: 1 / 1; /* Maintain circular shape */
         margin: 0 auto; /* Center the image */
         display: block; /* Ensure block element */
         border-radius: 50%; /* Make the image circular */
@@ -152,6 +154,8 @@
 @media (min-width: 813px) { /* Adjust the breakpoint as needed */
     .rad-showcase__bg img {
         max-width: 65%; /* Adjust image size for larger screens */
+        height: auto; /* Maintain aspect ratio */
+        aspect-ratio: 1 / 1; /* Ensure image is circular */
     }
     
     .rad-showcase .container .row .col-12 {
@@ -170,6 +174,7 @@
         margin-bottom: 20px; /* Add space below the description */
     }
 }
+
 
 
 
