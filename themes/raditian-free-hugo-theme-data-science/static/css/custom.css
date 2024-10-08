@@ -202,6 +202,15 @@
 
 /*EDUCATION SECTION*/
 
+.education {
+    background-color: #D6B022;
+    padding: 20px; /* Add some padding for spacing */
+    border-radius: 8px; /* Optional: rounded corners */
+    margin-bottom: 20px; /* Add space between items */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for depth */
+    border: 1px solid #C2A123; /* Optional: light border */
+}
+
 .section h2 {
     font-size: 2.5rem; /* Adjust the size as needed */
     color: #D32E17; /* Title color */
