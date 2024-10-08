@@ -219,7 +219,7 @@
 
 .education__date {
     font-size: 1.5rem; /* Size of the years */
-    color: #D6B022; /* Year color, greyish tone */
+    color: black; /* Year color, greyish tone */
     margin-bottom: 10px; /* Add some space below the year */
 }
 
