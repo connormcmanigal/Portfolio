@@ -273,7 +273,7 @@
       margin-bottom: -100px;
     }
     .education-item__date {
-        font-size: 16px; /* Smaller font size for the date */
+        font-size: 17px; /* Smaller font size for the date */
         color: black; /* You can adjust the color if needed */
     }
     .education-item__title {
