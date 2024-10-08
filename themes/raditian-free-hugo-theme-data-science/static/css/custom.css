@@ -11,7 +11,6 @@
     margin: 0 auto; /* Center the container itself */
     padding: 0; /* Remove padding */
     text-align: center; /* Ensure text aligns with image */
-    margin-bottom: 30px; /* Add space below the image */
 }
 
 /* Wrapper for Image */
@@ -28,7 +27,7 @@
     display: block; /* Ensure block element */
     border-radius: 50%; /* Make the image circular */
     object-fit: cover; /* Ensure image fits within the circular shape */
-    border: none; /* No border */
+    border: none; /* Optional: Add a border to the circular image */
     z-index: 1; /* Ensure the image appears above other content */
 }
 
@@ -37,12 +36,11 @@
     position: relative; /* Set position to avoid overlapping */
     z-index: 2; /* Ensure text appears above the image */
     margin-top: 20px; /* Add space above the text */
-    padding-top: 20px; /* Add padding for better spacing */
 }
 
 .display-1 {
     font-size: 4rem;
-    margin-bottom: 20px; /* Space below title */
+    margin-bottom: 20px;
     color: #D32E17;
 }
 
@@ -124,6 +122,12 @@
         padding: 10px; /* Optional: Adjust padding */
     }
 
+    .rad-showcase__image-wrapper {
+        width: 80%; /* Allow more scaling on mobile */
+        max-width: 300px; /* Limit maximum width */
+        margin: 0 auto; /* Center the wrapper */
+    }
+
     .rad-showcase__bg img {
         width: 100%; /* Use full width of the wrapper */
         height: 300px; /* Set a specific height for circular shape */
@@ -133,7 +137,7 @@
         object-fit: cover; /* Ensure image fits within the circular shape */
         border: none; /* No border */
     }
-
+    
     .display-1 {
         text-align: center; /* Center text for the title */
     }

@@ -1,55 +1,54 @@
 <!-- Showcase Section -->
 <section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
-    <div class="rad-showcase__bg">
-        <img
-            class="lozad img-responsive"
-            src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-            data-src="{{ .Site.Data.homepage.showcase.image.x | absURL }}"
-            data-srcset="{{ .Site.Data.homepage.showcase.image.x | absURL }} 1x, {{ .Site.Data.homepage.showcase.image._2x | absURL }} 1x"
-            alt="{{ .Site.Data.homepage.showcase.image.alt }}"
-        />
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6">
-                <h1 class="display-1">
-                    {{ .Site.Data.homepage.showcase.title }}
-                    <br />
-                    <span>{{ .Site.Data.homepage.showcase.subtitle }}</span>
-                </h1>
-  
-                <p class="lead">
-                    {{ .Site.Data.homepage.showcase.description | safeHTML }}
-                </p>
-  
-                <!-- Button Container for Centering -->
-                <div class="btn-container">
-                    <!-- LinkedIn Button -->
-                    <a href="{{ .Site.Data.homepage.showcase.linkedin.URL | absURL }}" class="btn btn-primary linkedin-btn">
-                        <i class="icon-linkedin-fill"></i>
-                        {{ .Site.Data.homepage.showcase.linkedin.btnText }}
-                    </a>
-  
-                    <!-- GitHub Button -->
-                    <a href="{{ .Site.Data.homepage.showcase.github.URL | absURL }}" class="btn btn-primary github-btn">
-                        <i class="icon-github-line"></i>
-                        GitHub
-                    </a>
-  
-                    <!-- Resume Button -->
-                    <a href="{{ .Site.Data.homepage.showcase.resume.URL | absURL }}" class="btn btn-primary resume-btn">
-                        <i class="icon-profile-fill"></i>
-                        {{ .Site.Data.homepage.showcase.resume.btnText }}
-                    </a>
-  
-                    <!-- Contact Me Button -->
-                    <a href="mailto:{{ .Site.Data.homepage.showcase.contact.URL }}" class="btn btn-primary contact-btn">
-                        <i class="icon-mail-fill"></i>
-                        {{ .Site.Data.homepage.showcase.contact.btnText }}
-                    </a>
-                </div> <!-- End of Button Container -->
-            </div>
-        </div>
-    </div>
-  </section>
-  
+  <div class="rad-showcase__bg">
+      <img
+          class="lozad img-responsive"
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="{{ .Site.Data.homepage.showcase.image.x | absURL }}"
+          data-srcset="{{ .Site.Data.homepage.showcase.image.x | absURL }} 1x, {{ .Site.Data.homepage.showcase.image._2x | absURL }} 1x"
+          alt="{{ .Site.Data.homepage.showcase.image.alt }}"
+      />
+  </div>
+  <div class="container">
+      <div class="row">
+          <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6">
+              <h1 class="display-1">
+                  {{ .Site.Data.homepage.showcase.title }}
+                  <br />
+                  <span>{{ .Site.Data.homepage.showcase.subtitle }}</span>
+              </h1>
+
+              <p class="lead">
+                  {{ .Site.Data.homepage.showcase.description | safeHTML }}
+              </p>
+
+              <!-- Button Container for Centering -->
+              <div class="btn-container">
+                  <!-- LinkedIn Button -->
+                  <a href="{{ .Site.Data.homepage.showcase.linkedin.URL | absURL }}" class="btn btn-primary linkedin-btn">
+                      <i class="icon-linkedin-fill"></i>
+                      {{ .Site.Data.homepage.showcase.linkedin.btnText }}
+                  </a>
+
+                  <!-- GitHub Button -->
+                  <a href="{{ .Site.Data.homepage.showcase.github.URL | absURL }}" class="btn btn-primary github-btn">
+                      <i class="icon-github-line"></i>
+                      GitHub
+                  </a>
+
+                  <!-- Resume Button -->
+                  <a href="{{ .Site.Data.homepage.showcase.resume.URL | absURL }}" class="btn btn-primary resume-btn">
+                      <i class="icon-profile-fill"></i>
+                      {{ .Site.Data.homepage.showcase.resume.btnText }}
+                  </a>
+
+                  <!-- Contact Me Button -->
+                  <a href="mailto:{{ .Site.Data.homepage.showcase.contact.URL }}" class="btn btn-primary contact-btn">
+                      <i class="icon-mail-fill"></i>
+                      {{ .Site.Data.homepage.showcase.contact.btnText }}
+                  </a>
+              </div> <!-- End of Button Container -->
+          </div>
+      </div>
+  </div>
+</section>
