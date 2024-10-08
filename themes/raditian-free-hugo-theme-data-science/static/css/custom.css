@@ -224,6 +224,7 @@
 .education__degree {
     font-size: 1.5rem; /* Size of the degree */
     color: black; /* Degree color, slightly darker grey */
+    font-weight: bold;
 }
 
 
