@@ -270,7 +270,7 @@
         max-width: 100%; /* Ensure they don't exceed container width */
     }
     .education {
-      margin-bottom: -100px;
+      margin-bottom: -200px;
     }
     .education-item__date {
         font-size: 17px; /* Smaller font size for the date */
