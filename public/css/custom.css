@@ -340,6 +340,7 @@
     }
     .experience-title {
         order: 2; /* Title section first */
+        margin-bottom: 5px;
     }
     .experience-items {
         order: 1;
