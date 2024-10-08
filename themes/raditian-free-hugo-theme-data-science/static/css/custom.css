@@ -219,6 +219,7 @@
     flex-direction: column;
     justify-content: space-between;
     flex-grow: 1;
+    min-height: 100%;
 }
 .section h2 {
     font-size: 2.5rem; /* Adjust the size as needed */
