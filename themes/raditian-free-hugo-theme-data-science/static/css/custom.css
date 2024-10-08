@@ -307,6 +307,20 @@
     color: white; /* Text color on hover */
 }
 
+@media (max-width: 812px) { /* Adjust the breakpoint as needed */
+    .experience-title {
+        order: 1; /* Title section first */
+    }
+    .experience {
+        order: 2; /* Experience items next */
+    }
+    .description {
+        order: 3; /* Description section last */
+    }
+    .button-container {
+        order: 4; /* Button last */
+    }
+}
 
 
 /*PORTFOLIO SECTION*/
