@@ -130,6 +130,7 @@
 
     .image-container {
         margin: 20px 0; /* Space around the image */
+        order: 2; /* Set the order to 2 for the image */
     }
 
     .rad-showcase__bg img {
@@ -145,19 +146,21 @@
     .display-1 {
         text-align: center; /* Center text for the title */
         margin-bottom: 10px; /* Add space below the title */
+        order: 1; /* Set the order to 1 for title */
     }
 
     .lead {
         text-align: center; /* Center the description text */
         margin-bottom: 20px; /* Add space below the description */
+        order: 3; /* Set the order to 3 for description */
     }
 
     .btn-container {
         margin-top: 1rem; /* Space above buttons */
         align-items: center; /* Center buttons on mobile */
+        order: 4; /* Set the order to 4 for buttons */
     }
 }
-
 
 /* Styles for Larger Screens Only */
 @media (min-width: 813px) { /* Adjust the breakpoint as needed */
