@@ -202,13 +202,7 @@
 
 /*EDUCATION SECTION*/
 
-.section--border-bottom .row {
-    display: flex;
-    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
-    justify-content: space-between; /* Space between items */
-    align-items: stretch;
-}
-.education {
+.education-item {
     background-color: #EFD269;
     padding: 10px; /* Add some padding for spacing */
     border-radius: 8px; /* Optional: rounded corners */
@@ -221,30 +215,35 @@
     flex-grow: 1;
     min-height: 100%;
 }
-.section h2 {
+.education-section_title {
     font-size: 2.5rem; /* Adjust the size as needed */
     color: #D32E17; /* Title color */
     margin-bottom: 20px; /* Space below the title */
 }
-.education__date {
+.education-item__date {
     font-size: 1.5rem; /* Size of the years */
     color: black; /* Year color, greyish tone */
     margin-bottom: 10px; /* Add some space below the year */
 }
-.education__title {
+.education-item__title {
     font-size: 2rem; /* Size of the university name */
     color: #326FA9; /* University color*/
     font-weight: bold; /* Make university names bold */
     margin-bottom: 10px; /* Add some space below the university name */
 }
-.education__degree {
+.education-item__degree {
     font-size: 1.5rem; /* Size of the degree */
     color: black; /* Degree color, slightly darker grey */
     font-weight: bold;
     margin-bottom: 10px; /* Uniform space below the year */
 }
+.education-item__degree {
+    font-size: 1.25rem; /* Size of the degree */
+    color: black; /* Degree color, slightly darker grey */
+    margin-bottom: 10px; /* Uniform space below the degree */
+}
 @media (max-width: 812px) {
-    .education {
+    .education-item {
         flex: 1 1 100%; /* Make items full width on mobile */
         max-width: 100%; /* Ensure they don't exceed container width */
     }

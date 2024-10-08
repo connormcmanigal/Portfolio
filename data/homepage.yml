@@ -110,10 +110,12 @@ education:
     - university: "University of California, Irvine"
       year: "2023-2024"
       degree: "Master of Data Science"
+      gps: "GPA: 4.0/4.0"
 
     - university: "University of California, San Diego"
       year: "2019-2023"
       degree: "B.S. Cognitive Science with Specialization in Machine Learning and Neural Computation"
+      gpa: "GPA: 3.8/4.0"
 
 
 # Client & Work
