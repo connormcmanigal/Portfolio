@@ -334,11 +334,9 @@
     .col-12.col-sm-6:nth-child(1) { /* Title section */
         order: 1; 
     }
-
     .col-12.col-sm-6:nth-child(2) { /* Experience items section */
         order: 2; 
     }
-
     .col-12.col-sm-6:last-child { /* Description and button section */
         order: 3; 
     }
