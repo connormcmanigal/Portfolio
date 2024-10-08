@@ -210,8 +210,8 @@
     }
 }
 
-.section--border-bottom {
-  border-bottom: none;
+.about__profile-picture::after {
+  display: none;
 }
 
 /*EDUCATION SECTION*/
