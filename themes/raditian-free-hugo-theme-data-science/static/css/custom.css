@@ -273,12 +273,12 @@
       margin-bottom: -100px;
     }
     .education-item__date {
-        font-size: 14px; /* Smaller font size for the date */
+        font-size: 16px; /* Smaller font size for the date */
         color: black; /* You can adjust the color if needed */
     }
     
-    .education-item__item {
-        font-size: 16px; /* Smaller font size for the university name */
+    .education-item__title {
+        font-size: 18px; /* Smaller font size for the university name */
         color: #326FA9; /* You can adjust the color if needed */
     }
 }
