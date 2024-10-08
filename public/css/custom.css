@@ -144,6 +144,7 @@
         margin: 10px 0; /* Add margin to the image */ 
         z-index: 1; 
         order: 1; /* Set order for the image to appear first */
+        align-self: center;
     } 
 
     .display-1 { 
