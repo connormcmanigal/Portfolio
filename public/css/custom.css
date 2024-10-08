@@ -130,6 +130,7 @@
         padding: 10px; /* Optional: Adjust padding */
         margin-bottom: 20px; /* Add space below the background */
         position: relative;
+        background-color: rgba(225,0,0,0.1);
     }
 
     .rad-showcase__bg img {
