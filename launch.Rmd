@@ -15,28 +15,25 @@ library(portfoliodown)
 ```
 
 ```{r}
-setwd("/Users/connormcmanigal/Desktop/portfolio")
+#setwd("/Users/connormcmanigal/Desktop/portfolio")
 ```
 
 ```{r}
-serve_site()
+#serve_site()
 ```
 
 
 ```{r}
 #system("git init")
 #system("git remote add origin https://github.com/connormcmanigal/portfolio.git")
+#system("git branch")
+#system("git remote set-url origin https://github.com/connormcmanigal/Portfolio.git")
+#system("git remote -v")
 ```
 
 ```{r}
 system("git add .")
 system("git commit -m 'formatting'")
 system("git push origin master")
-```
-
-```{r}
-#system("git branch")
-#system("git remote set-url origin https://github.com/connormcmanigal/Portfolio.git")
-#system("git remote -v")
 ```
 
