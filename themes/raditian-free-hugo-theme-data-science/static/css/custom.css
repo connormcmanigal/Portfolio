@@ -129,9 +129,11 @@
         align-items: center; /* Center align */
         padding: 10px; /* Optional: Adjust padding */
         margin-bottom: 20px; /* Add space below the background */
+        position: relative;
     }
 
     .rad-showcase__bg img {
+        position: absolute;
         width: 80%; /* Adjust width for better mobile visibility */
         height: auto; /* Set height to auto for circular shape */
         aspect-ratio: 1 / 1; /* Maintain circular shape */
@@ -140,29 +142,36 @@
         object-fit: cover; /* Ensure image fits within the circular shape */
         border: none; /* No border */
         margin: 0; /* Remove margin from the image */
+        z-index: 0;
     }
 
     .display-1 {
         text-align: center; /* Center text for the title */
         margin-bottom: 10px; /* Add space below the title */
         order: 1; /* Set the order to 1 for title */
+        position: relative;
+        z-index: 1;
     }
     
-    .rad-showcase__image-wrapper {
-        order: 2; /* Set the order to 2 for the image wrapper */
-        margin: 20px 0; /* Space around the image wrapper */
-    }
+    /*.rad-showcase__image-wrapper {
+        order: 2;
+        margin: 20px 0;
+    }*/
 
     .lead {
         text-align: center; /* Center the description text */
         margin-bottom: 20px; /* Add space below the description */
-        order: 3; /* Set the order to 3 for description */
+        order: 2; /* Set the order to 3 for description */
+        position: relative;
+        z-index: 1;
     }
 
     .btn-container {
         margin-top: 1rem; /* Space above buttons */
         align-items: center; /* Center buttons on mobile */
-        order: 4; /* Set the order to 4 for buttons */
+        order: 3; /* Set the order to 4 for buttons */
+        position: relative;
+        z-index:1;
     }
 }
 
