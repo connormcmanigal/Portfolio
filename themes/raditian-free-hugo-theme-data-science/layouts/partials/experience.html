@@ -1,9 +1,9 @@
 {{ if .Site.Data.homepage.experience.enable }}
 <section id="experience" class="section section--border-bottom rad-animation-group">
     <div class="container">
-        <div class="row rad-fade-down">
-            <div class="col-12 experience-content"> <!-- Wrapper for title, description, button, and experience items -->
-                <h2 class="experience-title">Experience</h2> <!-- Title -->
+        <div class="row flex-column-reverse flex-md-row rad-fade-down">
+            <div class="col-12 col-sm-6"> <!-- Title, description, and button on the left -->
+                <h2 class="experience-title">{{ .Site.Data.homepage.experience.title }}</h2> <!-- Title pulled from YAML -->
                 <p class="lead description"> <!-- Description -->
                     {{ .Site.Data.homepage.experience.description | safeHTML }}
                 </p>
@@ -15,7 +15,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-12 experience-items"> <!-- Experience items below the title, description, and button -->
+            <div class="col-12 col-sm-6 experience-items"> <!-- Experience items on the right -->
                 {{ range .Site.Data.homepage.experience.items }}
                 <div class="experience">
                     <div class="experience__date">{{ .duration | safeHTML }}</div>
