@@ -121,6 +121,9 @@
         text-align: left; /* Align description text to the left */
         margin-bottom: 20px; /* Add space below the description */
     }
+    .rad-showcase {
+      margin-bottom: 10px;
+    }
 }
 
 
