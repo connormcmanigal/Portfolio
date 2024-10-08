@@ -182,7 +182,7 @@
     .col-12.col-md-6.my-auto {
         order: 1; /* Content appears before images */
         display: block; /* Ensure block display for stacking */
-        text-align: left !important; /* Force left-align text */
+        text-align: left !important; /* Force left-align text with !important */
         width: 100%; /* Full width */
         padding: 0 15px; /* Add padding for better readability */
         margin-bottom: 10px;
@@ -195,7 +195,13 @@
         width: 100%; /* Full width */
         margin-top: 10px;
     }
+
+    /* Override for the text alignment specifically */
+    #about h2, #about .lead {
+        text-align: left !important; /* Force left alignment for all text in the About section */
+    }
 }
+
 
 
 
