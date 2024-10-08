@@ -322,9 +322,8 @@
     .experience-title {
         order: 1; /* Title section first */
     }
-    .experience {
-        order: 2; /* Experience items next */
-        margin-bottom: 0; /* Space between experience items */
+    .experience-items {
+      order: 2;
     }
     .description {
         order: 3; /* Description section next */
@@ -332,9 +331,6 @@
     .button-container {
         order: 4; /* Button last */
         text-align: center; /* Centering the button */
-    }
-    .experience-items {
-      order: 2;
     }
 }
 
