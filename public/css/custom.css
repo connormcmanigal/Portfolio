@@ -210,8 +210,8 @@
     }
 }
 
-.about__profile-picture::after {
-  display: none;
+section#about.section.rad-animation-group.pb-20.pt-20.section--border-bottom::after {
+    display: block; /* This may create space */
 }
 
 /*EDUCATION SECTION*/
