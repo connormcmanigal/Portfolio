@@ -205,9 +205,7 @@
 
 /* Styles for Larger Screens Only */
 @media (min-width: 813px) {
-    .section--border-bottom {
-      margin-bottom: -90px;
-    }
+    
 }
 
 #about.section.rad-animation-group.pb-20.pt-20.section--border-bottom::after {
