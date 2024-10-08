@@ -321,15 +321,15 @@
     }
     .experience__title {
         font-size: 18px; /* Larger title for mobile */
-        color: #333; /* Adjust color as needed */
+        color: black; /* Adjust color as needed */
     }
     .experience__company {
-        font-size: 14px; /* Smaller font for company */
-        color: #777; /* Adjust color as needed */
+        font-size: 20px; /* Smaller font for company */
+        color: #D32E17; /* Adjust color as needed */
     }
     .experience__date {
-        font-size: 12px; /* Smaller font for date */
-        color: #aaa; /* Adjust color as needed */
+        font-size: 14px; /* Smaller font for date */
+        color: black; /* Adjust color as needed */
     }
     /* New ordering for mobile layout */
     h2 {
