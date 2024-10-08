@@ -103,7 +103,7 @@
     .rad-showcase__bg--mobile {
         max-width: 60%; /* Adjust size for mobile */
         height: auto; /* Maintain aspect ratio */
-        margin: 0 auto; /* Center the image */
+        margin: 0 20px; /* Center the image */
         display: block; /* Ensure block element for centering */
         border-radius: 50%; /* Make the image circular */
         object-fit: cover; /* Fit the image inside the circle */
