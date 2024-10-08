@@ -307,39 +307,6 @@
     color: white; /* Text color on hover */
 }
 
-@media (max-width: 812px) { /* Adjust the breakpoint as needed */
-    .row {
-        flex-direction: column; /* Stack items vertically on mobile */
-    }
-    .experience {
-        margin-bottom: 15px; /* Space between experience items */
-        font-size: 16px; /* Adjust font size for mobile */
-        order: 2; /* Default order for experience items */
-    }
-    .experience__title {
-        font-size: 18px; /* Larger title for mobile */
-        color: black; /* Adjust color as needed */
-    }
-    .experience__company {
-        font-size: 20px; /* Smaller font for company */
-        color: #D32E17; /* Adjust color as needed */
-    }
-    .experience__date {
-        font-size: 14px; /* Smaller font for date */
-        color: black; /* Adjust color as needed */
-    }
-    /* New ordering for mobile layout */
-    h2 {
-        order: 1; /* Title section first */
-    }
-    .lead {
-        order: 3; /* Description section last */
-    }
-    .btn {
-        order: 4; /* Button last */
-    }
-}
-
 
 
 /*PORTFOLIO SECTION*/
