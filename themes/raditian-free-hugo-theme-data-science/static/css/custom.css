@@ -11,6 +11,17 @@
     object-fit: cover; /* Ensure image fits within the circular shape */
     border: none; /* Optional: Add a border to the circular image */
 }
+
+rad-showcase__bg {
+    display: flex; /* Use flexbox to center the content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: auto; /* Adjust height */
+    margin: 0 auto; /* Center the container itself */
+    padding: 0; /* Remove padding */
+    text-align: center; /* Ensure text aligns with image */
+}
+
 .display-1 {
   font-size: 4rem;
   margin-bottom: 20px;
