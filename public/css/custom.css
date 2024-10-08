@@ -82,7 +82,7 @@
 /* Mobile Styles */
 @media (max-width: 812px) {
     .display-1 {
-        font-size: 4rem;
+        font-size: 6rem;
         text-align: center; /* Center text for the title */
     }
 
