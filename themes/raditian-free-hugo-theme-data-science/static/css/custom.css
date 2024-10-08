@@ -298,6 +298,7 @@
 /* Desktop Styles */
 #experience {
     display: flex;
+    flex-direction: column;
 }
 .experience-item {
   margin-bottom: 5px;
@@ -353,7 +354,6 @@
     .button-container {
         order: 4; /* Button last */
         text-align: center; /* Centering the button */
-        margin-bottom: 5px;
     }
 }
 
