@@ -347,7 +347,6 @@ section#experience.section.section--border-bottom.rad-animation-group {
         margin-bottom: 10px; /* Reduce margin bottom */
         padding-bottom: 10px; /* Or reduce padding bottom */
     }
-}
 
 /* Mobile Styles */
 @media (max-width: 812px) {
