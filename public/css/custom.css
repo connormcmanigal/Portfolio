@@ -123,11 +123,11 @@
     .rad-showcase__bg {
         height: auto; /* Full height for vertical centering */
         padding: 10px; /* Optional: Adjust padding */
-        text-align: center;
+        text-align: center; /* Center text for the title */
     }
 
     .rad-showcase__bg img {
-        width: 100%; /* Use full width of the wrapper */
+        width: 80%; /* Adjust width for better mobile visibility */
         height: auto; /* Set height to auto for circular shape */
         aspect-ratio: 1 / 1; /* Maintain circular shape */
         margin: 20px auto; /* Center the image */
