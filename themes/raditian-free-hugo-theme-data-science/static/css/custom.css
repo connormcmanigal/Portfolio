@@ -243,24 +243,24 @@
 .education-item__date {
     font-size: 1.5rem; /* Size of the years */
     color: black; /* Year color, greyish tone */
-    margin-bottom: 10px; /* Add some space below the year */
+    margin-bottom: 8px; /* Add some space below the year */
 }
 .education-item__title {
     font-size: 2rem; /* Size of the university name */
     color: #326FA9; /* University color*/
     font-weight: bold; /* Make university names bold */
-    margin-bottom: 10px; /* Add some space below the university name */
+    margin-bottom: 8px; /* Add some space below the university name */
 }
 .education-item__degree {
     font-size: 1.5rem; /* Size of the degree */
     color: black; /* Degree color, slightly darker grey */
     font-weight: bold;
-    margin-bottom: 10px; /* Uniform space below the year */
+    margin-bottom: 8px; /* Uniform space below the year */
 }
 .education-item__degree {
     font-size: 1.25rem; /* Size of the degree */
     color: black; /* Degree color, slightly darker grey */
-    margin-bottom: 10px; /* Uniform space below the degree */
+    margin-bottom: 8px; /* Uniform space below the degree */
 }
 
 /* mobile */
@@ -271,7 +271,7 @@
     }
     .education {
       margin-top: -75px;
-      margin-bottom: -200px;
+      margin-bottom: -90px;
     }
     .education-item__date {
         font-size: 17px; /* Smaller font size for the date */
