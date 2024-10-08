@@ -210,6 +210,10 @@
     }
 }
 
+.section--border-bottom {
+  border-bottom: none;
+}
+
 /*EDUCATION SECTION*/
 
 .education-section__row {
