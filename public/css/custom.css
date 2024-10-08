@@ -13,9 +13,16 @@
     text-align: center; /* Ensure text aligns with image */
 }
 
+/* Wrapper for Image */
+.rad-showcase__image-wrapper {
+    width: 80%; /* Width of the wrapper */
+    max-width: 300px; /* Limit the maximum width */
+    margin: 0 auto; /* Center the wrapper */
+}
+
 .rad-showcase__bg img {
-    max-width: 65%; /* Adjust as needed for larger screens */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; /* Use full width of the wrapper */
+    height: 100%; /* Set height to ensure circular shape */
     margin: 0 auto; /* Center the image */
     display: block; /* Ensure block element */
     border-radius: 50%; /* Make the image circular */
@@ -103,13 +110,19 @@
 /* Mobile Styles */
 @media (max-width: 812px) {
     .rad-showcase__bg {
-        height: 100%; /* Full height for vertical centering */
+        height: auto; /* Full height for vertical centering */
         padding: 10px; /* Optional: Adjust padding */
     }
 
+    .rad-showcase__image-wrapper {
+        width: 80%; /* Allow more scaling on mobile */
+        max-width: 300px; /* Limit maximum width */
+        margin: 0 auto; /* Center the wrapper */
+    }
+
     .rad-showcase__bg img {
-        max-width: 80%; /* Allow more scaling on mobile */
-        height: auto; /* Maintain aspect ratio */
+        width: 100%; /* Use full width of the wrapper */
+        height: 300px; /* Set a specific height for circular shape */
         margin: 0 auto; /* Center the image */
         display: block; /* Ensure block element */
         border-radius: 50%; /* Make the image circular */
