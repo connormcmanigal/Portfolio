@@ -343,6 +343,11 @@
     background: black; /* Background color on hover */
     color: white; /* Text color on hover */
 }
+section#experience.section.rad-animation-group.pb-20.pt-20.section--border-bottom {
+        margin-bottom: 10px; /* Reduce margin bottom */
+        padding-bottom: 10px; /* Or reduce padding bottom */
+    }
+}
 
 /* Mobile Styles */
 @media (max-width: 812px) {
@@ -351,7 +356,7 @@
     }
     .left-column {
         order: 1; /* Title section first */
-        margin-bottom: 5px; /* Space below left column */
+        margin-bottom: 10px; /* Space below left column */
     }
     .experience-items {
         order: 2; /* Experience items second */
@@ -365,6 +370,7 @@
         order: 4; /* Button last */
         text-align: center; /* Centering the button */
     }
+    
 }
 
 
