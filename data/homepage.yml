@@ -110,7 +110,7 @@ education:
     - university: "University of California, Irvine"
       year: "2023-2024"
       degree: "Master of Data Science"
-      gps: "GPA: 4.0/4.0"
+      gpa: "GPA: 4.0/4.0"
 
     - university: "University of California, San Diego"
       year: "2019-2023"

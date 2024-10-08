@@ -202,6 +202,12 @@
 
 /*EDUCATION SECTION*/
 
+.education-section__row {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    justify-content: space-between; /* Space between items */
+    align-items: stretch;
+}
 .education-item {
     background-color: #EFD269;
     padding: 10px; /* Add some padding for spacing */
