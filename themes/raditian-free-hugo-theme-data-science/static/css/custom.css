@@ -333,7 +333,7 @@
 
     .experience {
         order: 2; /* Experience items next */
-        margin-bottom: 15px; /* Space between experience items */
+        margin-bottom: 5px; /* Space between experience items */
     }
 
     .description {
