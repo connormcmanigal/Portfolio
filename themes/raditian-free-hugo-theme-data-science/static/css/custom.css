@@ -280,8 +280,11 @@
 #experience {
     display: flex;
 }
-.experience-items {
+.experience-title-container{
     order: 1; /* Ensure experience items are first on desktop */
+}
+.experience-itmes {
+  order: 2;
 }
 .experience-title {
     font-size: 3rem; /* Adjust the size as needed */
@@ -319,12 +322,12 @@
     .row {
         flex-direction: column; /* Stack items vertically on mobile */
     }
-    .experience-title {
+    .experience-title-container {
         order: 1; /* Title section first */
     }
     .experience-items {
       order: 2;
-      margin-bottom: 15px;
+      margin-bottom: 5px;
     }
     .description {
         order: 3; /* Description section next */
