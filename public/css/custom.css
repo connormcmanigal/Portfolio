@@ -298,8 +298,9 @@
 /* Desktop Styles */
 #experience {
     display: flex;
-    gap: 5px;
-    padding: 0;
+}
+.experience-item {
+  margin-bottom: 8px;
 }
 .experience-title {
     font-size: 3rem; /* Adjust the size as needed */
