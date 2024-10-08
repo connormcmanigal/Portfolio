@@ -89,6 +89,11 @@
 
 /* Mobile Styles */
 @media (max-width: 812px) {
+    .rad-showcase__bg img {
+        max-width: 70%; /* Ensure smaller scaling on mobile */
+        margin-top: 10px; /* Add space above the image on mobile */
+    }
+    
     .display-1 {
         text-align: center; /* Center text for the title */
     }
@@ -105,6 +110,10 @@
 
 /* Styles for Larger Screens Only */
 @media (min-width: 813px) { /* Adjust the breakpoint as needed */
+    .rad-showcase__bg img {
+        max-width: 65%; /* Adjust image size for larger screens */
+    }
+    
     .rad-showcase .container .row .col-12 {
         max-width: 800px; /* Set the desired max width */
         margin: 0; /* Remove auto centering */
