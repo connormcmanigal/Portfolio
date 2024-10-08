@@ -320,7 +320,9 @@
     .button-container {
         order: 4; /* Button last */
     }
-}
+    .row {
+      flex-direction: column;
+    }
 
 
 /*PORTFOLIO SECTION*/
