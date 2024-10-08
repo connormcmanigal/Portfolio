@@ -263,13 +263,23 @@
     margin-bottom: 10px; /* Uniform space below the degree */
 }
 
+
 @media (max-width: 812px) {
     .education-item {
         flex: 1 1 100%; /* Make items full width on mobile */
         max-width: 100%; /* Ensure they don't exceed container width */
     }
     .education {
-      margin-bottom: -90px;
+      margin-bottom: -100px;
+    }
+    .education-item__date {
+        font-size: 14px; /* Smaller font size for the date */
+        color: black; /* You can adjust the color if needed */
+    }
+    
+    .education-item__item {
+        font-size: 16px; /* Smaller font size for the university name */
+        color: #326FA9; /* You can adjust the color if needed */
     }
 }
 
