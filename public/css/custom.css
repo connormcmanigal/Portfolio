@@ -280,9 +280,6 @@
 #experience {
     display: flex;
 }
-.experience-items {
-    order: 1; /* Ensure experience items are first on desktop */
-}
 .experience-title {
     font-size: 3rem; /* Adjust the size as needed */
     color: #D32E17; /* Title color */
@@ -324,7 +321,7 @@
     }
     .experience-items {
       order: 2;
-      margin-bottom: 15px;
+      margin-bottom: 5px;
     }
     .description {
         order: 3; /* Description section next */
