@@ -197,6 +197,10 @@
     #about h2, #about .lead {
         text-align: left !important; /* Force left alignment for all text in the About section */
     }
+    section#about.section.rad-animation-group.pb-20.pt-20.section--border-bottom {
+        margin-bottom: 10px; /* Reduce margin bottom */
+        padding-bottom: 10px; /* Or reduce padding bottom */
+    }
     
 }
 
