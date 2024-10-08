@@ -263,13 +263,14 @@
     margin-bottom: 10px; /* Uniform space below the degree */
 }
 
-
+/* mobile */
 @media (max-width: 812px) {
     .education-item {
         flex: 1 1 100%; /* Make items full width on mobile */
         max-width: 100%; /* Ensure they don't exceed container width */
     }
     .education {
+      margin-top: -75px;
       margin-bottom: -200px;
     }
     .education-item__date {
