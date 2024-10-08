@@ -169,16 +169,14 @@
         width: 100%; /* Full width */
         margin: 0 auto; /* Center the container */
         padding: 0; /* Reset any extra padding */
-        margin-top: 20px;
+        margin-top: 10px;
     }
-
     .about__profile-picture img {
         max-width: 90%; /* Prevent images from being too large */
         height: auto; /* Maintain aspect ratio */
         margin: 0 auto 10px auto; /* Manually center images and add bottom margin */
         display: block;
     }
-
     /* Ensure content section is full width and aligned properly */
     .col-12.col-md-6.my-auto {
         order: 1; /* Content appears before images */
@@ -188,7 +186,6 @@
         padding: 0 15px; /* Add padding for better readability */
         margin-bottom: 10px;
     }
-
     /* Center the button */
     .button-container {
         display: flex;
@@ -196,11 +193,11 @@
         width: 100%; /* Full width */
         margin-top: 10px;
     }
-
     /* Override for the text alignment specifically */
     #about h2, #about .lead {
         text-align: left !important; /* Force left alignment for all text in the About section */
     }
+    
 }
 
 /* Styles for Larger Screens Only */
@@ -269,10 +266,10 @@
         flex: 1 1 100%; /* Make items full width on mobile */
         max-width: 100%; /* Ensure they don't exceed container width */
     }
-    .education {
+    /*.education {
       margin-top: -75px;
       margin-bottom: -90px;
-    }
+    }*/
     .education-item__date {
         font-size: 17px; /* Smaller font size for the date */
         color: black; /* You can adjust the color if needed */
