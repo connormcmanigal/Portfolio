@@ -278,7 +278,7 @@
     }
     
     .education-item__title {
-        font-size: 18px; /* Smaller font size for the university name */
+        font-size: 22px; /* Smaller font size for the university name */
         color: #326FA9; /* You can adjust the color if needed */
     }
 }
