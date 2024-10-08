@@ -276,53 +276,76 @@
 
 /*EXPERIENCE SECTION*/
 
-#experience h2 {
-  font-size: 3rem; /* Adjust the size as needed */
-  color: #D32E17; /* Title color */
+/* Desktop Styles */
+#experience {
+    display: flex;
 }
+
+.experience-items {
+    order: 1; /* Ensure experience items are first on desktop */
+}
+
+.experience-title {
+    font-size: 3rem; /* Adjust the size as needed */
+    color: #D32E17; /* Title color */
+}
+
 .experience__date {
     font-size: 1.25rem; /* Size for the duration */
     color: black; /* Change to a grey color */
     margin-bottom: 5px; /* Space below the duration */
 }
+
 .experience__title {
     font-size: 1.6rem; /* Size for the title */
     color: black; /* Change to a blue color */
     font-weight: bold; /* Make title bold */
     margin-bottom: 5px;
 }
+
 .experience__company {
     font-size: 1.9rem; /* Size for the company */
     color: #D32E17; /* Change to your desired color */
     margin-bottom: 5px; /* Space below the company name */
 }
+
 .btn-frameless {
     border: 2px solid black; /* Black border */
     background: transparent; /* Transparent background */
     color: black; /* Text color */
     transition: background 0.3s, color 0.3s; /* Transition for hover effect */
 }
+
 .btn-frameless:hover {
     background: black; /* Background color on hover */
     color: white; /* Text color on hover */
 }
 
-@media (max-width: 812px) { /* Adjust the breakpoint as needed */
+/* Mobile Styles */
+@media (max-width: 812px) {
+    .row {
+        flex-direction: column; /* Stack items vertically on mobile */
+    }
+
     .experience-title {
         order: 1; /* Title section first */
     }
+
     .experience {
         order: 2; /* Experience items next */
+        margin-bottom: 15px; /* Space between experience items */
     }
+
     .description {
-        order: 3; /* Description section last */
+        order: 3; /* Description section next */
     }
+
     .button-container {
         order: 4; /* Button last */
+        text-align: center; /* Centering the button */
     }
-    .row {
-      flex-direction: column;
-    }
+}
+
 
 
 /*PORTFOLIO SECTION*/
