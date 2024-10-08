@@ -210,7 +210,7 @@
 
 .education__date {
     font-size: 1.5rem; /* Size of the years */
-    color: #6c757d; /* Year color, greyish tone */
+    color: #D6B022; /* Year color, greyish tone */
     margin-bottom: 10px; /* Add some space below the year */
 }
 
@@ -222,7 +222,7 @@
 }
 
 .education__degree {
-    font-size: 1.75rem; /* Size of the degree */
+    font-size: 1.5rem; /* Size of the degree */
     color: black; /* Degree color, slightly darker grey */
 }
 
