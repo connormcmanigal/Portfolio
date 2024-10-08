@@ -343,10 +343,6 @@
     background: black; /* Background color on hover */
     color: white; /* Text color on hover */
 }
-section#experience.section.section--border-bottom.rad-animation-group {
-        margin-bottom: 10px; /* Reduce margin bottom */
-        padding-bottom: 10px; /* Or reduce padding bottom */
-    }
 
 /* Mobile Styles */
 @media (max-width: 812px) {
@@ -373,8 +369,8 @@ section#experience.section.section--border-bottom.rad-animation-group {
 }
 
 
-
 /*PORTFOLIO SECTION*/
+
 
 
 /*contact*/
