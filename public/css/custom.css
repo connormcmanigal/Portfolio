@@ -15,7 +15,6 @@
   margin-bottom: 20px;
   color: #D32E17;
 }
-
 .display-1 span {
     font-size: 1.7rem;
     display: block;
@@ -32,7 +31,6 @@
     width: 100%; /* Full width to center effectively */
     margin-top: 1rem; /* Add some space above buttons */
 }
-
 .btn-primary {
     font-size: 1.1rem;
     padding: 0.75rem 1.25rem;
@@ -47,11 +45,9 @@
 .linkedin-btn {
     background-color: #0077b5; /* LinkedIn Blue */
 }
-
 .github-btn {
     background-color: #9AA299;
 }
-
 .resume-btn {
     background-color: #2A7A1E; 
 }
@@ -63,15 +59,12 @@
 .linkedin-btn:hover {
     background-color: #005582; /* Darker blue for LinkedIn on hover */
 }
-
 .github-btn:hover {
     background-color: #333;
 }
-
 .resume-btn:hover {
     background-color: #1F5816; 
 }
-
 .contact-btn:hover {
     background-color: #2C302B; 
 }
@@ -138,26 +131,22 @@
     align-items: center; /* Center items vertically */
     margin-bottom: 10px; /* Space below the entire about section */
 }
-
 .about__profile-picture .image-container {
     display: flex; /* Keep images in a flex container */
     flex-direction: column; /* Stack images vertically */
     align-items: center; /* Center images horizontally */
     margin-right: 10px; /* Space between images and content */
 }
-
 .about__profile-picture img {
     max-width: 100%; /* Ensure images scale responsively */
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 10px; /* Space between stacked images */
 }
-
 .button-container {
     display: flex; /* Use flexbox for centering */
     justify-content: center; /* Center the button horizontally */
     margin-top: 10px; /* Optional: Add space above the button */
 }
-
 #about h2 {
     font-size: 2rem; /* Adjust the size as needed */
     color: #D32E17; /* Change to your desired color */
@@ -209,13 +198,6 @@
         text-align: left !important; /* Force left alignment for all text in the About section */
     }
 }
-
-
-
-
-
-
-
 
 
 /*education*/
