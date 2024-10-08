@@ -84,10 +84,6 @@ experience:
   enable: true
   title: "Experience"
   description: "I've interned at CoreLogic and the American Medical Association, where I collaborated on projects involving large language models (LLMs), risk and resiliency modeling, and AI in healthcare. I have also applied my skills in a variety of projects, from anomaly detection in network traffic to enhancing a recipe review algorithm through sentiment analysis."
-  button:
-    icon: "icon-linkedin-fill"
-    btnText: "Linkedin"
-    URL: "https://www.linkedin.com/in/connormcmanigal/"
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"

@@ -296,6 +296,16 @@
     color: #D32E17; /* Change to your desired color */
     margin-bottom: 5px; /* Space below the company name */
 }
+.btn-frameless {
+    border: 2px solid black; /* Black border */
+    background: transparent; /* Transparent background */
+    color: black; /* Text color */
+    transition: background 0.3s, color 0.3s; /* Transition for hover effect */
+}
+.btn-frameless:hover {
+    background: black; /* Background color on hover */
+    color: white; /* Text color on hover */
+}
 
 
 /*PORTFOLIO SECTION*/
