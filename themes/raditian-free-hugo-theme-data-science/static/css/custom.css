@@ -210,7 +210,7 @@
     }
 }
 
-section#about.section.rad-animation-group.pb-20.pt-20.section--border-bottom::after {
+#about.section.rad-animation-group.pb-20.pt-20.section--border-bottom::after {
     display: block; /* This may create space */
 }
 
