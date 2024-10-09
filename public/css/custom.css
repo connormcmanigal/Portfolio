@@ -1,3 +1,5 @@
+
+
 /*SHOWCASE SECTION*/
 
 
@@ -389,7 +391,7 @@
     }
     .experience-description-container {
         order: 3; /* Description section third */
-        margin-bottom: 5px; /* Space below description */
+        margin-bottom: 10px; /* Space below description */
     }
     .experience-description-container p { /* Assuming the content is in <p> tags */
         text-align: left; /* Left align the description text */
@@ -398,6 +400,7 @@
     .experience-button-container {
         order: 4; /* Button last */
         text-align: center; /* Centering the button */
+        margin-bottom: 10px;
     }
 }
 
