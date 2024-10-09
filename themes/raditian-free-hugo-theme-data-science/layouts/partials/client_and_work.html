@@ -51,10 +51,11 @@
     </div>
     {{ end }}
 
-    <!-- Central GitHub Button -->
-    <div class="text-center mt-5">
-      <a href="https://github.com/your-github-profile" class="btn btn-primary" target="_blank">
-        View My GitHub <i class="icon-github"></i>
+    <!-- GitHub Button -->
+    <div class="text-center mt-4">
+      <a href="{{ .Site.Data.homepage.client_and_work.github.URL | absURL }}" class="btn btn-primary github-btn">
+        <i class="icon-github-line"></i>
+        GitHub
       </a>
     </div>
   </div>
