@@ -449,17 +449,19 @@ nav .navbar-nav .nav-link:hover {
         margin: 0 auto; /* Center the image */
         display: block; /* Ensure it behaves as a block element for centering */
     }
-
     .contact__info h4 {
         font-size: 18px; /* Optionally adjust title size for mobile */
     }
-
     .contact__info span {
         font-size: 16px; /* Optionally adjust text size for mobile */
     }
-
     .row {
         flex-direction: column; /* Stack items vertically on mobile */
         align-items: center; /* Center align the content */
+    }
+    .contact__info .btn {
+        margin: 20px 0; /* Add vertical margin for spacing */
+        display: block; /* Ensure button behaves as a block element */
+        text-align: center; /* Center the text within the button */
     }
 }
