@@ -177,6 +177,11 @@ client_and_work:
         x: "img/P5-results.jpeg"
         _2x: "img/P5-results.jpeg"
       is_even: true
+  
+  github:
+    URL: "https://github.com/connormcmanigal"
+    btnText: "View My Github"
+    icon: "icon-github-line"
 
 # contact
 contact:
