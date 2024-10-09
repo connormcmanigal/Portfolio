@@ -305,7 +305,7 @@
   display: flex;
 }
 .experience-item {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .left-column {
     flex: 1; /* Left column takes 1 part of the space */
