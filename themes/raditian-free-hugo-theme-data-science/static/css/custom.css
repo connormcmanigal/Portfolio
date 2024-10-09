@@ -412,6 +412,11 @@ nav .navbar-nav .nav-link:hover {
     color: #D32E17; /* replace with your preferred color */
     margin-bottom: 10px;
 }
+#portfolio.section .row.row--padded {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .project-title {
     flex-grow: 1;
     max-width: 100%;
@@ -423,17 +428,17 @@ nav .navbar-nav .nav-link:hover {
     max-width: 100%;
 }
 .img-responsive {
-  max-height: 100%;
-  width: 100%;
-  object-fit: cover;
+    max-height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 .img-clip-left-backward {
-  clip-path: none; /* Remove any clipping */
-  overflow: visible; /* Ensure overflow is visible */
+    clip-path: none; /* Remove any clipping */
+    overflow: visible; /* Ensure overflow is visible */
 }
 .img-clip-left-forward {
-  clip-path: none; /* Remove any clipping */
-  overflow: visible; /* Ensure overflow is visible */
+    clip-path: none; /* Remove any clipping */
+    overflow: visible; /* Ensure overflow is visible */
 }
 
 
