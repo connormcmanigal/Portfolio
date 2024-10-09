@@ -389,8 +389,8 @@
     }
     .experience-description-container {
         order: 3; /* Description section third */
-        align-self: left;
         margin-bottom: 5px; /* Space below description */
+        text-align: left;
     }
     .experience-button-container {
         order: 4; /* Button last */
