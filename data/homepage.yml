@@ -171,12 +171,23 @@ client_and_work:
       description: "Brief description of Project 5."
       button:
         icon: "icon-arrow-right"
-        btnText: "Launch Application"
+        btnText:
         URL: #"https://link-to-project2.com"
       image:
         x: ""
         _2x: ""
       is_even: true
+
+    - title: "Project Title 6"
+      description: "Brief description of Project 6."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Access"
+        URL: #"https://link-to-project2.com"
+      image:
+        x: ""
+        _2x: ""
+      is_even: false
 
 # contact
 contact:
