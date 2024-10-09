@@ -122,28 +122,27 @@ education:
 client_and_work:
   title: "Portfolio"
   enable: true
-
   works:
-    - title: "Sales Demand Forecast Application"
-      description: "This application helps Marketing & Sales identify trends in product demand. The application is built in my Shiny Predictive Dashboards Course using Machine Learning."
+    - title: "Project Title 1"
+      description: "Brief description of Project 1."
       button:
         icon: "icon-arrow-right"
         btnText: "Launch Application"
-        URL: "https://business-science.shinyapps.io/sales_dashboard_demand_forecast/"
+        URL: #"https://link-to-project1.com"
       image:
-        x: "img/works/app_sales_demand_forecast.jpg"
-        _2x: "img/works/app_sales_demand_forecast.jpg"
+        x: ""
+        _2x: ""
       is_even: true
 
-    - title: "Product Price Recommendation"
-      description: "This application helps Marketing & R&D Teams determine product gaps and price new products to fill the gaps using machine learning. The application is built in my Shiny Predictive Dashboards Course using Machine Learning."
+    - title: "Project Title 2"
+      description: "Brief description of Project 2."
       button:
         icon: "icon-arrow-right"
         btnText: "Launch Application"
-        URL: "https://business-science.shinyapps.io/cannondale_price_prediction_app/"
+        URL: #"https://link-to-project2.com"
       image:
-        x: "img/works/app_cannondale_price_prediction.jpg"
-        _2x: "img/works/app_cannondale_price_prediction.jpg"
+        x: ""
+        _2x: ""
       is_even: false
 
 # contact
