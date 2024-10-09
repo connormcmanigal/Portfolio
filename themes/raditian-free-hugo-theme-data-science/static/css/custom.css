@@ -469,6 +469,7 @@ section#experience.section.section--border-bottom.rad-animation-group::after {
 @media (max-width: 812px) { /* Adjust the max-width as needed for your breakpoint */
     #portfolio .portfolio-github-btn {
         margin-bottom: 20px; /* Adds a 10px margin below the button */
+        order: 4;
     }
     .project-title {
         margin-top: 0;
