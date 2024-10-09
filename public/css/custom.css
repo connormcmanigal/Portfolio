@@ -466,9 +466,9 @@ section#experience.section.section--border-bottom.rad-animation-group::after {
 }
 
 /*Mobile Styles*/
-@media (max-width: 768px) { /* Adjust the max-width as needed for your breakpoint */
+@media (max-width: 812px) { /* Adjust the max-width as needed for your breakpoint */
     #portfolio .portfolio-github-btn {
-        margin-bottom: 10px; /* Adds a 10px margin below the button */
+        margin-bottom: 20px; /* Adds a 10px margin below the button */
     }
 }
 
