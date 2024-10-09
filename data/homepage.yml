@@ -124,19 +124,11 @@ client_and_work:
   enable: true
   works:
     - title: "UnVAEling Network Anomalies: Detecting Network Attacks with Variational Autoencoders"
-      description: <p class="lead">
-      In this group project, we explored the performance of two variational autoencoder (VAE) approaches-standard VAE and Mixed-loss VAE (MLVAE)-for network traffic monitoring 
-      and security. VAEs are particularly effective in scenarios with sparse labels, making them ideal for detecting the rare occurrence of network attacks. We trained both VAE 
-      models on normal traffic data and validated their performance using the RT-IoT2022 dataset, which simulates communication between smart devices and includes nine types of
-      attack. For validation, we implemented one-left-out classification, utilizing Bayesian optimization to define reconstruction loss thresholds that maximize the separation 
-      between normal and attack traffic. This approach enabled us to optimize model accuracy for normal traffic while minimizing error for attack traffic.
-      </p>
-      <p class="lead">
-      By implementing multinomial classification, we enhanced our ability to identify specific types of attack traffic, moving beyond traditional binary classification methods. 
-      After tuning the hyperparameters, we evaluated each model’s filtering accuracy and achieved a mean AUC of 0.7534 with MLVAE1 and 0.8092 with MLVAE2. Although these results 
-      are slightly lower than those found in similar studies, they highlight MLVAE's potential for detecting stealthy or novel attacks, particularly in scan detection, by effectively 
-      leveraging reconstruction loss thresholds.
-      </p>
+      description: >
+        In this group project, we explored the performance of two variational autoencoder (VAE) approaches—standard VAE and Mixed-loss VAE (MLVAE)—for network traffic monitoring and security. VAEs are particularly effective in scenarios with sparse labels, making them ideal for detecting the rare occurrence of network attacks. We trained both VAE models on normal traffic data and validated their performance using the RT-IoT2022 dataset, which simulates communication between smart devices and includes nine types of attacks. For validation, we implemented one-left-out classification, utilizing Bayesian optimization to define reconstruction loss thresholds that maximize the separation between normal and attack traffic. This approach enabled us to optimize model accuracy for normal traffic while minimizing errors for attack traffic.
+
+        By implementing multinomial classification, we enhanced our ability to identify specific types of attack traffic, moving beyond traditional binary classification methods. After tuning the hyperparameters, we evaluated each model’s filtering accuracy and achieved a mean AUC of 0.7534 with MLVAE1 and 0.8092 with MLVAE2. Although these results are lower than those found in similar studies, they highlight MLVAE's potential for detecting stealthy or novel attacks, particularly in scan detection, by effectively leveraging reconstruction loss thresholds.
+      
       button:
         icon: "icon-arrow-right"
         btnText: 
