@@ -460,7 +460,7 @@ nav .navbar-nav .nav-link:hover {
 #portfolio .portfolio-github-btn:hover {
     background-color: #333; /* Set hover background color */
 }
-section#portfolio.section.section--border-bottom.raf-animation-group::after {
+section#portfolio.section.section--border-bottom.rad-animation-group::after {
     content: ""; /* Required for the pseudo-element */
     display: block; /* Makes the pseudo-element a block element */
     width: 100%; /* Sets the width to 100% of the container */
