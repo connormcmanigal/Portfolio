@@ -476,17 +476,8 @@
 
     
     <div class="row row--padded rad-animation-group rad-fade-down flex-column-reverse flex-md-row">
-      
       <div class="col-12 col-md-6 mt-4 mt-md-0 my-md-auto">
         <h3 class="project-title">UnVAEling Network Anomalies: Detecting Network Attacks with Variational Autoencoders</h3>
-        <p class="project-description lead">
-          In this group project, we explored the performance of two variational autoencoder (VAE) approaches—standard VAE and Mixed-loss VAE (MLVAE)—for network traffic monitoring and security. VAEs are particularly effective in scenarios with sparse labels, making them ideal for detecting the rare occurrence of network attacks. Using PyTorch, we trained both VAE models on normal traffic data and validated their performance using the RT-IoT2022 dataset, which simulates communication between smart devices and includes nine types of attacks. For validation, we implemented one-left-out classification, utilizing Bayesian optimization to define reconstruction loss thresholds that maximize the separation between normal and attack traffic. This approach enabled us to optimize model accuracy for normal traffic while minimizing errors for attack traffic. By implementing multinomial classification, we enhanced our ability to identify specific types of attack traffic, moving beyond traditional binary classification methods. After tuning the hyperparameters, we evaluated each model’s filtering accuracy and achieved a mean AUC of 0.7534 with MLVAE1 and 0.8092 with MLVAE2. Although these results are lower than those found in similar studies, they highlight MLVAE's potential for detecting stealthy or novel attacks, particularly in scan detection, by effectively leveraging reconstruction loss thresholds.
-        </p>
-        <a href="https://connormcmanigal.github.io/IoT-IDS-VAE-Classification/Final_Report.pdf" class="btn btn-primary" target="_blank">
-          <i class="icon-arrow-right"></i>
-        </a>
-      </div>
-      <div class="col-12 col-md-6 pl-md-0 text-right">
         <img
           class='lozad img-responsive'
           src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
@@ -494,22 +485,23 @@
           data-srcset="//localhost:4321/img/P1-results.jpeg 1x, //localhost:4321/img/P1-results.jpeg 2x"
           alt="UnVAEling Network Anomalies: Detecting Network Attacks with Variational Autoencoders"
         />
+        <p class="project-description lead">
+          In this group project, we explored the performance of two variational autoencoder (VAE) approaches—standard VAE and Mixed-loss VAE (MLVAE)—for network traffic monitoring and security. VAEs are particularly effective in scenarios with sparse labels, making them ideal for detecting the rare occurrence of network attacks. Using PyTorch, we trained both VAE models on normal traffic data and validated their performance using the RT-IoT2022 dataset, which simulates communication between smart devices and includes nine types of attacks. For validation, we implemented one-left-out classification, utilizing Bayesian optimization to define reconstruction loss thresholds that maximize the separation between normal and attack traffic. This approach enabled us to optimize model accuracy for normal traffic while minimizing errors for attack traffic. By implementing multinomial classification, we enhanced our ability to identify specific types of attack traffic, moving beyond traditional binary classification methods. After tuning the hyperparameters, we evaluated each model’s filtering accuracy and achieved a mean AUC of 0.7534 with MLVAE1 and 0.8092 with MLVAE2. Although these results are lower than those found in similar studies, they highlight MLVAE's potential for detecting stealthy or novel attacks, particularly in scan detection, by effectively leveraging reconstruction loss thresholds.
+        </p>
+        <a href="https://connormcmanigal.github.io/IoT-IDS-VAE-Classification/Final_Report.pdf" class="btn btn-primary" target="_blank">
+          <i class="icon-arrow-right"></i>
+        </a>
+      </div>
+      
+      <div class="col-12 col-md-6 pl-md-0 text-right">
+        
       </div>
       
     </div>
     
     <div class="row row--padded rad-animation-group rad-fade-down flex-column-reverse flex-md-row">
-      
       <div class="col-12 col-md-6 mt-4 mt-md-0 my-md-auto">
         <h3 class="project-title">Leveraging Sentiment Analysis and Data Augmentation to Recreate Recipe Scoring Algorithm</h3>
-        <p class="project-description lead">
-          In this project, my team and I explored how sentiment analysis can be utilized to augment predictions and recreate the scoring algorithm for recipe reviews by analyzing a dataset of 18,000 reviews sourced from the UCI Machine Learning Library. We employed VADER and TextBlob libraries to derive polarity and subjectivity scores, which were used to enhance our dataset alongside original features like user reputation and response counts. We trained and compared the performance of Multi-Layered Perceptron (MLP) and Gradient Boosting Regressor (GBR) models, focusing on their capacity to capture complex relationships and non-linear patterns. For model training, we utilized an 80/20 data split and applied techniques like Scikit-learn's GridSearchCV for hyperparameter tuning. Our findings revealed that the GBR outperformed the MLP, achieving a Mean Absolute Error (MAE) of 21.446 compared to 22.672. While the study validated the predictive power of sentiment scores, it also highlighted limitations, such as the reliance on limited data and general sentiment analysis packages and tools.
-        </p>
-        <a href="https://connormcmanigal.github.io/Recipe-Review-Scoring-Algorithm-Regression/report.pdf" class="btn btn-primary" target="_blank">
-          <i class="icon-arrow-right"></i>
-        </a>
-      </div>
-      <div class="col-12 col-md-6 pl-md-0 text-right">
         <img
           class='lozad img-responsive'
           src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
@@ -517,22 +509,23 @@
           data-srcset="//localhost:4321/img/P2-results.jpeg 1x, //localhost:4321/img/P2-results.jpeg 2x"
           alt="Leveraging Sentiment Analysis and Data Augmentation to Recreate Recipe Scoring Algorithm"
         />
+        <p class="project-description lead">
+          In this project, my team and I explored how sentiment analysis can be utilized to augment predictions and recreate the scoring algorithm for recipe reviews by analyzing a dataset of 18,000 reviews sourced from the UCI Machine Learning Library. We employed VADER and TextBlob libraries to derive polarity and subjectivity scores, which were used to enhance our dataset alongside original features like user reputation and response counts. We trained and compared the performance of Multi-Layered Perceptron (MLP) and Gradient Boosting Regressor (GBR) models, focusing on their capacity to capture complex relationships and non-linear patterns. For model training, we utilized an 80/20 data split and applied techniques like Scikit-learn's GridSearchCV for hyperparameter tuning. Our findings revealed that the GBR outperformed the MLP, achieving a Mean Absolute Error (MAE) of 21.446 compared to 22.672. While the study validated the predictive power of sentiment scores, it also highlighted limitations, such as the reliance on limited data and general sentiment analysis packages and tools.
+        </p>
+        <a href="https://connormcmanigal.github.io/Recipe-Review-Scoring-Algorithm-Regression/report.pdf" class="btn btn-primary" target="_blank">
+          <i class="icon-arrow-right"></i>
+        </a>
+      </div>
+      
+      <div class="col-12 col-md-6 pl-md-0 text-right">
+        
       </div>
       
     </div>
     
     <div class="row row--padded rad-animation-group rad-fade-down flex-column-reverse flex-md-row">
-      
       <div class="col-12 col-md-6 mt-4 mt-md-0 my-md-auto">
         <h3 class="project-title">San Diego County 2021 Automobile Accident Analysis</h3>
-        <p class="project-description lead">
-          For this project, my team and I conducted an analysis of automobile accidents in San Diego County in 2021, utilizing a dataset that originally contained over 2.8 million records. We refined the dataset to focus on 23,915 accidents, extracting key variables such as date, month, season, and weather conditions. Using packages like tidyverse and ggplot2 for data manipulation and visualization, our exploratory analysis revealed that December 14, 2021, had the highest number of accidents (379), with December totaling 4,055 accidents overall. Statistical analysis indicated a positive correlation between accident frequency and adverse weather, particularly in winter and fall, with foggy conditions linked to increased accident likelihood. Our findings emphasize the significant impact of seasonal and weather changes on road safety, aiming to inform strategies for reducing accidents in San Diego.
-        </p>
-        <a href="https://connormcmanigal.github.io/Data-Analysis-SanDiegoCountyAutoAccidents/" class="btn btn-primary" target="_blank">
-          <i class="icon-arrow-right"></i>
-        </a>
-      </div>
-      <div class="col-12 col-md-6 pl-md-0 text-right">
         <img
           class='lozad img-responsive'
           src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
@@ -540,22 +533,23 @@
           data-srcset="//localhost:4321/img/P3-results.jpeg 1x, //localhost:4321/img/P3-results.jpeg 2x"
           alt="San Diego County 2021 Automobile Accident Analysis"
         />
+        <p class="project-description lead">
+          For this project, my team and I conducted an analysis of automobile accidents in San Diego County in 2021, utilizing a dataset that originally contained over 2.8 million records. We refined the dataset to focus on 23,915 accidents, extracting key variables such as date, month, season, and weather conditions. Using packages like tidyverse and ggplot2 for data manipulation and visualization, our exploratory analysis revealed that December 14, 2021, had the highest number of accidents (379), with December totaling 4,055 accidents overall. Statistical analysis indicated a positive correlation between accident frequency and adverse weather, particularly in winter and fall, with foggy conditions linked to increased accident likelihood. Our findings emphasize the significant impact of seasonal and weather changes on road safety, aiming to inform strategies for reducing accidents in San Diego.
+        </p>
+        <a href="https://connormcmanigal.github.io/Data-Analysis-SanDiegoCountyAutoAccidents/" class="btn btn-primary" target="_blank">
+          <i class="icon-arrow-right"></i>
+        </a>
+      </div>
+      
+      <div class="col-12 col-md-6 pl-md-0 text-right">
+        
       </div>
       
     </div>
     
     <div class="row row--padded rad-animation-group rad-fade-down flex-column-reverse flex-md-row">
-      
       <div class="col-12 col-md-6 mt-4 mt-md-0 my-md-auto">
         <h3 class="project-title">Machine Learning for Diabetes Prediction: A Comparative Study of Binary Classification Techniques</h3>
-        <p class="project-description lead">
-          This project aims to assess different machine learning algorithms in successfully predicting diabetes patients, addressing the complexities of accurate diagnosis, which is crucial for ensuring timely treatment. We utilized a dataset of 100,000 observations with features such as age, BMI, and HbA1c levels, applying binary classification algorithms, including logistic regression, decision trees, random forests, k-nearest neighbors, and support vector machines. Using grid search and random search for hyperparameter tuning, we evaluated model performance based on sensitivity, precision, specificity, and ROC-AUC. Ultimately, our decision tree model demonstrated the best balance of high weighted recall and low false negative rates, scoring highest on our sixteen-point scale that considered key error metrics. We believe that, if deployed, this model would generalize well to new data, although further training on larger datasets and additional patient variables would enhance its effectiveness.
-        </p>
-        <a href="https://github.com/connormcmanigal/Diabetes-Supervised-Machine-Learning-Analysis-And-Prediction/blob/main/final_report.ipynb" class="btn btn-primary" target="_blank">
-          <i class="icon-arrow-right"></i>
-        </a>
-      </div>
-      <div class="col-12 col-md-6 pl-md-0 text-right">
         <img
           class='lozad img-responsive'
           src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
@@ -563,22 +557,23 @@
           data-srcset="//localhost:4321/img/P4-results.jpeg 1x, //localhost:4321/img/P4-results.jpeg 2x"
           alt="Machine Learning for Diabetes Prediction: A Comparative Study of Binary Classification Techniques"
         />
+        <p class="project-description lead">
+          This project aims to assess different machine learning algorithms in successfully predicting diabetes patients, addressing the complexities of accurate diagnosis, which is crucial for ensuring timely treatment. We utilized a dataset of 100,000 observations with features such as age, BMI, and HbA1c levels, applying binary classification algorithms, including logistic regression, decision trees, random forests, k-nearest neighbors, and support vector machines. Using grid search and random search for hyperparameter tuning, we evaluated model performance based on sensitivity, precision, specificity, and ROC-AUC. Ultimately, our decision tree model demonstrated the best balance of high weighted recall and low false negative rates, scoring highest on our sixteen-point scale that considered key error metrics. We believe that, if deployed, this model would generalize well to new data, although further training on larger datasets and additional patient variables would enhance its effectiveness.
+        </p>
+        <a href="https://github.com/connormcmanigal/Diabetes-Supervised-Machine-Learning-Analysis-And-Prediction/blob/main/final_report.ipynb" class="btn btn-primary" target="_blank">
+          <i class="icon-arrow-right"></i>
+        </a>
+      </div>
+      
+      <div class="col-12 col-md-6 pl-md-0 text-right">
+        
       </div>
       
     </div>
     
     <div class="row row--padded rad-animation-group rad-fade-down flex-column-reverse flex-md-row">
-      
       <div class="col-12 col-md-6 mt-4 mt-md-0 my-md-auto">
         <h3 class="project-title">Effect of NBA Injuries on Team Record Data Analysis (2010-2015 Seasons)</h3>
-        <p class="project-description lead">
-          This project aimed to assess the relationship between player injuries and NBA team performance from 2010-2015, hypothesizing a negative correlation between the number of injured players and winning percentage due to reduced roster depth. We combined an injury dataset with the Historical NBA Performance dataset to match players with their teams, meticulously cleaning and merging the data using Pandas. Exploratory analysis was performed with Seaborn and Matplotlib to visualize distributions. Our OLS regression analysis via Statsmodels revealed a weak negative relationship between injuries and winning percentage, and a weak positive relationship for returning players. We also trained a Scikit-Learn linear regressor, yielding a root mean square error (RMSE) of 10.86 in predicting the relationship between total and returning injured players and winning percentage. Finally, we developed a function to predict the 2016 winning percentage based on injury data, underscoring the need for more comprehensive injury data to improve accuracy.
-        </p>
-        <a href="https://github.com/connormcmanigal/Data-Analysis-EffectofNBAInjuriesonTeamRecord/blob/main/final_report.ipynb" class="btn btn-primary" target="_blank">
-          <i class="icon-arrow-right"></i>
-        </a>
-      </div>
-      <div class="col-12 col-md-6 pl-md-0 text-right">
         <img
           class='lozad img-responsive'
           src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
@@ -586,6 +581,16 @@
           data-srcset="//localhost:4321/img/P5-results.jpeg 1x, //localhost:4321/img/P5-results.jpeg 2x"
           alt="Effect of NBA Injuries on Team Record Data Analysis (2010-2015 Seasons)"
         />
+        <p class="project-description lead">
+          This project aimed to assess the relationship between player injuries and NBA team performance from 2010-2015, hypothesizing a negative correlation between the number of injured players and winning percentage due to reduced roster depth. We combined an injury dataset with the Historical NBA Performance dataset to match players with their teams, meticulously cleaning and merging the data using Pandas. Exploratory analysis was performed with Seaborn and Matplotlib to visualize distributions. Our OLS regression analysis via Statsmodels revealed a weak negative relationship between injuries and winning percentage, and a weak positive relationship for returning players. We also trained a Scikit-Learn linear regressor, yielding a root mean square error (RMSE) of 10.86 in predicting the relationship between total and returning injured players and winning percentage. Finally, we developed a function to predict the 2016 winning percentage based on injury data, underscoring the need for more comprehensive injury data to improve accuracy.
+        </p>
+        <a href="https://github.com/connormcmanigal/Data-Analysis-EffectofNBAInjuriesonTeamRecord/blob/main/final_report.ipynb" class="btn btn-primary" target="_blank">
+          <i class="icon-arrow-right"></i>
+        </a>
+      </div>
+      
+      <div class="col-12 col-md-6 pl-md-0 text-right">
+        
       </div>
       
     </div>
