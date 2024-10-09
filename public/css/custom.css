@@ -410,6 +410,7 @@ nav .navbar-nav .nav-link:hover {
 #portfolio h2 {
     font-size: 3rem;
     color: #D32E17; /* replace with your preferred color */
+    margin-bottom: 10px;
 }
 .project-title {
     flex-grow: 1;
