@@ -412,22 +412,31 @@ nav .navbar-nav .nav-link:hover {
     color: #D32E17; /* replace with your preferred color */
 }
 .project-section {
-  background: none;
+    background: none;
 }
 .project-image-overlay {
-  background: none;
+    background: none;
 }
 .project-image-overlay::before,
 .project-image-overlay::after {
     content: none; /* Removes any content applied */
     background: none;
 }
+.project-title {
+    flex-grow: 1;
+    max-width: 90%;
+}
 .project-description {
     font-size: 0.9rem; /* or any appropriate size */
+    flex-grow: 1;
+    max-width: 90%;
 }
-.project-title, .project-description {
-    width: 100%; /* or a suitable percentage to expand */
+.img-responsive {
+  max-height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
+
 
 
 
