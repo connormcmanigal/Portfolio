@@ -469,6 +469,6 @@ nav .navbar-nav .nav-link:hover {
 @media (min-width: 813px) {
     .contact__info h4,
     .contact__info span {
-    margin-left: 0px; /* Add left margin to titles and text for desktop */
+    margin-left: 50px; /* Add left margin to titles and text for desktop */
     }
 }
