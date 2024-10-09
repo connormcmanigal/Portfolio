@@ -414,6 +414,20 @@ nav .navbar-nav .nav-link:hover {
 .project-section {
     background: none;
 }
+.project-title {
+    flex-grow: 1;
+    max-width: 100%;
+}
+.project-description {
+    font-size: 0.9rem; /* or any appropriate size */
+    flex-grow: 1;
+    max-width: 100%;
+}
+.img-responsive {
+  max-height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 .project-image-overlay {
     background: none;
 }
@@ -422,22 +436,6 @@ nav .navbar-nav .nav-link:hover {
     content: none; /* Removes any content applied */
     background: none;
 }
-.project-title {
-    flex-grow: 1;
-    max-width: 90%;
-}
-.project-description {
-    font-size: 0.9rem; /* or any appropriate size */
-    flex-grow: 1;
-    max-width: 90%;
-}
-.img-responsive {
-  max-height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-
 
 
 
