@@ -134,8 +134,8 @@ client_and_work:
         btnText: 
         URL: "https://connormcmanigal.github.io/IoT-IDS-VAE-Classification/Final_Report.pdf"
       image:
-        x: "img/P1-elbo.jpeg"
-        _2x: "img/P1-elbo.jpeg"
+        x: "img/P1-results.jpeg"
+        _2x: "img/P1-results.jpeg"
       is_even: true
 
     - title: "Project Title 2"
