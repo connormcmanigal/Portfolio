@@ -134,7 +134,7 @@ client_and_work:
         _2x: "img/P1-results.jpeg"
       is_even: true
 
-    - title: "Leveraging Sentiment Analysis and Data Augmentation to Recreate Recipe Scoring Algorithm with Limited Data"
+    - title: "Leveraging Sentiment Analysis and Data Augmentation to Recreate Recipe Scoring Algorithm"
       description: "In this project, my team and I explored how sentiment analysis can be utilized to augment predictions and recreate the scoring algorithm for recipe reviews by analyzing a dataset of 18,000 reviews sourced from the UCI Machine Learning Library. We employed VADER and TextBlob libraries to derive polarity and subjectivity scores, which were used to enhance our dataset alongside original features like user reputation and response counts. We trained and compared the performance of Multi-Layered Perceptron (MLP) and Gradient Boosting Regressor (GBR) models, focusing on their capacity to capture complex relationships and non-linear patterns. For model training, we utilized an 80/20 data split and applied techniques like Scikit-learn's GridSearchCV for hyperparameter tuning. Our findings revealed that the GBR outperformed the MLP, achieving a Mean Absolute Error (MAE) of 21.446 compared to 22.672. While the study validated the predictive power of sentiment scores, it also highlighted limitations, such as the reliance on limited data and general sentiment analysis packages and tools."
       button:
         icon: "icon-arrow-right"
