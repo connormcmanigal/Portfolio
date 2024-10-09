@@ -470,6 +470,18 @@ section#experience.section.section--border-bottom.rad-animation-group::after {
     #portfolio .portfolio-github-btn {
         margin-bottom: 20px; /* Adds a 10px margin below the button */
     }
+    .row.row--padded {
+        flex-direction: column; /* Stack items vertically */
+    }
+    .project-title {
+        text-align: left; /* Align title to the left */
+    }
+    .project-description {
+        text-align: left; /* Align description to the left */
+    }
+    .col-12.col-md-6.pl-md-0.text-right {
+        text-align: left; /* Align the image column text to the left */
+    }
 }
 
 
