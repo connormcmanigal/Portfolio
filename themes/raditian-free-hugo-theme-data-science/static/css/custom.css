@@ -414,11 +414,19 @@ nav .navbar-nav .nav-link:hover {
 .project-section {
   background: none;
 }
+.project-image-overlay {
+  background: none;
+}
+.project-image-overlay::before,
+.project-image-overlay::after {
+    content: none; /* Removes any content applied */
+    background: none;
+}
 .project-description {
     font-size: 0.9rem; /* or any appropriate size */
 }
 .project-title, .project-description {
-    width: 75%; /* or a suitable percentage to expand */
+    width: 100%; /* or a suitable percentage to expand */
 }
 
 
