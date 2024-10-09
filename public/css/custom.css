@@ -292,7 +292,7 @@
         max-width: 100%; /* Ensure they don't exceed container width */
     }
     .education-section__title {
-      font-size: 24px;
+      font-size: 30px;
     }
     .education-item__date {
         font-size: 17px; /* Smaller font size for the date */
