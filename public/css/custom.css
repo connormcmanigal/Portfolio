@@ -446,6 +446,19 @@ nav .navbar-nav .nav-link:hover {
   clip: auto !important; /* Removes any clipping effects */
   background: none !important;
 }
+img.no-slash {
+  background: none !important;
+  mask: none !important;
+  clip-path: none !important;
+  position: relative !important;
+  z-index: 1;
+}
+/* Forcing pseudo-elements to not affect images */
+img.no-slash::before, img.no-slash::after {
+  content: none !important;
+  background: none !important;
+  display: none !important;
+}
 
 
 
