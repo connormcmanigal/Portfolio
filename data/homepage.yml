@@ -127,7 +127,7 @@ client_and_work:
       description: "Brief description of Project 1."
       button:
         icon: "icon-arrow-right"
-        btnText: "Launch Application"
+        btnText: 
         URL: #"https://link-to-project1.com"
       image:
         x: ""
@@ -138,7 +138,7 @@ client_and_work:
       description: "Brief description of Project 2."
       button:
         icon: "icon-arrow-right"
-        btnText: "Launch Application"
+        btnText: 
         URL: #"https://link-to-project2.com"
       image:
         x: ""
@@ -149,7 +149,7 @@ client_and_work:
       description: "Brief description of Project 3."
       button:
         icon: "icon-arrow-right"
-        btnText: "Launch Application"
+        btnText: 
         URL: #"https://link-to-project2.com"
       image:
         x: ""
@@ -160,7 +160,7 @@ client_and_work:
       description: "Brief description of Project 4."
       button:
         icon: "icon-arrow-right"
-        btnText: "Launch Application"
+        btnText:
         URL: #"https://link-to-project2.com"
       image:
         x: ""
@@ -182,7 +182,7 @@ client_and_work:
       description: "Brief description of Project 6."
       button:
         icon: "icon-arrow-right"
-        btnText: "Access"
+        btnText:
         URL: #"https://link-to-project2.com"
       image:
         x: ""
