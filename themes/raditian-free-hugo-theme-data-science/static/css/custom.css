@@ -410,13 +410,21 @@ nav .navbar-nav .nav-link:hover {
 
 
 
-/*contact*/
+/*CONTACT SECTION*/
 .contact img {
     max-width: 40%; /* Set max width for contact images */
     height: auto; /* Maintain aspect ratio */
 }
+.contact__info h4 {
+    font-size: 20px; /* Increase the size of the section titles */
+    margin-bottom: 5px; /* Space below titles */
+}
 
-/* Other: Additional styles to ensure proper spacing */
+.contact__info span {
+    font-size: 18px; /* Increase the size of the text for phone, email, and address */
+    line-height: 1.5; /* Adjust line height for readability */
+}
+
 .row {
     display: flex; /* Ensure row uses flexbox */
     flex-direction: row; /* Arrange items in a row */
