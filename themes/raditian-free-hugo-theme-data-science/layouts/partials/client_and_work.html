@@ -21,7 +21,7 @@
       </div>
       <div class="col-12 col-md-6 pl-md-0 text-right">
         <img
-          class='lozad img-responsive no-slash' <!-- Added a helper class -->
+          class='lozad img-responsive'
           src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
           data-src="{{ .image.x | absURL }}"
           data-srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x"
@@ -31,7 +31,7 @@
       {{ else }}
       <div class="col-12 col-md-6 pl-md-0 text-right">
         <img
-          class='lozad img-responsive no-slash' <!-- Added a helper class -->
+          class='lozad img-responsive'
           src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
           data-src="{{ .image.x | absURL }}"
           data-srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x"
