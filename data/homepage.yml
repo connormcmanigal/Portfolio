@@ -124,7 +124,7 @@ client_and_work:
   enable: true
   works:
     - title: "UnVAEling Network Anomalies: Detecting Network Attacks with Variational Autoencoders"
-      description: In this group project, we explored the performance of two variational autoencoder (VAE) approaches—standard VAE and Mixed-loss VAE (MLVAE)—for network traffic monitoring and security. VAEs are particularly effective in scenarios with sparse labels, making them ideal for detecting the rare occurrence of network attacks. We trained both VAE models on normal traffic data and validated their performance using the RT-IoT2022 dataset, which simulates communication between smart devices and includes nine types of attacks. For validation, we implemented one-left-out classification, utilizing Bayesian optimization to define reconstruction loss thresholds that maximize the separation between normal and attack traffic. This approach enabled us to optimize model accuracy for normal traffic while minimizing errors for attack traffic. By implementing multinomial classification, we enhanced our ability to identify specific types of attack traffic, moving beyond traditional binary classification methods. After tuning the hyperparameters, we evaluated each model’s filtering accuracy and achieved a mean AUC of 0.7534 with MLVAE1 and 0.8092 with MLVAE2. Although these results are lower than those found in similar studies, they highlight MLVAE's potential for detecting stealthy or novel attacks, particularly in scan detection, by effectively leveraging reconstruction loss thresholds.
+      description: "In this group project, we explored the performance of two variational autoencoder (VAE) approaches—standard VAE and Mixed-loss VAE (MLVAE)—for network traffic monitoring and security. VAEs are particularly effective in scenarios with sparse labels, making them ideal for detecting the rare occurrence of network attacks. We trained both VAE models on normal traffic data and validated their performance using the RT-IoT2022 dataset, which simulates communication between smart devices and includes nine types of attacks. For validation, we implemented one-left-out classification, utilizing Bayesian optimization to define reconstruction loss thresholds that maximize the separation between normal and attack traffic. This approach enabled us to optimize model accuracy for normal traffic while minimizing errors for attack traffic. By implementing multinomial classification, we enhanced our ability to identify specific types of attack traffic, moving beyond traditional binary classification methods. After tuning the hyperparameters, we evaluated each model’s filtering accuracy and achieved a mean AUC of 0.7534 with MLVAE1 and 0.8092 with MLVAE2. Although these results are lower than those found in similar studies, they highlight MLVAE's potential for detecting stealthy or novel attacks, particularly in scan detection, by effectively leveraging reconstruction loss thresholds."
       button:
         icon: "icon-arrow-right"
         btnText: 
@@ -134,15 +134,15 @@ client_and_work:
         _2x: "img/P1-results.jpeg"
       is_even: true
 
-    - title: "Project Title 2"
-      description: "Brief description of Project 2."
+    - title: "Leveraging Sentiment Analysis and Data Augmentation to Recreate Recipe Scoring Algorithm with Limited Data"
+      description: "In this project, my team and I investigated the role of sentiment analysis in predicting algorithmic scores for recipe reviews using a dataset of 18,000 reviews from the UCI Machine Learning Library. We employed VADER and TextBlob to derive polarity and subjectivity scores, which were used to augment our dataset alongside original features like user reputation and response counts. We trained and compared the performance of Multi-Layered Perceptron (MLP) and Gradient Boosting Regressor (GBR) models, focusing on their capacity to capture complex relationships and non-linear patterns. For model training, we utilized an 80/20 data split and applied techniques like GridSearchCV for hyperparameter tuning. Our findings revealed that the GBR outperformed the MLP, achieving a Mean Absolute Error (MAE) of 21.446 compared to 22.672. While the study validated the predictive power of sentiment scores, it also highlighted limitations, such as the reliance on limited data and general sentiment analysis packages and tools."
       button:
         icon: "icon-arrow-right"
         btnText: 
-        URL: #"https://link-to-project2.com"
+        URL: "https://connormcmanigal.github.io/Recipe-Review-Scoring-Algorithm-Regression/report.pdf"
       image:
-        x: ""
-        _2x: ""
+        x: "img/P2-results.jpeg"
+        _2x: "img/P2-results.jpeg"
       is_even: false
     
     - title: "Project Title 3"
