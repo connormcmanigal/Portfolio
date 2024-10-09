@@ -470,6 +470,6 @@ nav .navbar-nav .nav-link:hover {
     .contact__info h4,
     .contact__info span,
     .contact__info .btn {
-    margin-left: 200px; /* Add left margin to titles and text for desktop */
+    margin-left: 125px; /* Add left margin to titles and text for desktop */
     }
 }
