@@ -415,12 +415,6 @@ nav .navbar-nav .nav-link:hover {
     max-width: 40%; /* Set max width for contact images */
     height: auto; /* Maintain aspect ratio */
 }
-.contact__info {
-    display: flex; /* Use flexbox for alignment */
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    text-align: center; /* Center text within the container */
-}
 .contact__info h4 {
     font-size: 20px; /* Increase the size of the section titles */
     margin-bottom: 5px; /* Space below titles */
@@ -476,6 +470,6 @@ nav .navbar-nav .nav-link:hover {
     .contact__info h4,
     .contact__info span,
     .contact__info .btn {
-    margin-left: 150px; /* Add left margin to titles and text for desktop */
+    margin-left: 20px; /* Add left margin to titles and text for desktop */
     }
 }
