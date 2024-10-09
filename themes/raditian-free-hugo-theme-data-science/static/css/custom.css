@@ -470,6 +470,9 @@ section#experience.section.section--border-bottom.rad-animation-group::after {
     #portfolio .portfolio-github-btn {
         margin-bottom: 20px; /* Adds a 10px margin below the button */
     }
+    .project-title {
+        margin-top: 0;
+    }
     .row.row--padded {
         flex-direction: column; /* Stack items vertically */
     }
