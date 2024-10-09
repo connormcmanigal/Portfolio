@@ -352,8 +352,9 @@ section#experience.section.section--border-bottom.rad-animation-group {
 
 /* Mobile Styles */
 @media (max-width: 812px) {
-    .experience {
+    section#experience.section.section--border-bottom.rad-animation-group {
       margin-top: 10px;
+      margin-bottom: 10px;
     }
     .experience-row {
         flex-direction: column; /* Stack items vertically on mobile */
