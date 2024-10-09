@@ -417,8 +417,8 @@ nav .navbar-nav .nav-link:hover {
     margin-bottom: 20px;
 }
 #portfolio.section {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 #portfolio .btn {
     background-color: #D32E17; /* Set the background color */
