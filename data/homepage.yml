@@ -154,7 +154,7 @@ client_and_work:
       image:
         x: ""
         _2x: ""
-      is_even: false
+      is_even: true
     
     - title: "Project Title 4"
       description: "Brief description of Project 4."
@@ -176,7 +176,7 @@ client_and_work:
       image:
         x: ""
         _2x: ""
-      is_even: false
+      is_even: true
 
 # contact
 contact:
