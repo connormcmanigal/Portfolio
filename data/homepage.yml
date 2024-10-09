@@ -167,26 +167,15 @@ client_and_work:
         _2x: "img/P4-results.jpeg"
       is_even: true
 
-    - title: "Project Title 5"
-      description: "Brief description of Project 5."
+    - title: "Effect of NBA Injuries on Team Record Data Analysis (2010-2015 Seasons)"
+      description: "This project aimed to assess the relationship between player injuries and NBA team performance from 2010-2015, hypothesizing a negative correlation between the number of injured players and winning percentage due to reduced roster depth. We combined an injury dataset with the Historical NBA Performance dataset to match players with their teams, meticulously cleaning and merging the data using Pandas. Exploratory analysis was performed with Seaborn and Matplotlib to visualize distributions. Our OLS regression analysis via Statsmodels revealed a weak negative relationship between injuries and winning percentage, and a weak positive relationship for returning players. We also trained a Scikit-Learn linear regressor, yielding a root mean square error (RMSE) of 10.86 in predicting the relationship between total and returning injured players and winning percentage. Finally, we developed a function to predict the 2016 winning percentage based on injury data, underscoring the need for more comprehensive injury data to improve accuracy."
       button:
         icon: "icon-arrow-right"
         btnText:
-        URL: #"https://link-to-project2.com"
+        URL: "https://github.com/connormcmanigal/Data-Analysis-EffectofNBAInjuriesonTeamRecord/blob/main/final_report.ipynb"
       image:
-        x: ""
-        _2x: ""
-      is_even: true
-
-    - title: "Project Title 6"
-      description: "Brief description of Project 6."
-      button:
-        icon: "icon-arrow-right"
-        btnText:
-        URL: #"https://link-to-project2.com"
-      image:
-        x: ""
-        _2x: ""
+        x: "img/P5-results.jpeg"
+        _2x: "img/P5-results.jpeg"
       is_even: true
 
 # contact
