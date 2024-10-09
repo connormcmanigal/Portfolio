@@ -391,6 +391,8 @@
         order: 3; /* Description section third */
         margin-bottom: 5px; /* Space below description */
         text-align: left;
+        width: 100%;
+        flex: 1;
     }
     .experience-button-container {
         order: 4; /* Button last */
