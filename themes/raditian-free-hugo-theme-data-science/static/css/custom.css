@@ -117,6 +117,7 @@
     #rad-showcase.section {
       padding-top: 0;
       padding-bottom: 0;
+      margin-top: 0;
     }
     .rad-showcase .container .row .col-12 {
         max-width: 800px; /* Set the desired max width */
