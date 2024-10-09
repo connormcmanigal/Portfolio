@@ -414,6 +414,7 @@ nav .navbar-nav .nav-link:hover {
 .project-title {
     flex-grow: 1;
     max-width: 100%;
+    margin-top: 20px;
 }
 .project-description {
     font-size: 0.9rem; /* or any appropriate size */
