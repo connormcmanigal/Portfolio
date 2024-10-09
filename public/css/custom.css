@@ -112,7 +112,7 @@
 /* Styles for Larger Screens Only */
 @media (min-width: 813px) { /* Adjust the breakpoint as needed */
     #rad-showcase.section {
-      padding-top: 10px;
+      padding-top: 0;
       padding-bottom: 0;
     }
     .rad-showcase .container .row .col-12 {
