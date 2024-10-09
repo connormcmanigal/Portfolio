@@ -300,6 +300,7 @@
 #experience {
     display: flex;
     flex-direction: row;
+    padding:0;
 }
 .experience-row {
   width: 100%;
