@@ -166,8 +166,8 @@
 /* Mobile Styles */
 @media (max-width: 812px) {
     #about.section {
-      padding-top: 10px;
-      padding-bottom: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
     }
     /* Ensure the about__profile-picture section is full width and centered */
     .about__profile-picture {
