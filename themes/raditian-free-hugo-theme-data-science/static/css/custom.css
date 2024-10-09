@@ -421,8 +421,8 @@ section#experience.section.section--border-bottom.rad-animation-group::after {
     margin-bottom: 20px;
 }
 #portfolio.section {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 #portfolio .btn {
     background-color: #D32E17; /* Set the background color */
