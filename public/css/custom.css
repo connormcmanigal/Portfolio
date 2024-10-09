@@ -194,6 +194,7 @@
         justify-content: center; /* Center the button horizontally */
         width: 100%; /* Full width */
         margin-top: 10px;
+        margin-bottom: 10px;
     }
     /* Override for the text alignment specifically */
     #about h2, #about .lead {
