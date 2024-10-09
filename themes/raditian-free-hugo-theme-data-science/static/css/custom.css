@@ -419,12 +419,10 @@ nav .navbar-nav .nav-link:hover {
     font-size: 20px; /* Increase the size of the section titles */
     margin-bottom: 5px; /* Space below titles */
 }
-
 .contact__info span {
     font-size: 18px; /* Increase the size of the text for phone, email, and address */
     line-height: 1.5; /* Adjust line height for readability */
 }
-
 .row {
     display: flex; /* Ensure row uses flexbox */
     flex-direction: row; /* Arrange items in a row */
@@ -442,4 +440,26 @@ nav .navbar-nav .nav-link:hover {
     max-width: 1200px; /* Adjust the maximum width of the container */
     margin-left: auto; /* Center the container */
     margin-right: auto; /* Center the container */
+}
+
+/* Mobile Styles */
+@media (max-width: 812px) {
+    .contact img {
+        max-width: 70%; /* Increase the max width for mobile */
+        margin: 0 auto; /* Center the image */
+        display: block; /* Ensure it behaves as a block element for centering */
+    }
+
+    .contact__info h4 {
+        font-size: 18px; /* Optionally adjust title size for mobile */
+    }
+
+    .contact__info span {
+        font-size: 16px; /* Optionally adjust text size for mobile */
+    }
+
+    .row {
+        flex-direction: column; /* Stack items vertically on mobile */
+        align-items: center; /* Center align the content */
+    }
 }
