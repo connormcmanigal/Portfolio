@@ -144,6 +144,39 @@ client_and_work:
         x: ""
         _2x: ""
       is_even: false
+    
+    - title: "Project Title 3"
+      description: "Brief description of Project 3."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: #"https://link-to-project2.com"
+      image:
+        x: ""
+        _2x: ""
+      is_even: false
+    
+    - title: "Project Title 4"
+      description: "Brief description of Project 4."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: #"https://link-to-project2.com"
+      image:
+        x: ""
+        _2x: ""
+      is_even: false
+
+    - title: "Project Title 5"
+      description: "Brief description of Project 5."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: #"https://link-to-project2.com"
+      image:
+        x: ""
+        _2x: ""
+      is_even: false
 
 # contact
 contact:
