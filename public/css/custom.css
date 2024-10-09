@@ -98,6 +98,7 @@
     .btn-container {
         margin-top: 1rem; /* Space above buttons */
         align-items: center; /* Center buttons on mobile */
+        margin-bottom: 1rem;
     }
     .rad-showcase__bg--mobile {
         max-width: 60%; /* Adjust size for mobile */
@@ -167,7 +168,7 @@
 /* Mobile Styles */
 @media (max-width: 812px) {
     #about.section {
-      padding-top: 20px;
+      padding-top: 30px;
       padding-bottom: 20px;
     }
     /* Ensure the about__profile-picture section is full width and centered */
