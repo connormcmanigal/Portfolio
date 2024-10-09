@@ -157,14 +157,14 @@ client_and_work:
       is_even: true
     
     - title: "Machine Learning for Diabetes Prediction: A Comparative Study of Binary Classification Techniques"
-      description: "This project aims to assess different machine learning algorithms in successfully predicting diabetes patients, addressing the complexities of accurate diagnosis, which is crucial for ensuring timely treatment. We utilized a dataset of 100,000 observations with features such as age, BMI, and HbA1c levels, applying binary classification algorithms, including logistic regression, decision trees, random forests, and support vector machines. Using grid search and random search for hyperparameter tuning, we evaluated model performance based on sensitivity, precision, specificity, and ROC-AUC. Ultimately, our decision tree model demonstrated the best balance of high weighted recall and low false negative rates, scoring highest on our sixteen-point scale that considered key error metrics. We believe that, if deployed, this model would generalize well to new data, although further training on larger datasets and additional patient variables would enhance its effectiveness."
+      description: "This project aims to assess different machine learning algorithms in successfully predicting diabetes patients, addressing the complexities of accurate diagnosis, which is crucial for ensuring timely treatment. We utilized a dataset of 100,000 observations with features such as age, BMI, and HbA1c levels, applying binary classification algorithms, including logistic regression, decision trees, random forests, k-nearest neighbors, and support vector machines. Using grid search and random search for hyperparameter tuning, we evaluated model performance based on sensitivity, precision, specificity, and ROC-AUC. Ultimately, our decision tree model demonstrated the best balance of high weighted recall and low false negative rates, scoring highest on our sixteen-point scale that considered key error metrics. We believe that, if deployed, this model would generalize well to new data, although further training on larger datasets and additional patient variables would enhance its effectiveness."
       button:
         icon: "icon-arrow-right"
         btnText:
-        URL: #"https://link-to-project2.com"
+        URL: "https://github.com/connormcmanigal/Diabetes-Supervised-Machine-Learning-Analysis-And-Prediction/blob/main/final_report.ipynb"
       image:
-        x: ""
-        _2x: ""
+        x: "img/P4-results.jpeg"
+        _2x: "img/P4-results.jpeg"
       is_even: true
 
     - title: "Project Title 5"
