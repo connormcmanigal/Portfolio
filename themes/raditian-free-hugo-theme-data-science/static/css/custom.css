@@ -381,13 +381,13 @@ nav .navbar-nav .nav-link:hover {
         margin-top: 5px; /* Space above experience items */
     }
     .experience__date {
-      font-size: 24;
+      font-size: 18;
     }
     .experience__title {
-      font-size: 28;
+      font-size: 22;
     }
     .experience__company {
-      font-size: 26;
+      font-size: 20;
     }
     .experience-description-container {
         order: 3; /* Description section third */
