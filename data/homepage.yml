@@ -162,7 +162,8 @@ contact:
     
   phone:
     title: "Phone Number"
-    number: "tel:+19496305208"
+    number: "949-630-5208"
+    link: "tel:+19496305208"
   email:
     title: "Work Email"
     email: '<a href="mailto:mcmanigc@uci.edu">mcmanigc@uci.edu</a>'
