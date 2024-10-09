@@ -113,7 +113,6 @@
 @media (min-width: 813px) { /* Adjust the breakpoint as needed */
     #rad-showcase.section {
       padding-top: 10px;
-      padding-bottom: 10px;
     }
     .rad-showcase .container .row .col-12 {
         max-width: 800px; /* Set the desired max width */
