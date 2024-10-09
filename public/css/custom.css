@@ -469,25 +469,25 @@ section#experience.section.section--border-bottom.rad-animation-group::after {
 @media (max-width: 812px) { /* Adjust the max-width as needed for your breakpoint */
     #portfolio .portfolio-github-btn {
         margin-bottom: 20px; /* Adds a 10px margin below the button */
-        order: 3;
+        order: 4;
     }
     .row.row--padded {
         flex-direction: column; /* Stack items vertically */
     }
     .project-title {
         text-align: left; /* Align title to the left */
+        order: 1;
     }
     .project-description {
         text-align: left; /* Align description to the left */
+        order: 3;
     }
     .col-12.col-md-6.pl-md-0.text-right {
         text-align: left; /* Align the image column text to the left */
-    }
-    .col-12.col-md-6.pl-md-0 {
-        order: 2; /* Set image order */
+        order: 2;
     }
     .col-12.col-md-6.mt-4.mt-md-0.my-md-auto {
-        order: 1; /* Set title and description order */
+        order: 3; /* Set title and description order */
     }
 }
 
