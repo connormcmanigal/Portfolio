@@ -302,8 +302,8 @@
     flex-direction: row;
 }
 #experience.section {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .experience-row {
   width: 100%;
@@ -352,6 +352,10 @@
 
 /* Mobile Styles */
 @media (max-width: 812px) {
+    #experience.section {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
     .experience-row {
         flex-direction: column; /* Stack items vertically on mobile */
     }
