@@ -300,6 +300,7 @@
 #experience {
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
 }
 .experience-row {
   width: 100%;
@@ -348,6 +349,9 @@
 
 /* Mobile Styles */
 @media (max-width: 812px) {
+    .experience {
+      margin-top: 10px;
+    }
     .experience-row {
         flex-direction: column; /* Stack items vertically on mobile */
     }
