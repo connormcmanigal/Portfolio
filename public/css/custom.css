@@ -300,7 +300,10 @@
 #experience {
     display: flex;
     flex-direction: row;
+}
+section#experience.section.section--border-bottom.rad-animation-group {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .experience-row {
   width: 100%;
