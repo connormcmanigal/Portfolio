@@ -447,13 +447,13 @@ nav .navbar-nav .nav-link:hover {
     clip-path: none; /* Remove any clipping */
     overflow: visible; /* Ensure overflow is visible */
 }
-.portfolio-github-btn {
+#portfolio .portfolio-github-btn {
     background-color: #9AA299; /* Set background color */
     color: white; /* Set text color for better visibility */
     border: none; /* Optional: remove any default border */
     transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
-.portfolio-github-btn:hover {
+#portfolio .portfolio-github-btn:hover {
     background-color: #333; /* Set hover background color */
 }
 
