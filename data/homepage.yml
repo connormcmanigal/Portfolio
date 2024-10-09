@@ -143,7 +143,7 @@ client_and_work:
       image:
         x: "img/P2-results.jpeg"
         _2x: "img/P2-results.jpeg"
-      is_even: false
+      is_even: true
     
     - title: "Project Title 3"
       description: "Brief description of Project 3."
