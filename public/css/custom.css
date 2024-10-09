@@ -349,6 +349,9 @@
 
 /* Mobile Styles */
 @media (max-width: 812px) {
+    .experience {
+      padding: 0;
+    }
     .experience-row {
         flex-direction: column; /* Stack items vertically on mobile */
     }
