@@ -181,7 +181,7 @@ client_and_work:
   github:
     URL: "https://github.com/connormcmanigal"
     btnText: "View My Github"
-    icon: "icon-github-line"
+    icon: "icon-github"
 
 # contact
 contact:
