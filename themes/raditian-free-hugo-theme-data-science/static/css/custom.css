@@ -407,7 +407,7 @@ nav .navbar-nav .nav-link:hover {
 
 
 /*PORTFOLIO SECTION*/
-.portfolio-title {
+#portfolio h2 {
     font-size: 3rem;
     color: #D32E17; /* replace with your preferred color */
 }
