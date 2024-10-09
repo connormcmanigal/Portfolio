@@ -464,4 +464,11 @@ nav .navbar-nav .nav-link:hover {
         display: block; /* Ensure button behaves as a block element */
         text-align: center; /* Center the text within the button */
     }
+/* Desktop Styles */
+@media (min-width: 813px) {
+    .contact__info h4,
+    .contact__info span {
+    margin-left: 20px; /* Add left margin to titles and text for desktop */
+    }
+}
 }
