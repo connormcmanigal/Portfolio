@@ -81,6 +81,10 @@
 
 /* Mobile Styles */
 @media (max-width: 812px) {
+    #rad-showcase.section {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
     .display-1 {
         font-size: 6rem;
         text-align: center; /* Center text for the title */
@@ -106,6 +110,10 @@
 
 /* Styles for Larger Screens Only */
 @media (min-width: 813px) { /* Adjust the breakpoint as needed */
+    #rad-showcase.section {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
     .rad-showcase .container .row .col-12 {
         max-width: 800px; /* Set the desired max width */
         margin: 0; /* Remove auto centering */
@@ -120,10 +128,6 @@
     .lead {
         text-align: left; /* Align description text to the left */
         margin-bottom: 20px; /* Add space below the description */
-    }
-    .rad-showcase {
-      margin-top: -50px;
-      margin-bottom: -90px;
     }
 }
 
@@ -161,6 +165,10 @@
 
 /* Mobile Styles */
 @media (max-width: 812px) {
+    #about.section {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
     /* Ensure the about__profile-picture section is full width and centered */
     .about__profile-picture {
         order: 2; /* Images appear after the text on mobile */
@@ -209,8 +217,9 @@
 
 /* Styles for Larger Screens Only */
 @media (min-width: 813px) {
-    #about {
-      margin-bottom: -80px;
+    #about.section {
+      padding-top: 30px;
+      padding-bottom: 30px;
     }
 }
 
