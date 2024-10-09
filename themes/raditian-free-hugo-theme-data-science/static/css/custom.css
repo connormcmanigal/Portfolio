@@ -405,6 +405,10 @@ nav .navbar-nav .nav-link:hover {
     }
 }
 
+section#experience.section.section--border-bottom.rad-animation-group::after {
+    display: none; /* Makes the pseudo-element a block element */
+}
+
 
 /*PORTFOLIO SECTION*/
 #portfolio h2 {
@@ -460,13 +464,7 @@ nav .navbar-nav .nav-link:hover {
 #portfolio .portfolio-github-btn:hover {
     background-color: #333; /* Set hover background color */
 }
-section#portfolio.section.section--border-bottom.rad-animation-group::after {
-    content: ""; /* Required for the pseudo-element */
-    display: block; /* Makes the pseudo-element a block element */
-    width: 100%; /* Sets the width to 100% of the container */
-    height: 2px; /* Sets the height of the line */
-    margin: 10px 0; /* Adds margin above and below the line */
-}
+
 
 
 
