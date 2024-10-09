@@ -302,8 +302,8 @@
     flex-direction: row;
 }
 section#experience.section.section--border-bottom.rad-animation-group {
-    margin-top: 20px;
     margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 .experience-row {
   width: 100%;
@@ -353,8 +353,8 @@ section#experience.section.section--border-bottom.rad-animation-group {
 /* Mobile Styles */
 @media (max-width: 812px) {
     section#experience.section.section--border-bottom.rad-animation-group {
-      margin-top: 10px;
       margin-bottom: 10px;
+      padding-bottom: 10px;
     }
     .experience-row {
         flex-direction: column; /* Stack items vertically on mobile */
