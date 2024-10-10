@@ -435,7 +435,7 @@ section#experience.section.section--border-bottom.rad-animation-group::after {
 .project-title {
     flex-grow: 1;
     max-width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .project-description {
     font-size: 0.9rem; /* or any appropriate size */
