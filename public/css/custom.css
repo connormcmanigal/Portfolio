@@ -551,6 +551,9 @@ section#experience.section.section--border-bottom.rad-animation-group::after {
 
 /* Mobile Styles */
 @media (max-width: 812px) {
+    .section--contact h2 {
+      margin: 0;
+    }
     .contact img {
         max-width: 70%; /* Increase the max width for mobile */
         margin: 0 auto; /* Center the image */
