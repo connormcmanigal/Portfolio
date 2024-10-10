@@ -534,6 +534,9 @@ section#experience.section.section--border-bottom.rad-animation-group::after {
     display: flex; /* Ensure row uses flexbox */
     flex-direction: row; /* Arrange items in a row */
 }
+.col-md-6 {
+    flex: 1; /* Equal width columns */
+}
 .my-auto {
     align-self: center; /* Center content vertically */
     padding: 20px; /* Add padding to the content area */
