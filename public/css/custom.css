@@ -320,7 +320,7 @@ nav .navbar-nav .nav-link:hover {
   display: flex;
 }
 .experience-item {
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 .left-column {
     flex: 1; /* Left column takes 1 part of the space */
