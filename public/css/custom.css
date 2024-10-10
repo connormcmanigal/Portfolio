@@ -472,23 +472,24 @@ section#experience.section.section--border-bottom.rad-animation-group::after {
     }
     .project-title {
         margin-top: 0;
+        margin-bottom: 5;
+        text-align: left; /* Align title to the left */
+        order: 1;
     }
     .row.row--padded {
         flex-direction: column; /* Stack items vertically */
     }
-    .project-title {
-        text-align: left; /* Align title to the left */
-        order: 1;
-        margin-bottom: 5px;
-    }
     .project-description {
         text-align: left; /* Align description to the left */
-        order: 3;
+        order: 4;
         margin-bottom: 5px;
     }
     .col-12.col-md-6.mt-4.mt-md-0.my-md-auto {
         order: 2; /* Set title and description order */
         margin-bottom: 5px;
+    }
+    .img-responsive {
+        order: 3;
     }
 }
 
