@@ -492,6 +492,19 @@ section#experience.section.section--border-bottom.rad-animation-group::after {
     }
 }
 
+/* Ensure desktop displays correctly */
+@media (min-width: 812px) { /* This ensures desktop styles are applied */
+    .row.row--padded {
+        display: flex; /* Use flexbox for desktop layout */
+        justify-content: space-between; /* Space out columns */
+    }
+
+    .col-12.col-md-6 {
+        flex: 0 0 48%; /* Ensure columns take equal space */
+        max-width: 48%; /* Optional: set max width */
+    }
+}
+
 
 /*CONTACT SECTION*/
 .contact img {
