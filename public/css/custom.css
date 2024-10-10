@@ -554,6 +554,9 @@ section#experience.section.section--border-bottom.rad-animation-group::after {
     .section--contact h2 {
       margin: 0;
     }
+    .contact__info {
+      padding-top: 10px;
+    }
     .contact img {
         max-width: 70%; /* Increase the max width for mobile */
         margin: 0 auto; /* Center the image */
