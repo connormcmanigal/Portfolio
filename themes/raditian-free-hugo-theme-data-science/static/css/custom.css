@@ -478,11 +478,11 @@ section#experience.section.section--border-bottom.rad-animation-group::after {
     }
     .project-description {
         text-align: left; /* Align description to the left */
-        order: 3;
+        order: 2;
         margin-bottom: 5px;
     }
     .img-responsive {
-        order: 2;
+        order: 3;
     }
     .btn {
         order: 4; /* Button last */
