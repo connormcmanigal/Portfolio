@@ -481,15 +481,18 @@ section#experience.section.section--border-bottom.rad-animation-group::after {
     }
     .project-description {
         text-align: left; /* Align description to the left */
-        order: 4;
-        margin-bottom: 5px;
-    }
-    .col-12.col-md-6.mt-4.mt-md-0.my-md-auto {
-        order: 2; /* Set title and description order */
+        order: 2;
         margin-bottom: 5px;
     }
     .img-responsive {
         order: 3;
+    }
+    .btn {
+        order: 4; /* Button last */
+        margin-top: 5px; /* Optional: space between the image and button */
+    }
+    .col-12.col-md-6.mt-4.mt-md-0.my-md-auto {
+        margin-bottom: 5px; /* Margin for spacing */
     }
 }
 
