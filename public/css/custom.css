@@ -476,9 +476,6 @@ section#experience.section.section--border-bottom.rad-animation-group::after {
         text-align: left; /* Align title to the left */
         order: 1;
     }
-    .row.row--padded {
-        flex-direction: column; /* Stack items vertically */
-    }
     .project-description {
         text-align: left; /* Align description to the left */
         order: 2;
@@ -491,8 +488,13 @@ section#experience.section.section--border-bottom.rad-animation-group::after {
         order: 4; /* Button last */
         margin-top: 5px; /* Optional: space between the image and button */
     }
+    .row.row--padded {
+        flex-direction: column; /* Stack items vertically */
+    }
     .col-12.col-md-6.mt-4.mt-md-0.my-md-auto {
-        margin-bottom: 5px; /* Margin for spacing */
+        display: flex; /* Ensure the column is a flex container */
+        flex-direction: column; /* Ensure vertical stacking */
+        order: 1; /* Set order to ensure it follows the flow */
     }
 }
 
