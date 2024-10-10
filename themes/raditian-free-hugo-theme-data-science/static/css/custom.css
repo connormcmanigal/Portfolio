@@ -373,6 +373,9 @@ nav .navbar-nav .nav-link:hover {
     .experience-row {
         flex-direction: column; /* Stack items vertically on mobile */
     }
+    .experience-item {
+        margin-bottom: 10px;
+    }
     .left-column {
         order: 1; /* Title section first */
         margin-bottom: 10px; /* Space below left column */
