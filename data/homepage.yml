@@ -194,7 +194,7 @@ contact:
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
-    btnAction: 'mailto:mcmanigc@uci.edu'
+    btnAction: 'mailto:conmcmac@gmail.com'
     
   phone:
     title: "Phone Number"
