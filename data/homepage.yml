@@ -36,7 +36,7 @@ showcase:
   contact:
     icon: "icon-mail-fill"
     btnText: "Contact Me"
-    URL: "mailto:conmcmac@gmail.com"
+    URL: "conmcmac@gmail.com"
   
 
   #socialLinks:
